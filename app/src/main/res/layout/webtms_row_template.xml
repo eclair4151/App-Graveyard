@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/classid"
+        android:text="CS101"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecture"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_type"
+        android:layout_toRightOf="@+id/classid"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Section 001"
+         android:layout_marginLeft="10dp"
+         android:textColor="@color/primary_dark_text"
+         android:id="@+id/class_section"
+         android:layout_toRightOf="@+id/class_type"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MW 9:30am - 12:00pm"
+        android:id="@+id/class_time"
+        android:textColor="@color/primary_dark_text"
+        android:layout_below="@+id/classid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="54/60"
+        android:id="@+id/class_enrollment"
+        android:textColor="@color/primary_dark_text"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jack J Cligget"
+        android:gravity="right"
+        android:layout_below="@+id/classid"
+        android:id="@+id/class_prof"
+        android:ellipsize="end"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/primary_dark_text"
+        android:layout_toRightOf="@id/class_time"
+        android:lines="1"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

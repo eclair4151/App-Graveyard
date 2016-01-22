@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/class_header_class_id"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark_text"
+        android:text="CS164 [WI]"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/class_header_class_title"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark_text"
+        android:layout_below="@+id/class_header_class_id"
+        android:text="Human Communication"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_credits"
+        android:textStyle="bold"
+        android:text="Credits: 3"/>
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_description"
+        android:layout_below="@+id/class_header_class_title"
+        android:text="Introduction to structured computer programming in a language designed for working with media (images, sound, video), e.g. Python/Jython. Topics include: variables, input and output, expressions, assignment statements, conditionals and branching, files, repetition, functions and parameter passing, one-dimensional and two-dimensional arrays, and media manipulation. Stresses good programming style, documentation, debugging, and testing."/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/class_header_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_class_college"
+        android:text="College: College of Computing and Informatics"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/class_header_class_college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_class_repeat_status"
+        android:text="Repeat Status: Not repeatable for credit"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/class_header_class_repeat_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_class_restrictions"
+        android:text="Restrictions: Cannot enroll if classification is Freshman"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/class_header_class_restrictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_class_prereqs"
+        android:text="Prerequisites: HUM 103"/>
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/class_header_class_prereqs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/class_header_class_coreqs"
+        android:text="Corequisites: EXAM 80 "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b4b4b4"
+        android:id="@+id/divider_line"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/class_header_class_coreqs"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_line"
+        android:text="Term:"
+        android:id="@+id/term_text"
+        android:layout_marginTop="12dp"/>
+    <com.shemeshapps.drexelregistrationassistant.CustomViews.ImageViewButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/term_spinner"
+        android:id="@+id/filter_button"
+        android:src="@drawable/ic_filter_list_black_24dp"
+        android:padding="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentRight="true"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/term_text"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/divider_line"
+        android:id="@+id/term_spinner"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/filter_button"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:layout_below="@id/term_spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/no_classes_text"
+        android:text="This class is not being offered this term"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/term_spinner"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:id="@+id/webtms_loading_progress"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

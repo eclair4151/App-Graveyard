@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21467B</color>
+    <color name="colorPrimaryDark">#1c3c6b</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="drawer_item_grey">#ff6b6b6d</color>
+    <color name="drawer_divider_grey">#ffe7e7e9</color>
+    <item name="imageButtonGrey" type="color">#927b7b7b</item>
+
+    <color name="drexel_blue">#21467B</color>
+    <color name="drexel_yellow">#FFD761</color>
+    <color name="primary_dark_text">#dd000000</color>
+
+
+</resources>
