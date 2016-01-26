@@ -12,5 +12,7 @@
     <color name="drexel_yellow">#FFD761</color>
     <color name="primary_dark_text">#dd000000</color>
 
+    <color name="link_blue">#0000EE</color>
+
 
 </resources>

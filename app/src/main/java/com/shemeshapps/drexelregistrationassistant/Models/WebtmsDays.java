@@ -2,6 +2,8 @@ package com.shemeshapps.drexelregistrationassistant.Models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import org.parceler.Parcel;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,7 +11,7 @@ import java.util.Map;
  * Created by Tomer on 1/11/16.
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-
+@Parcel
 public class WebtmsDays implements Comparable<WebtmsDays> {
     public String day;
 

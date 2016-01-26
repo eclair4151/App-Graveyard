@@ -2,38 +2,39 @@ package com.shemeshapps.drexelregistrationassistant.CustomViews;
 
 import android.content.Context;
 import android.graphics.Rect;
-import android.os.Build;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.shemeshapps.drexelregistrationassistant.Helpers.ResourceHelper;
 import com.shemeshapps.drexelregistrationassistant.R;
 
+
 /**
  * Created by shemesht on 5/4/15.
  */
-public class ImageViewButton extends ImageView {
-
-    public ImageViewButton(Context context) {
+public class TextViewButton extends TextView {
+    public TextViewButton(Context context) {
         super(context);
         onTouch();
     }
 
-    public ImageViewButton(Context context, AttributeSet attrs) {
+    public TextViewButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         onTouch();
     }
 
-    public ImageViewButton(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TextViewButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         onTouch();
     }
 
-
+    int origTextColor;
     private Rect rect;
     boolean touchedInside = true;
+
+
     private void onTouch()
     {
         setOnTouchListener(new OnTouchListener() {
@@ -41,32 +42,33 @@ public class ImageViewButton extends ImageView {
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_DOWN){
                     rect = new Rect(v.getLeft(), v.getTop(), v.getRight(), v.getBottom());
+                    origTextColor = getCurrentTextColor();
+                    setTextColor(ResourceHelper.getColor(R.color.imageButtonGrey,getContext()));
                     touchedInside = true;
-                    setColorFilter(ResourceHelper.getColor(R.color.imageButtonGrey,getContext()));
                 }
 
                 if(event.getAction() == MotionEvent.ACTION_MOVE){
-                        if(!rect.contains(v.getLeft() + (int) event.getX(), v.getTop() + (int) event.getY()))
+                    if(!rect.contains(v.getLeft() + (int) event.getX(), v.getTop() + (int) event.getY()))
+                    {
+                        //not in
+                        if(touchedInside)
                         {
-                            //not in
-                            if(touchedInside)
-                            {
-                                setColorFilter(ResourceHelper.getColor(android.R.color.transparent,getContext()));
-                            }
-                            touchedInside = false;
+                            setTextColor(origTextColor);
                         }
-                        else
+                        touchedInside = false;
+                    }
+                    else
+                    {
+                        if(!touchedInside)
                         {
-                            if(!touchedInside)
-                            {
-                                setColorFilter(ResourceHelper.getColor(R.color.imageButtonGrey,getContext()));
-                            }
-                            touchedInside = true;
+                            setTextColor(ResourceHelper.getColor(R.color.imageButtonGrey,getContext()));
                         }
+                        touchedInside = true;
+                    }
                 }
                 if(event.getAction() == MotionEvent.ACTION_UP)
                 {
-                    setColorFilter(ResourceHelper.getColor(android.R.color.transparent,getContext()));
+                    setTextColor(origTextColor);
                     if(touchedInside)
                     {
                         callOnClick();
@@ -76,4 +78,6 @@ public class ImageViewButton extends ImageView {
             }
         });
     }
+
+
 }

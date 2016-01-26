@@ -53,19 +53,7 @@ public class WebtmsClassAdapter extends ArrayAdapter<WebtmsClass> {
         classid.setText(webtmsClass.class_id);
         classType.setText(webtmsClass.instruction_type);
         section.setText("Section " + webtmsClass.section);
-        Arrays.sort(webtmsClass.webtms_days);
-        String timeString = "";
-        for(WebtmsDays d:webtmsClass.webtms_days)
-        {
-            timeString+=d.getDayChar();
-        }
-        timeString += " ";
-
-        DateFormat df = new SimpleDateFormat("h:mma");
-        timeString += df.format(webtmsClass.begin_time);
-        timeString += "-";
-        timeString += df.format(webtmsClass.end_time);
-        time.setText(timeString);
+        time.setText(webtmsClass.getFormatedTime());
 
         enrolled.setText(webtmsClass.current_enroll + "/" + webtmsClass.max_enroll);
         String profsText = "";

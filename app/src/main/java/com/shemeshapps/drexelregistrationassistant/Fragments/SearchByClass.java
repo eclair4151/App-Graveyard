@@ -2,8 +2,10 @@ package com.shemeshapps.drexelregistrationassistant.Fragments;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.view.KeyEvent;
@@ -21,6 +23,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.android.volley.Response;
+import com.shemeshapps.drexelregistrationassistant.Activities.WebtmsClassActivity;
 import com.shemeshapps.drexelregistrationassistant.Adapters.ClassSearchAutoCompleteAdapter;
 import com.shemeshapps.drexelregistrationassistant.Adapters.TermSpinnerAdapter;
 import com.shemeshapps.drexelregistrationassistant.Adapters.WebtmsClassAdapter;
@@ -30,6 +33,8 @@ import com.shemeshapps.drexelregistrationassistant.Models.Term;
 import com.shemeshapps.drexelregistrationassistant.Models.WebtmsClass;
 import com.shemeshapps.drexelregistrationassistant.Networking.RequestUtil;
 import com.shemeshapps.drexelregistrationassistant.R;
+
+import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,6 +47,8 @@ public class SearchByClass extends Fragment {
     Spinner term_spinner;
     ProgressBar loadingBar;
     TextView noClassesText;
+    ClassInfo currentClass;
+
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -62,6 +69,7 @@ public class SearchByClass extends Fragment {
                 adapter.clear();
             }
         });
+
 
         autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -93,6 +101,16 @@ public class SearchByClass extends Fragment {
             }
         });
 
+        webtmsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(getActivity(), WebtmsClassActivity.class);
+                intent.putExtra("webtms_class", Parcels.wrap(webtmsClassAdapter.getItem(i-1)));
+                intent.putExtra("class_info", Parcels.wrap(currentClass));
+                getActivity().startActivity(intent);
+            }
+        });
+
         return parentView;
     }
 
@@ -117,6 +135,7 @@ public class SearchByClass extends Fragment {
 
     private void updateHeader(ClassInfo info)
     {
+        currentClass = info;
         TextView classid = (TextView)header.findViewById(R.id.class_header_class_id);
         classid.setText(info.class_id + (info.writing_intensive?" [WI]":""));
 
