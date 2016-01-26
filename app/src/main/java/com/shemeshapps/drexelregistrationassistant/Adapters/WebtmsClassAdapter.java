@@ -53,7 +53,7 @@ public class WebtmsClassAdapter extends ArrayAdapter<WebtmsClass> {
         classid.setText(webtmsClass.class_id);
         classType.setText(webtmsClass.instruction_type);
         section.setText("Section " + webtmsClass.section);
-        time.setText(webtmsClass.getFormatedTime());
+        time.setText(webtmsClass.days_time_string);
 
         enrolled.setText(webtmsClass.current_enroll + "/" + webtmsClass.max_enroll);
         String profsText = "";

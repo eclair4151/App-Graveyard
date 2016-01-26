@@ -37,37 +37,8 @@ public class WebtmsClass {
     public Date updated_at;
     public Professors[] professors;
     public WebtmsDays[] webtms_days;
-    private String formatedTime;
+    public String days_time_string;
 
 
-
-
-    public String getFormatedTime()
-    {
-        if(formatedTime!=null)
-        {
-            return formatedTime;
-        }
-
-        if(webtms_days.length == 0)
-        {
-            return "TBD";
-        }
-        Arrays.sort(webtms_days);
-        String timeString = "";
-        for(WebtmsDays d:webtms_days)
-        {
-            timeString+=d.getDayChar();
-        }
-        timeString += " ";
-
-        DateFormat df = new SimpleDateFormat("h:mma");
-        timeString += df.format(begin_time);
-        timeString += "-";
-        timeString += df.format(end_time);
-
-        formatedTime = timeString;
-        return timeString;
-    }
 
 }

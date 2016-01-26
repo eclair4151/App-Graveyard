@@ -116,7 +116,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         room.setText(roomstr);
 
         TextView time = (TextView)findViewById(R.id.webtms_class_time);
-        SpannableStringBuilder timestr = new SpannableStringBuilder("Time: " + webtmsClass.getFormatedTime());
+        SpannableStringBuilder timestr = new SpannableStringBuilder("Time: " + webtmsClass.days_time_string);
         timestr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 5, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         time.setText(timestr);
 
