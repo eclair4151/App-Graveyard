@@ -2,12 +2,43 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:paddingTop="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
     android:paddingBottom="5dp"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/button_button_bar"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/add_to_watchlist"
+            android:text="Add To Watchlist"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/request_notification"
+            android:text="Request Notification"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_button_bar"
+        >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:paddingTop="12dp"
+       android:paddingLeft="16dp"
+       android:paddingRight="16dp"
+       android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="wrap_content"
@@ -126,9 +157,10 @@
         android:text="@string/textbook_link"/>
 
 
-   <org.apmem.tools.layouts.FlowLayout
+   <LinearLayout
        android:layout_below="@id/webtms_class_textbooks"
        android:layout_width="match_parent"
+       android:orientation="vertical"
        android:id="@+id/webtms_class_professors"
        android:layout_margin="3dp"
        android:layout_height="wrap_content">
@@ -140,29 +172,11 @@
            android:id="@+id/webtms_class_proftext"
            android:layout_below="@id/webtms_class_textbooks"
            android:text="Instructors: "/>
-   </org.apmem.tools.layouts.FlowLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:id="@+id/add_to_watchlist"
-            android:text="Add To Watchlist"/>
+   </LinearLayout>
 
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:id="@+id/request_notification"
-            android:text="Request Notification"/>
-    </LinearLayout>
-
+   </RelativeLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

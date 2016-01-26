@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingBottom="0dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+        <com.shemeshapps.drexelregistrationassistant.CustomViews.TextViewButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/link_blue"
+            android:id="@+id/prof_name_link"
+            android:text="Jeff Salvage"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_marginLeft="5dp"
+            android:clickable="false"
+            android:rating="3.24"
+            android:id="@+id/prof_star_rating"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prof_num_ratings"
+            android:layout_marginLeft="3dp"
+            android:text="(15)"/>
+</LinearLayout>

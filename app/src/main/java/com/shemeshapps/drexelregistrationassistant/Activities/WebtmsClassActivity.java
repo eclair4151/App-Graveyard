@@ -1,5 +1,6 @@
 package com.shemeshapps.drexelregistrationassistant.Activities;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -15,8 +16,11 @@ import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.text.style.UnderlineSpan;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.shemeshapps.drexelregistrationassistant.CustomViews.TextViewButton;
@@ -90,7 +94,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         insttype.setText(insttypestr);
 
         TextView instmethod = (TextView)findViewById(R.id.webtms_class_instruction_method);
-        SpannableStringBuilder instmethodstr = new SpannableStringBuilder("Instructor Method:: " + webtmsClass.instruction_method);
+        SpannableStringBuilder instmethodstr = new SpannableStringBuilder("Instructor Method: " + webtmsClass.instruction_method);
         instmethodstr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 18, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         instmethod.setText(instmethodstr);
 
@@ -120,24 +124,37 @@ public class WebtmsClassActivity extends AppCompatActivity {
         timestr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 5, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         time.setText(timestr);
 
-        FlowLayout flow = (FlowLayout)findViewById(R.id.webtms_class_professors);
-        int index = 0;
+        LinearLayout profs = (LinearLayout)findViewById(R.id.webtms_class_professors);
+
+
         for(final Professors p:webtmsClass.professors)
         {
-            TextViewButton t = new TextViewButton(WebtmsClassActivity.this);
-            final SpannableStringBuilder sb = new SpannableStringBuilder(p.first_last_name + ((index==webtmsClass.professors.length-1)?"":", "));
+            LinearLayout newLayout = (LinearLayout)getLayoutInflater().inflate(R.layout.prof_rating_template, null);
+            TextView t = (TextView)newLayout.findViewById(R.id.prof_name_link);
+            final SpannableStringBuilder sb = new SpannableStringBuilder(p.first_last_name);
             final UnderlineSpan bss = new UnderlineSpan();
-            sb.setSpan(bss, 0, ((index==webtmsClass.professors.length-1)?sb.length():sb.length()-2), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
-            t.setTextColor(ResourceHelper.getColor(R.color.link_blue,WebtmsClassActivity.this));
+            sb.setSpan(bss, 0, sb.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
             t.setText(sb);
-            flow.addView(t);
+            RatingBar ratingBar = (RatingBar)newLayout.findViewById(R.id.prof_star_rating);
+            TextView numRatings = (TextView)newLayout.findViewById(R.id.prof_num_ratings);
+            if(p.koofers_num_ratings ==0 && p.rate_my_prof_num_ratings==0)
+            {
+                ratingBar.setVisibility(View.GONE);
+                numRatings.setVisibility(View.GONE);
+            }
+            else
+            {
+                ratingBar.setRating(p.total_rating);
+                numRatings.setText("(" + (p.rate_my_prof_num_ratings + p.koofers_num_ratings) + ")");
+            }
+
+            profs.addView(newLayout);
             t.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     profPopup(p);
                 }
             });
-            index++;
         }
     }
 
@@ -158,7 +175,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         options.add("View classes they are teaching");
 
         AlertDialog.Builder builder = new AlertDialog.Builder(WebtmsClassActivity.this);
-        builder.setTitle("Select an Action")
+        builder.setTitle(p.first_last_name)
                 .setItems(options.toArray(new String[options.size()]), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         if(options.get(which).equals("View on Koofers.com"))
