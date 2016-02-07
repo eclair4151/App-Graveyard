@@ -17,6 +17,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.ExpandableListView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
@@ -25,6 +26,8 @@ import android.widget.TextView;
 import com.android.volley.Response;
 import com.shemeshapps.drexelregistrationassistant.Activities.WebtmsClassActivity;
 import com.shemeshapps.drexelregistrationassistant.Adapters.ClassSearchAutoCompleteAdapter;
+import com.shemeshapps.drexelregistrationassistant.Adapters.SmallTermSpinnerAdapter;
+import com.shemeshapps.drexelregistrationassistant.Adapters.TermExpandableListViewAdapter;
 import com.shemeshapps.drexelregistrationassistant.Adapters.TermSpinnerAdapter;
 import com.shemeshapps.drexelregistrationassistant.Adapters.WebtmsClassAdapter;
 import com.shemeshapps.drexelregistrationassistant.CustomViews.ClearableAutoCompleteTextView;
@@ -38,13 +41,13 @@ import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class SearchByClass extends Fragment {
 
     View parentView;
     View header;
-    WebtmsClassAdapter webtmsClassAdapter;
-    Spinner term_spinner;
+    TermExpandableListViewAdapter webtmsClassAdapter;
     ProgressBar loadingBar;
     TextView noClassesText;
     ClassInfo currentClass;
@@ -58,8 +61,8 @@ public class SearchByClass extends Fragment {
         final ClassSearchAutoCompleteAdapter adapter = new ClassSearchAutoCompleteAdapter(getActivity(), new ArrayList<ClassInfo>());
         autoCompleteTextView.setAdapter(adapter);
 
-        final ListView webtmsList = (ListView)parentView.findViewById(R.id.search_by_class_result_list);
-        webtmsClassAdapter = new WebtmsClassAdapter(getActivity(),new ArrayList<WebtmsClass>());
+        final ExpandableListView webtmsList = (ExpandableListView)parentView.findViewById(R.id.search_by_class_result_list);
+        webtmsClassAdapter = new TermExpandableListViewAdapter(getActivity(),new ArrayList<Term>(),webtmsList);
         webtmsList.setAdapter(webtmsClassAdapter);
 
         autoCompleteTextView.setOnClearListener(new ClearableAutoCompleteTextView.OnClearListener() {
@@ -80,15 +83,8 @@ public class SearchByClass extends Fragment {
                 if(webtmsList.getHeaderViewsCount() == 0)
                 {
                     header = (View)inflater.inflate(R.layout.class_info_header, webtmsList, false);
-                    ArrayList<Term> terms = new ArrayList<Term>();
-                    terms.add(new Term("Winter","Quarter","15-16"));
-                    TermSpinnerAdapter spinnerAdapter = new TermSpinnerAdapter(getActivity(), terms);
-                    loadingBar = (ProgressBar) header.findViewById(R.id.webtms_loading_progress);
-                    term_spinner = (Spinner)header.findViewById(R.id.term_spinner);
                     noClassesText = (TextView)header.findViewById(R.id.no_classes_text);
-                    term_spinner.setAdapter(spinnerAdapter);
-
-
+                    loadingBar = (ProgressBar)header.findViewById(R.id.webtms_loading_progress);
                     webtmsList.addHeaderView(header, null, false);
                 }
 
@@ -97,41 +93,62 @@ public class SearchByClass extends Fragment {
                 adapter.clear();
                 webtmsClassAdapter.clear();
                 loadingBar.setVisibility(View.VISIBLE);
-                getWebtmsClasses(info.class_id,(Term)term_spinner.getSelectedItem());
+                getClassTerms();
             }
         });
 
-        webtmsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        webtmsList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {
                 Intent intent = new Intent(getActivity(), WebtmsClassActivity.class);
-                intent.putExtra("webtms_class", Parcels.wrap(webtmsClassAdapter.getItem(i-1)));
+                intent.putExtra("webtms_class", Parcels.wrap(webtmsClassAdapter.getChild(i,i1)));
                 intent.putExtra("class_info", Parcels.wrap(currentClass));
                 getActivity().startActivity(intent);
+                return false;
             }
         });
+
+        webtmsList.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            @Override
+            public void onGroupExpand(int i) {
+                getWebtmsClasses(currentClass.class_id,(Term)webtmsClassAdapter.getGroup(i));
+            }
+        });
+
 
         return parentView;
     }
 
-    public void getWebtmsClasses(String classid, Term t)
+    public void getWebtmsClasses(String classid, final Term t)
     {
         RequestUtil.getInstance(getActivity()).getWebtmsClasses(classid, t, new Response.Listener() {
             @Override
             public void onResponse(Object response) {
+                webtmsClassAdapter.addClassesToTerm(t,Arrays.asList((WebtmsClass[]) response));
+
+            }
+        });
+    }
+
+    public void getClassTerms()
+    {
+        RequestUtil.getInstance(getActivity()).getClassTerms(1, new Response.Listener() {
+            @Override
+            public void onResponse(Object response) {
                 loadingBar.setVisibility(View.GONE);
-                webtmsClassAdapter.addAll(Arrays.asList((WebtmsClass[]) response));
-                if(((WebtmsClass[]) response).length ==0)
+                if(((Term[]) response).length ==0)
                 {
                     noClassesText.setVisibility(View.VISIBLE);
                 }
                 else
                 {
                     noClassesText.setVisibility(View.GONE);
+                    webtmsClassAdapter.addGroups(Arrays.asList((Term[])response));
                 }
             }
         });
     }
+
 
     private void updateHeader(ClassInfo info)
     {

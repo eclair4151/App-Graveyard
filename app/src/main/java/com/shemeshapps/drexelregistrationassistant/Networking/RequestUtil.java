@@ -16,6 +16,8 @@ import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Tomer on 1/3/16.
@@ -24,6 +26,8 @@ public class RequestUtil {
     Context c;
     RequestQueue queue;
     String domain = "http://107.170.133.244/api/v1";
+    private Term[] termCache;
+
     Response.ErrorListener error =  new Response.ErrorListener() {
         @Override
         public void onErrorResponse(VolleyError error) {
@@ -44,6 +48,32 @@ public class RequestUtil {
     private static RequestUtil instance = null;
     private RequestUtil() {
     }
+
+    public void getTerms(final Response.Listener listener)
+    {
+        if(termCache != null)
+        {
+            listener.onResponse(termCache);
+        }
+        else
+        {
+            String url = domain + "/terms";
+            queue.add(new JacksonRequest<>(Request.Method.GET, url, null, Term[].class, new Response.Listener<Term[]>() {
+                @Override
+                public void onResponse(Term[] response) {
+                    termCache = response;
+                    listener.onResponse(response);
+                }
+            }, error));
+        }
+    }
+
+    public void getClassTerms(int classid, Response.Listener listener)
+    {
+        Term[] terms = {new Term("Winter","Quarter","15-16"),new Term("Summer","Quarter","15-16")};
+        listener.onResponse(terms);
+    }
+
 
     public void sendPushToken(String token)
     {
@@ -66,6 +96,17 @@ public class RequestUtil {
                 })
         );
     }
+
+    public void initCache()
+    {
+        getTerms(new Response.Listener() {
+            @Override
+            public void onResponse(Object response) {
+
+            }
+        });
+    }
+
 
     public void getWebtmsClasses(String classid, Term t, Response.Listener listener)
     {

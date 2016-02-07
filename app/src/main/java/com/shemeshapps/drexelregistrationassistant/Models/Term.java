@@ -17,4 +17,9 @@ public class Term {
     public String term;
     public String term_type;
     public String term_year;
+
+    @Override
+    public String toString() {
+        return term + " " + term_type + " " + term_year;
+    }
 }

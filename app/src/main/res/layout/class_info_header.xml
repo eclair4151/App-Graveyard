@@ -95,18 +95,11 @@
         android:layout_marginTop="7dp"
         android:layout_below="@id/class_header_class_coreqs"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textColor="@color/primary_dark_text"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/divider_line"
-        android:text="Term:"
-        android:id="@+id/term_text"
-        android:layout_marginTop="12dp"/>
+
     <com.shemeshapps.drexelregistrationassistant.CustomViews.ImageViewButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/term_spinner"
+        android:layout_below="@+id/divider_line"
         android:id="@+id/filter_button"
         android:src="@drawable/ic_filter_list_black_24dp"
         android:padding="1dp"
@@ -114,22 +107,13 @@
         android:layout_marginRight="3dp"
         android:layout_alignParentRight="true"
         />
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/term_text"
-        android:layout_marginLeft="10dp"
-        android:layout_below="@id/divider_line"
-        android:id="@+id/term_spinner"
-        android:layout_marginBottom="10dp"
-        android:layout_toLeftOf="@+id/filter_button"
-        android:layout_marginTop="10dp"/>
+
 
 
     <TextView
         android:layout_width="wrap_content"
         android:textColor="@color/primary_dark_text"
-        android:layout_below="@id/term_spinner"
+        android:layout_below="@id/divider_line"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -138,7 +122,7 @@
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/term_spinner"
+        android:layout_below="@id/divider_line"
         android:layout_marginTop="5dp"
         android:visibility="gone"
         android:id="@+id/webtms_loading_progress"

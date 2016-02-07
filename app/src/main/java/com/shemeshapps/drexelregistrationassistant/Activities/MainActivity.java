@@ -19,6 +19,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.shemeshapps.drexelregistrationassistant.Adapters.DrawerListAdapter;
+import com.shemeshapps.drexelregistrationassistant.Fragments.BrowseFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.MyWatchList;
 import com.shemeshapps.drexelregistrationassistant.Fragments.SearchClasses;
 import com.shemeshapps.drexelregistrationassistant.Models.DrawerItem;
@@ -69,10 +70,10 @@ public class MainActivity extends AppCompatActivity {
         appFragments = new ArrayList<>();
         appFragments.add(new MyWatchList());
         appFragments.add(new SearchClasses());
-        appFragments.add(new MyWatchList());
-        appFragments.add(new MyWatchList());
-        appFragments.add(new MyWatchList());
-        appFragments.add(new MyWatchList());
+        appFragments.add(new BrowseFragment());
+        //appFragments.add(new MyWatchList());
+        //appFragments.add(new MyWatchList());
+        //appFragments.add(new MyWatchList());
 
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         drawerList = (ListView)findViewById(R.id.left_drawer);
@@ -131,7 +132,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed()
     {
-        if(currentFragIndex == 1 && !(getFragmentManager().findFragmentById(R.id.content_frame) instanceof SearchClasses))
+        if(drawerLayout.isDrawerOpen(Gravity.LEFT))
+        {
+            drawerLayout.closeDrawer(Gravity.LEFT);
+        }
+        else if(currentFragIndex == 1 && !(getFragmentManager().findFragmentById(R.id.content_frame) instanceof SearchClasses))
         {
             getFragmentManager().popBackStack();
         }

@@ -15,7 +15,8 @@ public class MyApplication extends Application {
     public void onCreate()
     {
         super.onCreate();
-        RequestUtil.getInstance(getApplicationContext());
+        RequestUtil.getInstance(getApplicationContext()).initCache();
+
     }
 
 

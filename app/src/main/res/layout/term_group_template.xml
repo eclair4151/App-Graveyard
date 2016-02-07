@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#e2e2e2"
+        android:paddingLeft="30dp"
+        android:id="@+id/term_header"
+        android:text="Winter Quarter 2016"/>
+</LinearLayout>

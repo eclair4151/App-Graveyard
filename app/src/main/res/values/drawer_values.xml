@@ -6,9 +6,9 @@
         <item>My Watch List</item>
         <item>Search Classes</item>
         <item>Browse Classes</item>
-        <item>Notification Requests</item>
+       <!-- <item>Notification Requests</item>
         <item>Schedulizer</item>
-        <item>Settings</item>
+        <item>Settings</item> -->
     </string-array>
 
     <array name="nav_drawer_icons">

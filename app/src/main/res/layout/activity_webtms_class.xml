@@ -21,12 +21,12 @@
             android:text="Add To Watchlist"/>
 
 
-        <Button
+        <!--<Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:id="@+id/request_notification"
-            android:text="Request Notification"/>
+            android:text="Request Notification"/>-->
     </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
