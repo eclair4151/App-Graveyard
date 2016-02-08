@@ -1,5 +1,6 @@
 package com.shemeshapps.drexelregistrationassistant.Fragments;
 
+import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.Fragment;
 import android.content.DialogInterface;
@@ -21,11 +22,13 @@ public class FilterFragmentDialog extends DialogFragment {
         // Empty constructor required for DialogFragment
     }
 
+
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View parentView = inflater.inflate(R.layout.filter_popup_fragment, container);
-        getDialog().setTitle("Filter");
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+
+        View parentView = getActivity().getLayoutInflater().inflate(R.layout.filter_popup_fragment, null);
+
         Button b = (Button)parentView.findViewById(R.id.filter_by_prof_button);
         final String profs[] = {"Erin Solovey","David Breen","William Mongan"};
         b.setOnClickListener(new View.OnClickListener() {
@@ -62,6 +65,24 @@ public class FilterFragmentDialog extends DialogFragment {
                 builder.create().show();
             }
         });
-        return parentView;
+
+        return new AlertDialog.Builder(getActivity())
+                .setTitle("Add Filters")
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                // do something...
+                            }
+                        }
+                )
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                dialog.dismiss();
+                            }
+                        }
+                )
+                .setView(parentView)
+                .create();
     }
 }
