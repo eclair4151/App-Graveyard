@@ -89,12 +89,12 @@ public class WebtmsClassActivity extends AppCompatActivity {
         campus.setText(campusStr);
 
         TextView insttype = (TextView)findViewById(R.id.webtms_class_instruction_type);
-        SpannableStringBuilder insttypestr = new SpannableStringBuilder("Instructor Type: " + webtmsClass.instruction_type);
+        SpannableStringBuilder insttypestr = new SpannableStringBuilder("Instruction Type: " + webtmsClass.instruction_type);
         insttypestr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 16, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         insttype.setText(insttypestr);
 
         TextView instmethod = (TextView)findViewById(R.id.webtms_class_instruction_method);
-        SpannableStringBuilder instmethodstr = new SpannableStringBuilder("Instructor Method: " + webtmsClass.instruction_method);
+        SpannableStringBuilder instmethodstr = new SpannableStringBuilder("Instruction Method: " + webtmsClass.instruction_method);
         instmethodstr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 18, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         instmethod.setText(instmethodstr);
 

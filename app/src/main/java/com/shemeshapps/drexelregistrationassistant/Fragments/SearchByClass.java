@@ -1,6 +1,7 @@
 package com.shemeshapps.drexelregistrationassistant.Fragments;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -18,6 +19,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ExpandableListView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
@@ -51,7 +53,7 @@ public class SearchByClass extends Fragment {
     ProgressBar loadingBar;
     TextView noClassesText;
     ClassInfo currentClass;
-
+    ImageView filterButton;
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -85,6 +87,7 @@ public class SearchByClass extends Fragment {
                     header = (View)inflater.inflate(R.layout.class_info_header, webtmsList, false);
                     noClassesText = (TextView)header.findViewById(R.id.no_classes_text);
                     loadingBar = (ProgressBar)header.findViewById(R.id.webtms_loading_progress);
+                    filterButton = (ImageView)header.findViewById(R.id.filter_button);
                     webtmsList.addHeaderView(header, null, false);
                 }
 
@@ -93,6 +96,14 @@ public class SearchByClass extends Fragment {
                 adapter.clear();
                 webtmsClassAdapter.clear();
                 loadingBar.setVisibility(View.VISIBLE);
+                filterButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        FragmentManager fm = getActivity().getFragmentManager();
+                        FilterFragmentDialog editNameDialog = new FilterFragmentDialog();
+                        editNameDialog.show(fm, "filter_fragment");
+                    }
+                });
                 getClassTerms();
             }
         });
