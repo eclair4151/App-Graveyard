@@ -39,7 +39,8 @@ public class JacksonRequest<T> extends JsonRequest<T> {
         }
         catch (Exception e)
         {
-            return Response.error(new ParseError(e));
+            Response<T> res = Response.error(new ParseError(e));
+            return res;
         }
     }
 

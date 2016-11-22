@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/search_header"
+        android:orientation="horizontal">
+
+    <SearchView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/search_fragment_view"
+        android:queryHint="Search Classes, Profs, or CRNs"
+        android:layout_marginLeft="-5dp"
+        android:iconifiedByDefault="false"
+        android:layout_height="wrap_content"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="0dp"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleSmall"
+        android:id="@+id/search_loading"/>
+    </LinearLayout>
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_header"
+        android:id="@+id/search_expandable_list"
+        android:groupIndicator="@null"/>
+</RelativeLayout>

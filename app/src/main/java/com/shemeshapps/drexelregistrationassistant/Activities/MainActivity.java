@@ -2,11 +2,14 @@ package com.shemeshapps.drexelregistrationassistant.Activities;
 
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v4.widget.ViewDragHelper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -21,10 +24,11 @@ import android.widget.TextView;
 import com.shemeshapps.drexelregistrationassistant.Adapters.DrawerListAdapter;
 import com.shemeshapps.drexelregistrationassistant.Fragments.BrowseFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.MyWatchList;
-import com.shemeshapps.drexelregistrationassistant.Fragments.SearchClasses;
+import com.shemeshapps.drexelregistrationassistant.Fragments.SearchFragment;
 import com.shemeshapps.drexelregistrationassistant.Models.DrawerItem;
 import com.shemeshapps.drexelregistrationassistant.R;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,12 +38,11 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<DrawerItem> drawerItems;
     private DrawerLayout drawerLayout;
     private android.support.v7.app.ActionBarDrawerToggle drawerToggle;
-    ArrayList<Fragment> appFragments;
-    private Fragment currentFragment;
-    int currentFragIndex = -1;
+    fragments currentFrag = null;
+
 
     public static enum fragments{
-        MYWISHLIST,BROWSE,MINE,ATTENDING,CREATE,LOGOUT
+        MYWISHLIST,SEARCH,BROWSE,NOTIFICATIONS,SETTINGS
     }
 
     @Override
@@ -55,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
         else
         {
             loadScreen(fragments.MYWISHLIST);
-
         }
     }
 
@@ -67,14 +69,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupDrawer()
     {
-        appFragments = new ArrayList<>();
-        appFragments.add(new MyWatchList());
-        appFragments.add(new SearchClasses());
-        appFragments.add(new BrowseFragment());
-        //appFragments.add(new MyWatchList());
-        //appFragments.add(new MyWatchList());
-        //appFragments.add(new MyWatchList());
-
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         drawerList = (ListView)findViewById(R.id.left_drawer);
         drawerItems = new ArrayList<>();
@@ -88,8 +82,15 @@ public class MainActivity extends AppCompatActivity {
         drawerIcons.recycle();
 
         LayoutInflater inflater = getLayoutInflater();
-        View header = (View)inflater.inflate(R.layout.dragon_header, drawerList, false);
-        drawerList.addHeaderView(header, null, false);
+        View header = inflater.inflate(R.layout.dragon_header, drawerList, false);
+        try
+        {
+            drawerList.addHeaderView(header, null, false);
+        }
+        catch (Exception e)
+        {
+
+        }
 
         adapter = new DrawerListAdapter(this,drawerItems);
         drawerList.setAdapter(adapter);
@@ -102,29 +103,97 @@ public class MainActivity extends AppCompatActivity {
 
         drawerToggle = new android.support.v7.app.ActionBarDrawerToggle(this,drawerLayout, R.string.app_name, R.string.app_name);
         drawerLayout.setDrawerListener(drawerToggle);
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        for (fragments f:fragments.values())
+        {
+            Fragment frag = getFragmentManager().findFragmentByTag(f.name());
+            if(frag!=null)
+            {
+                ft.hide(frag);
+            }
+        }
+        ft.commitAllowingStateLoss();
 
+
+//        try {  //use reflectin to
+//            Field mDragger = drawerLayout.getClass().getDeclaredField("mLeftDragger");//mRightDragger for right obviously
+//            mDragger.setAccessible(true);
+//            ViewDragHelper draggerObj = (ViewDragHelper) mDragger.get(drawerLayout);
+//            Field mEdgeSize = draggerObj.getClass().getDeclaredField("mEdgeSize");
+//            mEdgeSize.setAccessible(true);
+//            int edge = mEdgeSize.getInt(draggerObj);
+//            mEdgeSize.setInt(draggerObj, edge * 5);
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
     }
 
-    public void loadScreen(fragments f){loadScreen(f.ordinal());}
-    public void loadScreen(int position)
+    public void loadScreen(fragments f)
     {
-        if(position != currentFragIndex)
+        if(f != currentFrag)
         {
-            currentFragment = appFragments.get(position);
-            currentFragIndex = position;
-            drawerList.setItemChecked(position+1,true);
-            getSupportActionBar().setTitle(drawerItems.get(position).title);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,appFragments.get(position)).commitAllowingStateLoss();
+            FragmentManager fm = getFragmentManager();
+            fm.executePendingTransactions();
+            drawerList.setItemChecked(f.ordinal()+1,true);
+            getSupportActionBar().setTitle(drawerItems.get(f.ordinal()).title);
+
+
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            if(currentFrag != null)
+            {
+                Fragment prevFrag = fm.findFragmentByTag(currentFrag.name());
+                if(prevFrag != null)
+                {
+                    ft.hide(fm.findFragmentByTag(currentFrag.name()));
+                }
+            }
+
+            Fragment nextFrag = fm.findFragmentByTag(f.name());
+            if(nextFrag == null)
+            {
+                ft.add(R.id.content_frame,getFragmentFromEnum(f),f.name());
+            }
+            else
+            {
+                ft.show(nextFrag);
+            }
+            ft.commitAllowingStateLoss();
             invalidateOptionsMenu();
+            currentFrag = f;
+
         }
         drawerLayout.closeDrawer(Gravity.LEFT);
+    }
 
+    public Fragment getFragmentFromEnum(fragments frag)
+    {
+        switch (frag) {
+            case MYWISHLIST:
+                return new MyWatchList();
+            case SEARCH:
+                return new SearchFragment();
+            case BROWSE:
+                return new BrowseFragment();
+            case NOTIFICATIONS:
+                return new MyWatchList();
+            case SETTINGS:
+                return new MyWatchList();
+            default:
+                return new MyWatchList();
+        }
+
+    }
+    public void loadScreen(int position)
+    {
+
+        loadScreen(fragments.values()[position]);
     }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
-        savedInstanceState.putInt("currentPage", currentFragIndex);
+        savedInstanceState.putInt("currentPage", currentFrag.ordinal());
         super.onSaveInstanceState(savedInstanceState);
     }
 
@@ -132,15 +201,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed()
     {
+        boolean backHandled = false;
         if(drawerLayout.isDrawerOpen(Gravity.LEFT))
         {
             drawerLayout.closeDrawer(Gravity.LEFT);
         }
-        else if(currentFragIndex == 1 && !(getFragmentManager().findFragmentById(R.id.content_frame) instanceof SearchClasses))
+        else if(currentFrag == fragments.BROWSE)
         {
-            getFragmentManager().popBackStack();
+            backHandled = ((BrowseFragment)getFragmentManager().findFragmentByTag(fragments.BROWSE.name())).goBack();
         }
-        else
+
+        if(!backHandled)
         {
             super.onBackPressed();
         }

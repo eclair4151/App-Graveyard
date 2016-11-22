@@ -7,6 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_dark_text"
+        android:lines="1"
         android:id="@+id/classid"
         android:text="CS101"/>
 
@@ -16,23 +17,31 @@
         android:text="Lecture"
         android:layout_marginLeft="10dp"
         android:textColor="@color/primary_dark_text"
+        android:lines="1"
+        android:singleLine="true"
         android:id="@+id/class_type"
+        android:ellipsize="middle"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/class_section"
         android:layout_toRightOf="@+id/classid"/>
 
      <TextView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:text="Section 001"
-         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:lines="1"
          android:textColor="@color/primary_dark_text"
          android:id="@+id/class_section"
-         android:layout_toRightOf="@+id/class_type"/>
+         android:layout_toLeftOf="@+id/class_enrollment"
+         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MW 9:30am - 12:00pm"
         android:id="@+id/class_time"
+        android:lines="1"
         android:textColor="@color/primary_dark_text"
         android:layout_below="@+id/classid"
         />
@@ -41,6 +50,7 @@
         android:layout_height="wrap_content"
         android:text="54/60"
         android:id="@+id/class_enrollment"
+        android:lines="1"
         android:textColor="@color/primary_dark_text"
         android:layout_alignParentRight="true"/>
     <TextView

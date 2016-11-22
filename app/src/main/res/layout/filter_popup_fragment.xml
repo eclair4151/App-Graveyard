@@ -15,32 +15,51 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_dark_text"
+        android:id="@+id/filter_by_type"
         android:text="Filter By instruction type"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_dark_text"
+        android:id="@+id/filter_by_method"
         android:text="Filter By instruction method"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_dark_text"
+        android:id="@+id/filter_by_campus"
         android:text="Filter By campus"/>
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:text="Filter By day"/>-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_dark_text"
-        android:text="Filter By day"/>
+        android:id="@+id/filter_by_start"
+        android:text="Filter By Start Time"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_dark_text"
-        android:text="Filter By time"/>
+        android:id="@+id/filter_by_end"
+        android:text="Filter By End Time"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:id="@+id/filter_by_day"
+        android:text="Filter By Day"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:checked="true"
         android:layout_height="wrap_content"
+        android:id="@+id/filter_by_full"
         android:text="Show Full Classes"/>
 
 </LinearLayout>

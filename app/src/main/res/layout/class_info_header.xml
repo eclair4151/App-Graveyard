@@ -103,13 +103,30 @@
         android:id="@+id/filter_button"
         android:src="@drawable/ic_filter_list_black_24dp"
         android:padding="1dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginRight="3dp"
         android:layout_alignParentRight="true"
         />
 
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_below="@id/divider_line"
+        android:visibility="gone"
+        android:id="@+id/filter_loading"
+        android:layout_marginTop="7dp"
+        android:layout_toLeftOf="@id/filter_button"/>
 
 
+    <com.shemeshapps.drexelregistrationassistant.CustomViews.ImageViewButton
+        android:layout_width="25dp"
+        android:adjustViewBounds="false"
+        android:id="@+id/class_sort_button"
+        android:layout_height="25sp"
+        android:layout_below="@+id/divider_line"
+        android:padding="5dp"
+        android:src="@drawable/sort_icon"/>
     <TextView
         android:layout_width="wrap_content"
         android:textColor="@color/primary_dark_text"
@@ -117,13 +134,14 @@
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:visibility="gone"
+        android:layout_marginTop="30dp"
         android:id="@+id/no_classes_text"
-        android:text="This class is not being offered this term"/>
+        android:text="This class is not currently being offered"/>
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/divider_line"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:visibility="gone"
         android:id="@+id/webtms_loading_progress"
         android:layout_centerHorizontal="true"/>

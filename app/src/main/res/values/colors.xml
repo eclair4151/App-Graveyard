@@ -3,6 +3,7 @@
     <color name="colorPrimary">#21467B</color>
     <color name="colorPrimaryDark">#1c3c6b</color>
     <color name="colorAccent">#448AFF</color>
+    <color name="colorAccent2">#ff3f42</color>
 
     <color name="drawer_item_grey">#ff6b6b6d</color>
     <color name="drawer_divider_grey">#ffe7e7e9</color>
@@ -13,6 +14,10 @@
     <color name="primary_dark_text">#dd000000</color>
 
     <color name="link_blue">#0000EE</color>
+
+    <color name="refresh_progress_1">@color/colorAccent2</color>
+    <color name="refresh_progress_2">@color/colorAccent</color>
+    <color name="refresh_progress_3">@color/colorPrimary</color>
 
 
 </resources>

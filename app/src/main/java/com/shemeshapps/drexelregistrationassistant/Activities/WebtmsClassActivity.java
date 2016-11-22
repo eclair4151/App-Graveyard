@@ -1,51 +1,41 @@
 package com.shemeshapps.drexelregistrationassistant.Activities;
 
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Spannable;
-import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.StyleSpan;
 import android.text.style.UnderlineSpan;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.shemeshapps.drexelregistrationassistant.CustomViews.TextViewButton;
-import com.shemeshapps.drexelregistrationassistant.Helpers.ResourceHelper;
-import com.shemeshapps.drexelregistrationassistant.Models.ClassInfo;
-import com.shemeshapps.drexelregistrationassistant.Models.Professors;
+import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
+import com.shemeshapps.drexelregistrationassistant.Models.Professor;
 import com.shemeshapps.drexelregistrationassistant.Models.WebtmsClass;
 import com.shemeshapps.drexelregistrationassistant.R;
 
-import org.apmem.tools.layouts.FlowLayout;
 import org.parceler.Parcels;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class WebtmsClassActivity extends AppCompatActivity {
 
+    Button watchlist;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webtms_class);
         final WebtmsClass webtmsClass = Parcels.unwrap(this.getIntent().getParcelableExtra("webtms_class"));
-        final ClassInfo classInfo = Parcels.unwrap(this.getIntent().getParcelableExtra("class_info"));
-
+        setResult(RESULT_CANCELED);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setTitle(webtmsClass.class_id + " Section " +  webtmsClass.section);
@@ -67,11 +57,6 @@ public class WebtmsClassActivity extends AppCompatActivity {
         SpannableStringBuilder classidstr = new SpannableStringBuilder("Class: " + webtmsClass.class_id);
         classidstr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 6, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         classid.setText(classidstr);
-
-        TextView title = (TextView)findViewById(R.id.webtms_class_title);
-        SpannableStringBuilder titlestr = new SpannableStringBuilder("Title: " + classInfo.title);
-        titlestr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 6, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        title.setText(titlestr);
 
         TextView section = (TextView)findViewById(R.id.webtms_section);
         SpannableStringBuilder sectionstr = new SpannableStringBuilder("Section: " + webtmsClass.section);
@@ -127,7 +112,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         LinearLayout profs = (LinearLayout)findViewById(R.id.webtms_class_professors);
 
 
-        for(final Professors p:webtmsClass.professors)
+        for(final Professor p:webtmsClass.professors)
         {
             LinearLayout newLayout = (LinearLayout)getLayoutInflater().inflate(R.layout.prof_rating_template, null);
             TextView t = (TextView)newLayout.findViewById(R.id.prof_name_link);
@@ -156,9 +141,44 @@ public class WebtmsClassActivity extends AppCompatActivity {
                 }
             });
         }
+
+        watchlist = (Button)findViewById(R.id.add_to_watchlist);
+        updateWatchListButton(webtmsClass);
+        watchlist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(PreferenceHelper.IsInWatchList(webtmsClass,WebtmsClassActivity.this))
+                {
+                    PreferenceHelper.RemoveFromWatchList(webtmsClass,WebtmsClassActivity.this);
+                    Toast.makeText(WebtmsClassActivity.this, "Class removed from watchlist",
+                            Toast.LENGTH_SHORT).show();
+                    setResult(RESULT_OK);
+                }
+                else
+                {
+                    PreferenceHelper.AddToWatchList(webtmsClass,WebtmsClassActivity.this);
+                    Toast.makeText(WebtmsClassActivity.this, "Class added to watchlist",
+                            Toast.LENGTH_SHORT).show();
+                    setResult(RESULT_CANCELED);
+                }
+                updateWatchListButton(webtmsClass);
+            }
+        });
+
     }
 
-    public void profPopup(final Professors p)
+    private void updateWatchListButton(WebtmsClass webtmsClass)
+    {
+        if(PreferenceHelper.IsInWatchList(webtmsClass,this)) {
+            watchlist.setText("Remove from watchlist");
+        }
+        else
+        {
+            watchlist.setText("add to watchlist");
+        }
+    }
+
+    public void profPopup(final Professor p)
     {
         final List<String> options = new ArrayList<>();
         if(p.koofers_num_ratings!=0)
@@ -195,7 +215,9 @@ public class WebtmsClassActivity extends AppCompatActivity {
                         }
                         else
                         {
-                            finish();
+                            Intent intent = new Intent(WebtmsClassActivity.this, ViewProfessorActivity.class);
+                            intent.putExtra("professor", Parcels.wrap(p));
+                            startActivity(intent);
                         }
 
                     }
@@ -205,9 +227,6 @@ public class WebtmsClassActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         if (id == android.R.id.home) {

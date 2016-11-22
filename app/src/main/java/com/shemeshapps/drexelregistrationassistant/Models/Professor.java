@@ -9,7 +9,7 @@ import org.parceler.Parcel;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Parcel
-public class Professors {
+public class Professor {
     public int id;
     public String name;
     public float rate_my_prof_rating;
@@ -21,4 +21,25 @@ public class Professors {
     public int koofers_num_ratings;
     public String koofers_url;
     public float total_rating;
+
+    @Override
+    public String toString()
+    {
+        return first_last_name;
+    }
+
+    @Override
+    public boolean equals(Object p)
+    {
+        return (p instanceof Professor && ((Professor)p).id == id);
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
+
+
+
+
 }

@@ -22,8 +22,7 @@ import com.shemeshapps.drexelregistrationassistant.R;
 
 public class ClearableAutoCompleteTextView extends AutoCompleteTextView {
     // was the text just cleared?
-    boolean justCleared = false;
-    boolean justPressedBack = false;
+    //boolean justPressedBack = false;
     // if not set otherwise, the default clear listener clears the text in the
     // text view
     private OnClearListener defaultClearListener = new OnClearListener() {
@@ -57,20 +56,33 @@ public class ClearableAutoCompleteTextView extends AutoCompleteTextView {
         init(context);
     }
 
+//    @Override
+//    public boolean onKeyPreIme(int keyCode, KeyEvent event) {
+//        if (keyCode == KeyEvent.KEYCODE_BACK && isPopupShowing() && !justPressedBack) {
+//            justPressedBack = true;
+//            InputMethodManager inputManager = (InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
+//
+//            inputManager.hideSoftInputFromWindow(findFocus().getWindowToken(),
+//                    InputMethodManager.HIDE_NOT_ALWAYS);
+//
+//            return true;
+//        }
+//        return super.onKeyPreIme(keyCode, event);
+//    }
+
     @Override
     public boolean onKeyPreIme(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK && isPopupShowing() && !justPressedBack) {
-            justPressedBack = true;
+        if (keyCode == KeyEvent.KEYCODE_BACK && isPopupShowing()) {
             InputMethodManager inputManager = (InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
 
-            inputManager.hideSoftInputFromWindow(findFocus().getWindowToken(),
-                    InputMethodManager.HIDE_NOT_ALWAYS);
-
-            return true;
+            if(inputManager.hideSoftInputFromWindow(findFocus().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS)){
+                return true;
+            }
         }
+
         return super.onKeyPreIme(keyCode, event);
     }
-
 
 
     /* Required methods, not used in this implementation */
@@ -108,7 +120,7 @@ public class ClearableAutoCompleteTextView extends AutoCompleteTextView {
                 {
                     showClearButton();
                 }
-                justPressedBack = false;
+                //justPressedBack = false;
             }
         });
         // if the clear button is pressed, fire up the handler. Otherwise do nothing
@@ -125,7 +137,6 @@ public class ClearableAutoCompleteTextView extends AutoCompleteTextView {
 
                 if (event.getX() > et.getWidth() - et.getPaddingRight()	- imgClearButton.getIntrinsicWidth()) {
                     onClearListener.onClear();
-                    justCleared = true;
                 }
                 return false;
             }

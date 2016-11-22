@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prof Name"
+        android:textSize="20sp"
+        android:id="@+id/prof_name"
+        android:lines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/primary_dark_text"/>
+
+
+    <LinearLayout android:layout_below="@+id/prof_name"
+        android:layout_width="wrap_content"
+        android:paddingBottom="0dp"
+        android:id="@+id/rate_my_prof_layout"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <com.shemeshapps.drexelregistrationassistant.CustomViews.TextViewButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/link_blue"
+            android:textSize="17sp"
+            android:id="@+id/rate_my_prof_link"
+            android:text="Rate My Professor"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:rating="3.24"
+            android:id="@+id/rate_my_prof_star_rating"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate_my_prof_num_ratings"
+            android:layout_marginLeft="3dp"
+            android:text="(15)"/>
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:paddingBottom="0dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/rate_my_prof_layout"
+        android:id="@+id/koofers_layout"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <com.shemeshapps.drexelregistrationassistant.CustomViews.TextViewButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/link_blue"
+            android:id="@+id/koofers_link"
+            android:textSize="17sp"
+            android:text="Koofers"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:rating="3.24"
+            android:id="@+id/koofers_star_rating"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/koofers_num_ratings"
+            android:layout_marginLeft="3dp"
+            android:text="(15)"/>
+    </LinearLayout>
+
+    <com.shemeshapps.drexelregistrationassistant.CustomViews.TextViewButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/link_blue"
+        android:layout_below="@+id/koofers_layout"
+        android:id="@+id/google_link"
+        android:textSize="17sp"
+        android:text="View On Google"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b4b4b4"
+        android:id="@+id/divider_line"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/google_link"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/primary_dark_text"
+        android:layout_below="@id/divider_line"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:id="@+id/no_classes_text"
+        android:text="This professor is not currently teaching any classes"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_line"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/webtms_loading_progress"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

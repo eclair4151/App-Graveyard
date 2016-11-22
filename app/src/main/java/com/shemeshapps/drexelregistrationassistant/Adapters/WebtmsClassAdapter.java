@@ -6,18 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.shemeshapps.drexelregistrationassistant.Models.Professors;
 import com.shemeshapps.drexelregistrationassistant.Models.WebtmsClass;
-import com.shemeshapps.drexelregistrationassistant.Models.WebtmsDays;
 import com.shemeshapps.drexelregistrationassistant.R;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by Tomer on 1/11/16.
@@ -58,10 +52,10 @@ public class WebtmsClassAdapter extends ArrayAdapter<WebtmsClass> {
         enrolled.setText(webtmsClass.current_enroll + "/" + webtmsClass.max_enroll);
         String profsText = "";
 
-        for(int i =0; i <webtmsClass.professors.length; i++)
+        for(int i =0; i <webtmsClass.professors.size(); i++)
         {
-            profsText += webtmsClass.professors[i].first_last_name;
-            if(i < webtmsClass.professors.length-1)
+            profsText += webtmsClass.professors.get(i).first_last_name;
+            if(i < webtmsClass.professors.size()-1)
             {
                 profsText+= " ,";
             }

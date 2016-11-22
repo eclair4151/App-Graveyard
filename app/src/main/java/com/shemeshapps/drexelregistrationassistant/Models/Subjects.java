@@ -8,4 +8,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 
 public class Subjects {
+    public String subject;
+    public String subject_code;
 }
