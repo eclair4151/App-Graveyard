@@ -9,6 +9,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.Volley;
 import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
 import com.shemeshapps.drexelregistrationassistant.Models.ClassInfo;
+import com.shemeshapps.drexelregistrationassistant.Models.ClassRegister;
 import com.shemeshapps.drexelregistrationassistant.Models.Colleges;
 import com.shemeshapps.drexelregistrationassistant.Models.QueryResult;
 import com.shemeshapps.drexelregistrationassistant.Models.Subjects;
@@ -228,6 +229,16 @@ public class RequestUtil {
             request.setTag(queryTag);
             queue.add(request);
         }catch (Exception e){}
+    }
+
+    public void getRegisteredClasses(Response.Listener<ClassRegister> listener)
+    {
+        String url = domain + "/getClassRegisters";
+        JSONObject data = new JSONObject();
+        try {
+            data.put("cookies",PreferenceHelper.getDrexelCookie(c));
+        } catch (JSONException e) {}
+        queue.add(new JacksonRequest<>(Request.Method.POST, url, data, ClassRegister.class, listener, error));
     }
 
     public void cancelQueryCalls()

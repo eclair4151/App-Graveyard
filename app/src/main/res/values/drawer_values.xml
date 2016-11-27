@@ -6,12 +6,14 @@
         <item>Watch List</item>
         <item>Search</item>
         <item>Browse</item>
-       <item>Notifications</item>
+        <item>Registration</item>
+        <item>Notifications</item>
         <!--<item>Schedulizer</item>-->
         <item>Settings</item>
     </string-array>
 
     <array name="nav_drawer_icons">
+        <item>@drawable/drawer_top_icon</item>
         <item>@drawable/drawer_top_icon</item>
         <item>@drawable/drawer_top_icon</item>
         <item>@drawable/drawer_top_icon</item>

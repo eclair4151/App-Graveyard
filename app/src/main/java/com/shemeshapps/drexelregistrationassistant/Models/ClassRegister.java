@@ -4,13 +4,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import org.parceler.Parcel;
 
-
 /**
- * Created by Tomer on 1/11/16.
+ * Created by tomer on 11/23/16.
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
 @Parcel
-public class Colleges {
-    public String college;
-    public Subjects[] subjects;
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class ClassRegister {
+
 }

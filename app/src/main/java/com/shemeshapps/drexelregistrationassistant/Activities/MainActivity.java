@@ -24,6 +24,7 @@ import android.widget.TextView;
 import com.shemeshapps.drexelregistrationassistant.Adapters.DrawerListAdapter;
 import com.shemeshapps.drexelregistrationassistant.Fragments.BrowseFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.MyWatchList;
+import com.shemeshapps.drexelregistrationassistant.Fragments.RegistrationFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.SearchFragment;
 import com.shemeshapps.drexelregistrationassistant.Models.DrawerItem;
 import com.shemeshapps.drexelregistrationassistant.R;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static enum fragments{
-        MYWISHLIST,SEARCH,BROWSE,NOTIFICATIONS,SETTINGS
+        MYWISHLIST,SEARCH,BROWSE,REGISTRATION, NOTIFICATIONS,SETTINGS
     }
 
     @Override
@@ -114,20 +115,6 @@ public class MainActivity extends AppCompatActivity {
         }
         ft.commitAllowingStateLoss();
 
-
-//        try {  //use reflectin to
-//            Field mDragger = drawerLayout.getClass().getDeclaredField("mLeftDragger");//mRightDragger for right obviously
-//            mDragger.setAccessible(true);
-//            ViewDragHelper draggerObj = (ViewDragHelper) mDragger.get(drawerLayout);
-//            Field mEdgeSize = draggerObj.getClass().getDeclaredField("mEdgeSize");
-//            mEdgeSize.setAccessible(true);
-//            int edge = mEdgeSize.getInt(draggerObj);
-//            mEdgeSize.setInt(draggerObj, edge * 5);
-//
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
     }
 
     public void loadScreen(fragments f)
@@ -176,6 +163,8 @@ public class MainActivity extends AppCompatActivity {
                 return new SearchFragment();
             case BROWSE:
                 return new BrowseFragment();
+            case REGISTRATION:
+                return new RegistrationFragment();
             case NOTIFICATIONS:
                 return new MyWatchList();
             case SETTINGS:

@@ -25,7 +25,8 @@
         <activity
             android:name=".Activities.ViewClassActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Activities.ViewProfessorActivity"></activity>
+        <activity android:name=".Activities.ViewProfessorActivity" />
+        <activity android:name=".Activities.LoginActivity"></activity>
     </application>
 
 </manifest>

@@ -2,6 +2,9 @@ package com.shemeshapps.drexelregistrationassistant.Helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Build;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
 
 import com.android.volley.Response;
 import com.shemeshapps.drexelregistrationassistant.Models.WebtmsClass;
@@ -50,4 +53,36 @@ public class PreferenceHelper {
     }
 
 
+    public static String getDrexelCookie(Context c)
+    {
+        SharedPreferences sharedPref = c.getSharedPreferences("watchlist", Context.MODE_PRIVATE);
+        return sharedPref.getString("drexelCookies","");
+    }
+
+    public static void setDrexelCookie(Context c, String cookie)
+    {
+        SharedPreferences.Editor sharedPref = c.getSharedPreferences("watchlist", Context.MODE_PRIVATE).edit();
+        sharedPref.putString("drexelCookies",cookie);
+        sharedPref.commit();
+    }
+
+    @SuppressWarnings("deprecation")
+    public static void clearCookies(Context context)
+    {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
+            //Log.d(C.TAG, "Using clearCookies code for API >=" + String.valueOf(Build.VERSION_CODES.LOLLIPOP_MR1));
+            CookieManager.getInstance().removeAllCookies(null);
+            CookieManager.getInstance().flush();
+        } else
+        {
+            //Log.d(C.TAG, "Using clearCookies code for API <" + String.valueOf(Build.VERSION_CODES.LOLLIPOP_MR1));
+            CookieSyncManager cookieSyncMngr=CookieSyncManager.createInstance(context);
+            cookieSyncMngr.startSync();
+            CookieManager cookieManager=CookieManager.getInstance();
+            cookieManager.removeAllCookie();
+            cookieManager.removeSessionCookie();
+            cookieSyncMngr.stopSync();
+            cookieSyncMngr.sync();
+        }
+    }
 }
