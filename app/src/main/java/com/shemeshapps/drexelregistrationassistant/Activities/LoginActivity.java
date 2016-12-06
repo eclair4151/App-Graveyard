@@ -6,11 +6,15 @@ import android.graphics.Bitmap;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
 
 import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
 import com.shemeshapps.drexelregistrationassistant.R;
@@ -21,35 +25,23 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        WebView wv = (WebView)findViewById(R.id.loginWebview);
-        wv.clearFormData();
-        wv.clearCache(true);
-        wv.clearHistory();
-        PreferenceHelper.clearCookies(this);
+        final ProgressBar loadingBar = (ProgressBar)findViewById(R.id.login_loading);
+        final EditText password = (EditText)findViewById(R.id.password_login);
+        final EditText username = (EditText)findViewById(R.id.username_login);
+        final Button login = (Button)findViewById(R.id.login_button);
 
-        WebSettings webSettings = wv.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        webSettings.setAllowUniversalAccessFromFileURLs(true);
-        webSettings.setDomStorageEnabled(true);
-        wv.loadUrl("https://one.drexel.edu/web/university/academics");
-        wv.setWebViewClient(new WebViewClient() {
-
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onPageStarted(WebView view, String url, Bitmap favicon) {
-                if(url.equals("https://one.drexel.edu/web/university/academics"))
-                {
-                    String cookies = CookieManager.getInstance().getCookie("https://login.drexel.edu/cas/login");
-                    if(cookies!=null && cookies.contains("CASTGC="))
-                    {
-                        view.stopLoading();
-                        PreferenceHelper.setDrexelCookie(LoginActivity.this,cookies);
-                        setResult(RESULT_OK);
-                        finish();
-                    }
-                }
-                super.onPageStarted(view, url, favicon);
-            }
+            public void onClick(View v) {
+                loadingBar.setVisibility(View.VISIBLE);
+                login.setEnabled(false);
 
-        });
+        }});
+
+
+
+
+
+
     }
 }

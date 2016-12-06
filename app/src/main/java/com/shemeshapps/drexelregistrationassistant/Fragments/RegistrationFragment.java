@@ -11,9 +11,17 @@ import android.widget.Button;
 
 import com.android.volley.Response;
 import com.shemeshapps.drexelregistrationassistant.Activities.LoginActivity;
+import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
 import com.shemeshapps.drexelregistrationassistant.Models.ClassRegister;
+import com.shemeshapps.drexelregistrationassistant.Models.TermPage;
 import com.shemeshapps.drexelregistrationassistant.Networking.RequestUtil;
 import com.shemeshapps.drexelregistrationassistant.R;
+import com.tsums.androidcookiejar.PersistentCookieStore;
+
+import java.net.HttpCookie;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.List;
 
 /**
  * Created by tomer on 11/23/16.
@@ -27,15 +35,44 @@ public class RegistrationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         parentView = inflater.inflate(R.layout.registration_fragment, container, false);
-        Button login = (Button)parentView.findViewById(R.id.loginButton);
-        login.setOnClickListener(new View.OnClickListener() {
+
+        final Button login = (Button)parentView.findViewById(R.id.loginButton);
+
+
+
+
+        RequestUtil.getInstance(getActivity().getApplicationContext()).getHtmlTerms(new Response.Listener<TermPage>() {
             @Override
-            public void onClick(View v) {
-                startActivityForResult(new Intent(getActivity(),LoginActivity.class),1);
+            public void onResponse(final TermPage response) {
+                if(response == null || response.ltToken !=null)
+                {
+                    login.setVisibility(View.VISIBLE);
+                    login.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent i = new Intent(getActivity(),LoginActivity.class);
+                            if(response != null)
+                            {
+                                i.putExtra("lt",response.ltToken);
+                            }
+                            startActivityForResult(i,1);
+                        }
+                    });
+                }
+                else
+                {
+                    //have terms
+                }
             }
         });
+
+
         return parentView;
     }
+
+
+
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

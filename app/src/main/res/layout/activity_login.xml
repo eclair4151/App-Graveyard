@@ -6,9 +6,64 @@
     tools:context="com.shemeshapps.drexelregistrationassistant.Activities.LoginActivity">
 
 
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/loginWebview"
-        />
+
+        <TextView android:text="Drexel One Login"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/loginTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:id="@+id/username_login"
+            android:layout_below="@+id/loginTitle"
+            android:layout_marginBottom="15dp"
+            android:hint="Username"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/username_login"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/password_login"
+            android:inputType="textPassword"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:text="Enable Auto Login  "
+            android:layout_gravity="left"
+            android:checked="true"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/password_login"
+            android:layout_marginTop="10dp"
+            android:id="@+id/autoLoginSwitch"
+            android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autoLoginSwitch"
+        android:text="I Agree to the Terms &amp; Conditions"/>
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/autoLoginSwitch"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="Log in"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/login_button"
+            android:visibility="gone"
+            android:id="@+id/login_loading"/>
+
 </RelativeLayout>

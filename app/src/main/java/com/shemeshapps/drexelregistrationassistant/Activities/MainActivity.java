@@ -4,6 +4,7 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
@@ -17,6 +18,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -194,6 +196,7 @@ public class MainActivity extends AppCompatActivity {
         if(drawerLayout.isDrawerOpen(Gravity.LEFT))
         {
             drawerLayout.closeDrawer(Gravity.LEFT);
+            backHandled = true;
         }
         else if(currentFrag == fragments.BROWSE)
         {
@@ -206,6 +209,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void dismissKeyboard()
+    {
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
+    }
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -220,6 +231,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == android.R.id.home)
+        {
+            dismissKeyboard();
+        }
+
         if (drawerToggle.onOptionsItemSelected(item)) {
             return true;
         }

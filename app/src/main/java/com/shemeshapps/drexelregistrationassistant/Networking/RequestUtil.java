@@ -6,6 +6,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
 import com.shemeshapps.drexelregistrationassistant.Models.ClassInfo;
@@ -14,14 +15,22 @@ import com.shemeshapps.drexelregistrationassistant.Models.Colleges;
 import com.shemeshapps.drexelregistrationassistant.Models.QueryResult;
 import com.shemeshapps.drexelregistrationassistant.Models.Subjects;
 import com.shemeshapps.drexelregistrationassistant.Models.Term;
+import com.shemeshapps.drexelregistrationassistant.Models.TermPage;
 import com.shemeshapps.drexelregistrationassistant.Models.WebtmsClass;
 import com.shemeshapps.drexelregistrationassistant.Models.WebtmsFilter;
+import com.tsums.androidcookiejar.PersistentCookieStore;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
+import java.net.CookieHandler;
+import java.net.CookieManager;
+import java.net.CookiePolicy;
+import java.net.HttpCookie;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -52,6 +61,10 @@ public class RequestUtil {
             instance = new RequestUtil();
             instance.c = c;
             instance.queue = Volley.newRequestQueue(c);
+            CookieHandler.setDefault(
+                    new CookieManager(
+                            PersistentCookieStore.getInstance(c),
+                            CookiePolicy.ACCEPT_ORIGINAL_SERVER));
         }
         return instance;
     }
@@ -203,6 +216,45 @@ public class RequestUtil {
         queue.add(new JacksonRequest<>(Request.Method.POST, url, data, WebtmsClass[].class, listener, error));
     }
 
+
+    public void getHtmlTerms(final Response.Listener<TermPage> listener)
+    {
+        List<HttpCookie> cookies = null;
+        try {
+            cookies  = PersistentCookieStore.getInstance(c).get(new URI("banner.drexel.edu"));
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+
+        if(cookies!=null && cookies.size()==0 && !PreferenceHelper.getAutoLogin(c))
+        {
+            listener.onResponse(null);
+        }
+        else
+        {
+            String url = "https://login.drexel.edu/cas/login?service=https%3A%2F%2Fbannersso.drexel.edu%3A443%2Fssomanager%2Fc%2FSSB%3Fpkg%3Dbwszkfrag.P_DisplayFinResponsibility%253Fi_url%253Dbwskfreg.P_AltPin";
+            Response.Listener<TermPage> listener2 = new Response.Listener<TermPage>() {
+                @Override
+                public void onResponse(TermPage response) {
+                    if(response.ltToken != null && PreferenceHelper.getAutoLogin(c) && !PreferenceHelper.getUserName(c).isEmpty())
+                    {
+                        login(response.ltToken,listener);
+                    }
+                    else
+                    {
+                        listener.onResponse(response);
+                    }
+                }
+            };
+            queue.add(new HTMLRequest<>(Request.Method.GET,url,listener2,error,HTMLRequest.requestType.TERMPAGE));
+
+        }
+    }
+
+    public void login(String lt, Response.Listener<TermPage> listener)
+    {
+
+    }
 
     public void getClassesInSubjectTerm(String subject, Term t, Response.Listener<ClassInfo[]> listener)
     {

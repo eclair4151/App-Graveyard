@@ -38,5 +38,8 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.0'
     compile 'com.fasterxml.jackson.core:jackson-core:2.5.0'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.5.0'
+    compile 'com.tsums.androidcookiejar:androidcookiejar:1.1@aar'
+    compile 'com.scottyab:aescrypt:0.0.1'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.10.1'
 
 }
