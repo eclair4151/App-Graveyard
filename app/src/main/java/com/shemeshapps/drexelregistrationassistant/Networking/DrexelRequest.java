@@ -35,7 +35,8 @@ public class DrexelRequest<T> extends Request<T> {
     public static enum requestType{
         TERMPAGE,
         LOGIN,
-        LOGINPOST
+        LOGINPOST,
+        CLASSPAGE
     };
 
     private Response.Listener<T> listener;
@@ -114,6 +115,8 @@ public class DrexelRequest<T> extends Request<T> {
                 case LOGINPOST:
                     parsedResponse = (T)HTMLParser.parseLoginPagePost(html);
                     break;
+                case CLASSPAGE:
+                    parsedResponse = (T)HTMLParser.parseClassPage(html);
             }
             return Response.success(parsedResponse, HttpHeaderParser.parseCacheHeaders(response));
         }

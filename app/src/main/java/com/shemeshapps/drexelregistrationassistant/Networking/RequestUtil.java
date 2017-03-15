@@ -177,9 +177,17 @@ public class RequestUtil {
         });
     }
 
-    public void getRegisteredClasses(String term_id, Response.Listener<ClassRegister> listener, Response.ErrorListener error)
+    public void getRegisteredClasses(final String term_id, Response.Listener<ClassRegister> listener, Response.ErrorListener errorListener)
     {
-
+        String url = "https://banner.drexel.edu/pls/duprod/bwskfreg.P_AltPin";
+        queue.add(new DrexelRequest<ClassRegister>(Request.Method.POST,url,listener,errorListener, DrexelRequest.requestType.CLASSPAGE,instance){
+            @Override
+            protected Map<String,String> getParams(){
+                Map<String,String> params = new HashMap<>();
+                params.put("term_in",term_id);
+                return params;
+            }
+        });
     }
 
     public void getWatchListClasses(Response.Listener<WebtmsClass[]> listener)
@@ -246,6 +254,7 @@ public class RequestUtil {
     {
         Log.e("LOGIN FLOW", "attemping to start login flow");
         String url = "https://one.drexel.edu/web/university/academics";
+        PersistentCookieStore.getInstance(c).removeAll();
         queue.add(new DrexelRequest<>(Request.Method.GET,url,new Response.Listener<HTMLLogin>() {
             @Override
             public void onResponse(HTMLLogin response) {

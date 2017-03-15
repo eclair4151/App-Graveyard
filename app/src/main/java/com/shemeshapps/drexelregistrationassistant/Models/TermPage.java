@@ -7,16 +7,8 @@ import java.util.ArrayList;
  */
 
 public class TermPage {
-    public ArrayList<HTMLTerm> terms;
-    public String ltToken;
+    public ArrayList<HTMLOption> terms = new ArrayList<>();
 
-
-
-
-    public class HTMLTerm{
-        public String label;
-        public String id;
-    }
 }
 
 

@@ -26,8 +26,10 @@ import android.widget.TextView;
 import com.shemeshapps.drexelregistrationassistant.Adapters.DrawerListAdapter;
 import com.shemeshapps.drexelregistrationassistant.Fragments.BrowseFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.MyWatchList;
+import com.shemeshapps.drexelregistrationassistant.Fragments.NotificationsFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.RegistrationFragment;
 import com.shemeshapps.drexelregistrationassistant.Fragments.SearchFragment;
+import com.shemeshapps.drexelregistrationassistant.Fragments.SettingsFragment;
 import com.shemeshapps.drexelregistrationassistant.Models.DrawerItem;
 import com.shemeshapps.drexelregistrationassistant.R;
 
@@ -177,9 +179,9 @@ public class MainActivity extends AppCompatActivity {
             case REGISTRATION:
                 return new RegistrationFragment();
             case NOTIFICATIONS:
-                return new MyWatchList();
+                return new NotificationsFragment();
             case SETTINGS:
-                return new MyWatchList();
+                return new SettingsFragment();
             default:
                 return new MyWatchList();
         }

@@ -15,6 +15,7 @@ import com.android.volley.VolleyError;
 import com.shemeshapps.drexelregistrationassistant.Activities.LoginActivity;
 import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
 import com.shemeshapps.drexelregistrationassistant.Models.ClassRegister;
+import com.shemeshapps.drexelregistrationassistant.Models.HTMLOption;
 import com.shemeshapps.drexelregistrationassistant.Models.TermPage;
 import com.shemeshapps.drexelregistrationassistant.Networking.RequestUtil;
 import com.shemeshapps.drexelregistrationassistant.R;
@@ -43,20 +44,7 @@ public class RegistrationFragment extends Fragment {
 
 
 
-        RequestUtil.getInstance(getActivity().getApplicationContext()).getHtmlTerms(new Response.Listener<TermPage>() {
-            @Override
-            public void onResponse(final TermPage response) {
-                Log.e("LOGIN FLOW", "got terms");
-
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.e("LOGIN FLOW","received user not logged in error successfully");
-                loadLoginScreen();
-            }
-        });
-
+        loadTerms();
 
         return parentView;
     }
@@ -73,6 +61,44 @@ public class RegistrationFragment extends Fragment {
         });
     }
 
+    private void loadTerms()
+    {
+        login.setVisibility(View.GONE);
+        RequestUtil.getInstance(getActivity().getApplicationContext()).getHtmlTerms(new Response.Listener<TermPage>() {
+            @Override
+            public void onResponse(final TermPage response) {
+                Log.e("LOGIN FLOW", "got terms");
+                if(response.terms.size() > 0)
+                {
+                    //loadClasses(response.terms.get(0));
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("LOGIN FLOW","received user not logged in error successfully");
+                loadLoginScreen();
+            }
+        });
+
+    }
+
+    private void loadClasses(HTMLOption term)
+    {
+        RequestUtil.getInstance(getActivity().getApplicationContext()).getRegisteredClasses(term.id, new Response.Listener<ClassRegister>() {
+            @Override
+            public void onResponse(ClassRegister response) {
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+    }
+
 
 
 
@@ -81,27 +107,7 @@ public class RegistrationFragment extends Fragment {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==1 && resultCode == Activity.RESULT_OK)
         {
-//            RequestUtil.getInstance(getActivity()).getHtmlTerms(new Response.Listener<TermPage>() {
-//                @Override
-//                public void onResponse(TermPage response) {
-//                    RequestUtil.getInstance(getActivity()).getRegisteredClasses("", new Response.Listener<ClassRegister>() {
-//                        @Override
-//                        public void onResponse(ClassRegister response) {
-//
-//                        }
-//                    }, new Response.ErrorListener() {
-//                        @Override
-//                        public void onErrorResponse(VolleyError error) {
-//
-//                        }
-//                    });
-//                }
-//            }, new Response.ErrorListener() {
-//                @Override
-//                public void onErrorResponse(VolleyError error) {
-//
-//                }
-//            });
+            loadTerms();
 
         }
     }

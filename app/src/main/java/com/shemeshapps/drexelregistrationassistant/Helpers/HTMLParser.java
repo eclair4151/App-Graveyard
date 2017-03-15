@@ -2,8 +2,11 @@ package com.shemeshapps.drexelregistrationassistant.Helpers;
 
 import android.util.Log;
 
+import com.shemeshapps.drexelregistrationassistant.Models.ClassRegister;
+import com.shemeshapps.drexelregistrationassistant.Models.HTMLClass;
 import com.shemeshapps.drexelregistrationassistant.Models.HTMLLogin;
 import com.shemeshapps.drexelregistrationassistant.Models.HTMLLoginPost;
+import com.shemeshapps.drexelregistrationassistant.Models.HTMLOption;
 import com.shemeshapps.drexelregistrationassistant.Models.TermPage;
 
 import org.jsoup.Jsoup;
@@ -17,9 +20,15 @@ import org.jsoup.select.Elements;
 public class HTMLParser {
     public static TermPage parseTermPage(String html)
     {
+        TermPage tp =new TermPage();
         Element body = Jsoup.parse(html).body();
-
-        return new TermPage();
+        Elements terms = body.select("option");
+        for(Element t : terms)
+        {
+            tp.terms.add(new HTMLOption(t.text(),t.attr("value")));
+            t.text();
+        }
+        return tp;
     }
 
     public static HTMLLogin parseLoginPage(String html)
@@ -34,6 +43,25 @@ public class HTMLParser {
         }
         return res;
     }
+
+    public static ClassRegister parseClassPage(String html)
+    {
+        ClassRegister res = new ClassRegister();
+
+//        Element body = Jsoup.parse(html).body();
+//        Elements classes = body.select("table[class=dataentrytable] tr");
+//        //remove first element which is a header
+//        classes.remove(0);
+//        for(Element dclass:classes)
+//        {
+//            HTMLClass c = new HTMLClass();
+//            c.status = dclass.child(0).text();
+//            c.subject = dclass.child(3).text();
+//            c.course = dclass.child(4).text();
+//        }
+        return res;
+    }
+
 
     public static HTMLLoginPost parseLoginPagePost(String html)
     {
