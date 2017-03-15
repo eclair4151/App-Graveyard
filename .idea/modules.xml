@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Drexel_Registration_Assistant_CLASS.iml" filepath="$PROJECT_DIR$/Drexel_Registration_Assistant_CLASS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Drexel_Registration_Assistant.iml" filepath="$PROJECT_DIR$/Drexel_Registration_Assistant.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

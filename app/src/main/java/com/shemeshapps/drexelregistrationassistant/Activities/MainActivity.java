@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         setupActionBar();
         setupDrawer();
+        //if we come back from memory load the correct tab
         if (savedInstanceState != null) {
             loadScreen(savedInstanceState.getInt("currentPage"));
         }
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupDrawer()
     {
+        //setup all drawers from list
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         drawerList = (ListView)findViewById(R.id.left_drawer);
         drawerItems = new ArrayList<>();
@@ -84,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         }
         drawerIcons.recycle();
 
+        //add dragon in pull out drawer
         LayoutInflater inflater = getLayoutInflater();
         View header = inflater.inflate(R.layout.dragon_header, drawerList, false);
         try
@@ -103,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 loadScreen(i-1);
             }
         });
-
+        //set click actions for drawer
         drawerToggle = new android.support.v7.app.ActionBarDrawerToggle(this,drawerLayout, R.string.app_name, R.string.app_name);
         drawerLayout.setDrawerListener(drawerToggle);
         FragmentTransaction ft = getFragmentManager().beginTransaction();
@@ -119,16 +122,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //on drawer item click
     public void loadScreen(fragments f)
     {
+        //if we clicked on the same screen just close the drawer
         if(f != currentFrag)
         {
             FragmentManager fm = getFragmentManager();
             fm.executePendingTransactions();
+            //set title to new fragment
+
             drawerList.setItemChecked(f.ordinal()+1,true);
             getSupportActionBar().setTitle(drawerItems.get(f.ordinal()).title);
 
-
+            //find current fragment and hide it from view
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             if(currentFrag != null)
             {
@@ -139,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            //see if next fragment exists or if we should create it. this way we don't create new fragments every switch
             Fragment nextFrag = fm.findFragmentByTag(f.name());
             if(nextFrag == null)
             {
@@ -156,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout.closeDrawer(Gravity.LEFT);
     }
 
+    //get fragment from enums. i wish there were a way to not do this
     public Fragment getFragmentFromEnum(fragments frag)
     {
         switch (frag) {
@@ -176,12 +185,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    //just for convince
     public void loadScreen(int position)
     {
-
         loadScreen(fragments.values()[position]);
     }
 
+    //save what tab we are on when closing the app
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putInt("currentPage", currentFrag.ordinal());
@@ -209,6 +220,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //dismiss keyboard when going to a new tab
     public void dismissKeyboard()
     {
         View view = this.getCurrentFocus();
@@ -229,6 +241,7 @@ public class MainActivity extends AppCompatActivity {
         drawerToggle.onConfigurationChanged(newConfig);
     }
 
+    //on drawer toggle click dismiss keyboard and open drawer
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == android.R.id.home)

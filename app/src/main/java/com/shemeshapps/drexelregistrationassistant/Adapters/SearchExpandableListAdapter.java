@@ -25,7 +25,7 @@ import java.util.Objects;
 /**
  * Created by tomer on 11/18/16.
  */
-
+//custom adapter which has an auto complete which loads from a network lookup. not as easy as you would think...
 public class SearchExpandableListAdapter extends BaseExpandableListAdapter {
 
     private Context context;
@@ -63,6 +63,7 @@ public class SearchExpandableListAdapter extends BaseExpandableListAdapter {
 
     public View getChildView(final int groupPosition, final int childPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
+        //hard coded views for each of the result types
         if(convertView == null)
         {
             convertView = mInflater.inflate(R.layout.search_item_template, null);

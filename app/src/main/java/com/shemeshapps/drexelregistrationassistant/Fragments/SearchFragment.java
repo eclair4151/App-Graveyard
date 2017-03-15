@@ -33,7 +33,7 @@ public class SearchFragment extends Fragment {
     View parentView;
     Handler mHandler = new Handler();
     String mQueryString = "";
-
+    //custom search to show all posssible search options
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 

@@ -15,8 +15,13 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
 import com.shemeshapps.drexelregistrationassistant.Helpers.PreferenceHelper;
+import com.shemeshapps.drexelregistrationassistant.Models.HTMLLoginPost;
+import com.shemeshapps.drexelregistrationassistant.Networking.RequestUtil;
 import com.shemeshapps.drexelregistrationassistant.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -35,13 +40,33 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 loadingBar.setVisibility(View.VISIBLE);
                 login.setEnabled(false);
+                RequestUtil.getInstance(LoginActivity.this).login(username.getText().toString(),password.getText().toString(),new Response.Listener<HTMLLoginPost>() {
+                    @Override
+                    public void onResponse(HTMLLoginPost response) {
+                        if(response.success)
+                        {
+                            //success! save creds and close activity
+                            setResult(RESULT_OK);
+                            PreferenceHelper.storeUserCreds(username.getText().toString().replace("@drexel.edu",""),password.getText().toString(),LoginActivity.this);
+                            PreferenceHelper.setAutoLogin(LoginActivity.this,true);
+                            finish();
+                        }
+                        else
+                        {
+                            //login failed re-enable fields
+                            loadingBar.setVisibility(View.GONE);
+                            login.setEnabled(true);
+                            Toast.makeText(LoginActivity.this,"Username or Password Incorrect",Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                });
 
         }});
-
-
-
-
-
 
     }
 }

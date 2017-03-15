@@ -9,6 +9,7 @@ import com.shemeshapps.drexelregistrationassistant.R;
 /**
  * Created by Tomer on 1/23/16.
  */
+//stupid freaking thing because Android likes to depricate everything
 public class ResourceHelper {
     public static int getColor(int res, Context c)
     {

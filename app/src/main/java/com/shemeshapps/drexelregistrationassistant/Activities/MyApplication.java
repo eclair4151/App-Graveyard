@@ -14,6 +14,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate()
     {
+        //run when app is opened. just initialize the request cache
         super.onCreate();
         RequestUtil.getInstance(getApplicationContext()).initCache();
 

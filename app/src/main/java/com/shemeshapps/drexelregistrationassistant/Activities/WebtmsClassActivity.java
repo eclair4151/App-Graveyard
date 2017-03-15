@@ -30,6 +30,7 @@ import java.util.List;
 public class WebtmsClassActivity extends AppCompatActivity {
 
     Button watchlist;
+    //showing 1 class
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +49,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
             }
         });
 
+        //bold all text and add info. should be automated in future with str length
         TextView crn = (TextView)findViewById(R.id.webtms_crn);
         SpannableStringBuilder crnstr = new SpannableStringBuilder("CRN: " + webtmsClass.crn);
         crnstr.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, 4, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -112,6 +114,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         LinearLayout profs = (LinearLayout)findViewById(R.id.webtms_class_professors);
 
 
+        //one class may have many profs. load all and add to view with star rating
         for(final Professor p:webtmsClass.professors)
         {
             LinearLayout newLayout = (LinearLayout)getLayoutInflater().inflate(R.layout.prof_rating_template, null);
@@ -142,6 +145,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
             });
         }
 
+        //option to add to watchlist
         watchlist = (Button)findViewById(R.id.add_to_watchlist);
         updateWatchListButton(webtmsClass);
         watchlist.setOnClickListener(new View.OnClickListener() {
@@ -178,6 +182,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         }
     }
 
+    //give options when click on prof
     public void profPopup(final Professor p)
     {
         final List<String> options = new ArrayList<>();
@@ -198,6 +203,7 @@ public class WebtmsClassActivity extends AppCompatActivity {
         builder.setTitle(p.first_last_name)
                 .setItems(options.toArray(new String[options.size()]), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
+                        //UGLY find a better way to do this with. cant use which because options change dynamicly
                         if(options.get(which).equals("View on Koofers.com"))
                         {
                             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(p.koofers_url));

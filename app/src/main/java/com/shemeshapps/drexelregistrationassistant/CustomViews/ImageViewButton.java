@@ -14,6 +14,7 @@ import com.shemeshapps.drexelregistrationassistant.R;
 /**
  * Created by shemesht on 5/4/15.
  */
+//custom jenky class to make an imageview clickable with animation.
 public class ImageViewButton extends ImageView {
 
     public ImageViewButton(Context context) {

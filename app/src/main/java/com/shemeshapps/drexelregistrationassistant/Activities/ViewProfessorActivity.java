@@ -42,6 +42,7 @@ public class ViewProfessorActivity extends AppCompatActivity {
     Professor professor;
     ExpandableListView webtmsList;
 
+    //load professor view
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +70,7 @@ public class ViewProfessorActivity extends AppCompatActivity {
         ViewUpdater.updateProfHeader(professor,header);
         loadingBar.setVisibility(View.VISIBLE);
 
+        //load professor data to view
         TextView koofersLink = (TextView)header.findViewById(R.id.koofers_link);
         koofersLink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,6 +99,7 @@ public class ViewProfessorActivity extends AppCompatActivity {
         });
 
 
+        //show all classes that prof teaches
         webtmsList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {

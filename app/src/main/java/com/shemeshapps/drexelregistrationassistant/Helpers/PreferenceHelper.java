@@ -20,8 +20,10 @@ import java.util.Set;
 /**
  * Created by Tomer on 1/11/16.
  */
+//save random things! woo
 public class PreferenceHelper {
-    public static String key = "56F6D28D3CE171C61621A7F6776B358E";
+    //later should be obfucated and have another key generated live
+    private static String key = "56F6D28D3CE171C61621A7F6776B358E";
     public static Set<String> getWatchList(Context context)
     {
         SharedPreferences sharedPref = context.getSharedPreferences("watchlist", Context.MODE_PRIVATE);
@@ -62,13 +64,15 @@ public class PreferenceHelper {
         return sharedPref.getString("drexelCookies","");
     }
 
-    public static void setDrexelCookie(Context c, String cookie)
+    public static void clearCreds(Context c)
     {
-        SharedPreferences.Editor sharedPref = c.getSharedPreferences("watchlist", Context.MODE_PRIVATE).edit();
-        sharedPref.putString("drexelCookies",cookie);
-        sharedPref.commit();
-    }
+        SharedPreferences sharedPref = c.getSharedPreferences("watchlist", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.remove("username");
+        editor.remove("password");
+        editor.commit();
 
+    }
     @SuppressWarnings("deprecation")
     public static void clearCookies(Context context)
     {
@@ -124,7 +128,7 @@ public class PreferenceHelper {
         try {
             SharedPreferences sharedPref = c.getSharedPreferences("watchlist", Context.MODE_PRIVATE);
             String encryptUsername = sharedPref.getString("username","");
-            if(encryptUsername.isEmpty())
+            if(!encryptUsername.isEmpty())
                 return AESCrypt.decrypt(key, encryptUsername);
         }catch (GeneralSecurityException e){
             return "";
@@ -137,7 +141,7 @@ public class PreferenceHelper {
         try {
             SharedPreferences sharedPref = c.getSharedPreferences("watchlist", Context.MODE_PRIVATE);
             String encryptPassword = sharedPref.getString("password","");
-            if(encryptPassword.isEmpty())
+            if(!encryptPassword.isEmpty())
                 return AESCrypt.decrypt(key, encryptPassword);
         }catch (GeneralSecurityException e){
             return "";

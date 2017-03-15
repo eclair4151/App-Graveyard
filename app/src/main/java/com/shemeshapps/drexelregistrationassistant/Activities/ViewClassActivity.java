@@ -46,6 +46,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
     ExpandableListView webtmsList;
     ImageView sortButton;
 
+    //setup all layout
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +72,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
         ViewUpdater.updateClassHeader(classInfo,header);
         loadingBar.setVisibility(View.VISIBLE);
 
+        //when clicking on a class
         webtmsList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {
@@ -81,7 +83,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
             }
         });
 
-
+        //expand term when clicked on. if we ont have data show a loader and get it
         webtmsList.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
             public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
@@ -97,6 +99,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
 
         final ProgressBar filterLoading = (ProgressBar)findViewById(R.id.filter_loading);
 
+        //on filter click if we dont have it get it. should not have duplicated code here...
         filterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -130,7 +133,9 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
             }
         });
 
+        //sort, which is disabled for now
         sortButton = (ImageView)findViewById(R.id.class_sort_button);
+        sortButton.setVisibility(View.GONE);
         sortButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -150,6 +155,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
     }
 
 
+    //gets all terms this class if offered
     public void getClassTerms()
     {
         RequestUtil.getInstance(this).getClassTerms(classInfo.class_id, new Response.Listener<Term[]>() {
@@ -167,13 +173,14 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
                 {
                     noClassesText.setVisibility(View.GONE);
                     filterButton.setVisibility(View.VISIBLE);
-                    sortButton.setVisibility(View.VISIBLE);
+                    //sortButton.setVisibility(View.VISIBLE);
                     webtmsClassAdapter.addGroups(new ArrayList<>(Arrays.asList(response)));
                 }
             }
         });
     }
 
+    //gets classes for a term
     public void getWebtmsClasses(String classid, final Term t, final int group)
     {
         RequestUtil.getInstance(this).getWebtmsClasses(classid, t, new Response.Listener<WebtmsClass[]>() {
@@ -187,6 +194,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
         });
     }
 
+    //gets called when you press filter
     @Override
     public void onComplete(WebtmsFilter filter) {
         if(filter != null)
@@ -197,6 +205,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
 
     }
 
+    //filter is reset
     @Override
     public void onResetAll() {
         filter.filteredDays = null;
@@ -210,7 +219,7 @@ public class ViewClassActivity extends AppCompatActivity implements FilterFragme
         webtmsClassAdapter.removeFilter();
     }
 
-
+    //add back button
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

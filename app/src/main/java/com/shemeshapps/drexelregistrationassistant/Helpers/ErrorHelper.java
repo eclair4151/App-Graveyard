@@ -9,6 +9,7 @@ import java.io.StringWriter;
 
 public class ErrorHelper {
 
+    //will be used in future to help log errors
     public static void LogError(Exception e, String notes)
     {
         StringWriter sw = new StringWriter();

@@ -20,6 +20,8 @@ import com.shemeshapps.drexelregistrationassistant.Helpers.ResourceHelper;
 import com.shemeshapps.drexelregistrationassistant.R;
 
 
+//just a custom autocomplete text view which gives the option to have an X to clear the current text.
+//not currently used anymore
 public class ClearableAutoCompleteTextView extends AutoCompleteTextView {
     // was the text just cleared?
     //boolean justPressedBack = false;

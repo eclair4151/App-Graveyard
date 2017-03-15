@@ -9,7 +9,7 @@ import static android.content.Context.INPUT_METHOD_SERVICE;
 /**
  * Created by tomer on 11/19/16.
  */
-
+//random helpers like hide keyboard
 public class UIHelper {
     public static void hideSoftKeyBoard(Activity c) {
         InputMethodManager imm = (InputMethodManager) c.getSystemService(INPUT_METHOD_SERVICE);

@@ -37,6 +37,7 @@ import java.util.Arrays;
 /**
  * Created by Tomer on 2/7/16.
  */
+//temp page for browsing. i know this is ugly, but what ever it works for now.
 public class BrowseFragment extends Fragment {
 
     View parentView;
@@ -98,6 +99,7 @@ public class BrowseFragment extends Fragment {
         return parentView;
     }
 
+    //user gross pages as ints and just stuff data into list
     private void updateScreen(int i)
     {
         currPage++;

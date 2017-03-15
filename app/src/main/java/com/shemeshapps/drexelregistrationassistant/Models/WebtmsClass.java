@@ -39,6 +39,7 @@ public class WebtmsClass {
     public List<Professor> professors;
     public String days_time_string;
 
+    //implements custom filter for filtering classes
     public boolean passesFilter(WebtmsFilter filter)
     {
         Calendar rightNow = Calendar.getInstance();

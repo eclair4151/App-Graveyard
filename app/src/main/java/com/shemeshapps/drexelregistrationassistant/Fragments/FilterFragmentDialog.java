@@ -39,7 +39,7 @@ public class FilterFragmentDialog extends DialogFragment {
         // Empty constructor required for DialogFragment
     }
 
-
+    //custom dialog fragment to show options for filtering classes
     //@SuppressWarnings("unchecked")
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -47,6 +47,7 @@ public class FilterFragmentDialog extends DialogFragment {
         View parentView = getActivity().getLayoutInflater().inflate(R.layout.filter_popup_fragment, null);
         final WebtmsFilter webtmsFilter = Parcels.unwrap(getArguments().getParcelable("filter"));
 
+        //setup filter for every option
         Button b = (Button)parentView.findViewById(R.id.filter_by_prof_button);
         b.setTypeface(null, ((webtmsFilter.filteredProfessors!=null)?Typeface.BOLD:Typeface.NORMAL));
         b.setOnClickListener(new View.OnClickListener() {
@@ -116,6 +117,7 @@ public class FilterFragmentDialog extends DialogFragment {
         b = (Button)parentView.findViewById(R.id.filter_by_start);
         b.setTypeface(null, ((webtmsFilter.starttime!=-1)?Typeface.BOLD:Typeface.NORMAL));
 
+        //setup time filter
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view1) {
@@ -180,6 +182,7 @@ public class FilterFragmentDialog extends DialogFragment {
             }
         });
 
+        //setup day chooser filter
         b = (Button)parentView.findViewById(R.id.filter_by_day);
         b.setTypeface(null, ((webtmsFilter.filteredDays!=null)?Typeface.BOLD:Typeface.NORMAL));
         b.setOnClickListener(new View.OnClickListener() {
@@ -188,6 +191,7 @@ public class FilterFragmentDialog extends DialogFragment {
                 ArrayList<String> filteredDays = null;
                 if(webtmsFilter.filteredDays != null)
                 {
+                    //some gross mapping to go from chars from user to days used by class
                     Map<String,String> daymap = new HashMap<>();
                     daymap.put("M","Monday");
                     daymap.put("T","Tuesday");
@@ -208,6 +212,7 @@ public class FilterFragmentDialog extends DialogFragment {
                     public void onResponse(List<?> response) {
                         if(response != null)
                         {
+                            //map days back for some reason. i forget why...
                             Map<String,String> daymap2 = new HashMap<>();
                             daymap2.put("Monday","M");
                             daymap2.put("Tuesday","T");
@@ -278,6 +283,7 @@ public class FilterFragmentDialog extends DialogFragment {
     }
 
 
+    //for each filter option show the new popup wich choice boxes
     private void showFilter(String name, final List<?> options,final List<?> selected, final Response.Listener<List<?>> listener)
     {
         final List<Object> response = new ArrayList<>();
@@ -355,6 +361,7 @@ public class FilterFragmentDialog extends DialogFragment {
         public abstract void onResetAll();
 
     }
+
 
 
     private OnCompleteListener mListener;

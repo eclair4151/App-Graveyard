@@ -29,9 +29,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+//view used to show all terms with a drop down to show more classes
 public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
 
     private Activity context;
+    //all classes and then a copy for caching filtered classes
     private Map<Term, List<WebtmsClass>> classes = new HashMap<>();
     private Map<Term, List<WebtmsClass>> filteredClasses = new HashMap<>();
 
@@ -53,6 +55,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
     }
 
 
+    //load class into row
     public View getChildView(final int groupPosition, final int childPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
         if(convertView == null)
@@ -82,7 +85,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
             profsText += webtmsClass.professors.get(i).first_last_name;
             if(i < webtmsClass.professors.size()-1)
             {
-                profsText+= " ,";
+                profsText+= ", ";
             }
         }
         prof.setText(profsText);
@@ -101,6 +104,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
         }
     }
 
+    //need to show loading for a term while getting classes
     public void addLoading(Term t)
     {
         loadingTerms.add(t);
@@ -124,6 +128,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
         return groupPosition;
     }
 
+    //drop down terms view
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -160,6 +165,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
         notifyDataSetChanged();
     }
 
+    //whe classes are downloaded save them and filter them if one exists
     public void addClassesToTerm(Term t, List<WebtmsClass> class_list)
     {
         classes.put(t,class_list);
@@ -189,6 +195,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
         return classes.get(t) != null;
     }
 
+    //add terms when loaded
     public void addGroups(List<Term> terms)
     {
         this.terms = terms;
@@ -210,6 +217,7 @@ public class TermExpandableListViewAdapter extends BaseExpandableListAdapter {
 
     private WebtmsFilter filter;
 
+    //go through each term and each class and check if it fits into the filter. if so add it to the classes showing
     public void runFilter()
     {
         if(filter != null) {

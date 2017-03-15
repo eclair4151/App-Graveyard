@@ -16,6 +16,7 @@ import org.w3c.dom.Text;
 /**
  * Created by tomer on 3/4/16.
  */
+//takes a template and loads data into it
 public class ViewUpdater {
     public static void updateClassHeader(ClassInfo info, View header)
     {
