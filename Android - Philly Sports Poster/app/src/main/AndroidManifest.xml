@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shemeshapps.drexeloncampuschallenge" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="Philly Activities"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LoginWebviewActivity"
+            android:label="Facebook Login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="Home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activities.LogEventActivity"
+            android:label="Log An Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activities.CropImageActivity"
+            android:label="Crop Your Image"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Activities.CampusWebview"
+            android:label="On Campus Website"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

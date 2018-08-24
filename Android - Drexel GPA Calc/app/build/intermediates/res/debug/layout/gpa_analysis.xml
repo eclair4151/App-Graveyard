@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</android.support.v4.view.ViewPager><!-- From: file:/Users/tomershemesh/Google%20Drive/Personal/new%20Drexel%20GPA%20Calc%20Android/app/src/main/res/layout/gpa_analysis.xml -->

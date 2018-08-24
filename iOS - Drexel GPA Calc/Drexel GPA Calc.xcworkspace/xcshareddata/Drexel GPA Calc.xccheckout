@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C9993B46-6EA9-4FD4-BE2B-7D3AFD6487A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Drexel GPA Calc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3985CA291068090D4C67557AA981D47DF002D36D</key>
+		<string>https://bitbucket.org/eclair4151/ios-drexelgpacalc.git</string>
+		<key>86E02295E33AAC40BA1216F05AC064ED5611D51A</key>
+		<string>https://github.com/eclair4151/DrexelCatalogParser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Drexel GPA Calc.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3985CA291068090D4C67557AA981D47DF002D36D</key>
+		<string>..</string>
+		<key>86E02295E33AAC40BA1216F05AC064ED5611D51A</key>
+		<string>../../Downloads/HTML%20Scraper</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/eclair4151/ios-drexelgpacalc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3985CA291068090D4C67557AA981D47DF002D36D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3985CA291068090D4C67557AA981D47DF002D36D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Drexel%20GPA%20Calc%20-%20iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>86E02295E33AAC40BA1216F05AC064ED5611D51A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HTML%20Scraper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

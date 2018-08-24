@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drexel GPA Calc</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_in">Sign in</string>
+
+    <string-array name="gradeArray">
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+        <item>CR</item>
+        <item>NC</item>
+    </string-array>
+    <string-array name="yearArray">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Pre-Junior</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="termArray">
+        <item>Fall</item>
+        <item>Winter</item>
+        <item>Spring</item>
+        <item>Summer</item>
+    </string-array>
+
+    <string name="title_activity_gpaforecaster">GPAForecaster</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

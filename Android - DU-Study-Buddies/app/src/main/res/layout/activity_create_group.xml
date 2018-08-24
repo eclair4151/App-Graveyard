@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp"
+    android:id="@+id/createGroupRoot">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp_name"
+        android:layout_marginTop="0dp"
+
+        android:hint="Study Group Name"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:id="@+id/date_txt"
+
+        android:layout_marginTop="0dp"
+        android:hint="Date"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_time_txt"
+
+        android:hint="Start Time"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:id="@+id/end_time_txt"
+
+        android:hint="End Time"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_txt"
+
+        android:layout_marginTop="0dp"
+        android:hint="Location and Room" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_txt"
+        android:singleLine="true"
+        android:hint="Course eg: cs101" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_txt"
+        android:singleLine="false"
+        android:lines="5"
+        android:gravity="top"
+        android:hint="Description/Notes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_grp_btn"
+        android:text="Create Group"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/create_group_loader"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>

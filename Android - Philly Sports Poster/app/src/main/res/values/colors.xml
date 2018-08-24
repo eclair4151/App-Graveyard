@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageButtonGrey" type="color">#927b7b7b</item>
+    <item name="wrongRed" type="color">#ff002e</item>
+    <item name="white" type="color">#ffffff</item>
+
+</resources>

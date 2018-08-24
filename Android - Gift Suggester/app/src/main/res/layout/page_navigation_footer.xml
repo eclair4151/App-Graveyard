@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:layout_height="35dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:paddingTop="3dp"
+        android:clickable="true"
+        android:paddingBottom="3dp"
+        android:id="@+id/page_footer_first_button"
+        android:src="@drawable/page_first_icon"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:adjustViewBounds="true"
+        android:paddingTop="3dp"
+        android:clickable="true"
+        android:paddingBottom="3dp"
+        android:id="@+id/page_footer_previous_button"
+        android:src="@drawable/page_previous_icon"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:padding="0dp"
+            android:text="Displaying"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:id="@+id/page_footer_page_info"
+            android:text="1-25 of 1000"/>
+        </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="20dp"
+        android:adjustViewBounds="true"
+        android:paddingTop="3dp"
+        android:clickable="true"
+        android:paddingBottom="3dp"
+        android:id="@+id/page_footer_next_button"
+        android:src="@drawable/page_next_icon"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:paddingTop="3dp"
+        android:clickable="true"
+        android:paddingBottom="3dp"
+        android:id="@+id/page_footer_last_button"
+        android:src="@drawable/page_last_icon"/>
+</LinearLayout>

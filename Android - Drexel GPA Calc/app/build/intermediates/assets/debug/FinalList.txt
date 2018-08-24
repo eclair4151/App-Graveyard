@@ -1,0 +1,3585 @@
+ACCT115,Financial Accounting Foundations,4.0
+ACCT116,Managerial Accounting Foundations,4.0
+ACCT120,Accounting Essentials for New Ventures,4.0
+ACCT195,Financial Accounting 115 Practicum,0.5
+ACCT196,Managerial Accounting 116 Practicum,0.5
+ACCT320,Fundamentals of Accounting for New Ventures,4.0
+ACCT321,Financial Reporting I,4.0
+ACCT322,Financial Reporting II,4.0
+ACCT323,Financial Reporting III,4.0
+ACCT329,Advanced Accounting,4.0
+ACCT331,Cost Accounting,4.0
+ACCT341,Principles of Auditing,4.0
+ACCT344,Internal Auditing,4.0
+ACCT498,Special Topics in Accounting,12.0
+ACCT499,Independent Study,5.0
+ADGD200,Introduction to Advertising,4.0
+ADGD210,Print Advertising I,4.0
+ADGD310,Television and Web Advertising,4.0
+ADGD320,Print Advertising II,4.0
+ADGD496,Senior Thesis in Advertising Design,3.0
+AE220,Introduction to HVAC,3.5
+AE340,Architectural Illumination and Electrical Systems,3.0
+AE380,Special Topics in Architectural Engineering,0.5-12.0
+AE390,Architectural Engineering Design I,4.0
+AE391,Architectural Engineering Design II,4.0
+AE399,Independent Study in Architectural Engineering,12.0
+AE430,Control Systems for HVAC,3.0
+AFAS101,Introduction to Africana Studies,3.0
+AFAS201,Cross Currents in Africana Studies,3.0
+AFAS250,African American Herstories,3.0
+AFAS260,Race Politics and Religion,3.0
+AFAS295,Special Topics in Africana Studies,3.0
+AFAS298,Independent Study for Minors,0.5-3.0
+AFAS301,Politics of Hip Hop,3.0
+AFAS310,Women Crime & History,3.0
+AFAS385,Rum Rice and Revolution: Caribbean History,3.0
+AFAS395,Special Topics in Africana Studies,3.0
+AFAS401,Urban Social Justice Practicum I,3.0
+AFAS402,Urban Social Justice Practicum II,3.0
+ANAT101,Anatomy & Physiology I,5.0
+ANAT102,Anatomy & Physiology II,5.0
+ANAT103,Anatomy & Physiology III,5.0
+ANAT202,Sectional Anatomy,3.0
+ANAT420,Advanced Anatomy I,4.0
+ANAT421,Advanced Anatomy II,4.0
+ANIM140,Computer Graphics Imagery I,3.0
+ANIM141,Computer Graphic Imagery II,3.0
+ANIM152,Multimedia Timeline Design,3.0
+ANIM211,Animation I,3.0
+ANIM212,Animation II,3.0
+ANIM215,History of Animation,3.0
+ANIM219,Digital Compositing,3.0
+ANIM247,Organic Modeling,3.0
+ANIM248,Advanced Lighting,3.0
+ANIM314,Character Animation I,3.0
+ANIM315,Character Animation II,3.0
+ANIM321,Immersive Animation,3.0
+ANIM388,Spatial Data Capture,3.0
+ANIM399,Independent Project in Animation,0.5-12.0
+ANIM410,Visual Effects,3.0
+ANIM411,Advanced Animation,3.0
+ANIM435,Technical Directing for Animation,3.0
+ANIM465,Special Topics in Animation,3.0
+ANTH101,Introduction to Cultural Diversity,3.0
+ANTH110,Human Past: Anthropology and Prehistoric Archeology,3.0
+ANTH120,Biblical Archaeology: The Archaeology of Israel and Jordan,3.0
+ANTH210,Worldview: Science Religion and Magic,3.0
+ANTH212,Topics in World Ethnography,3.0
+ANTH215,Anthropology of Gender,3.0
+ANTH220,Aging In Cross-Cultural Perspective,3.0
+ANTH240,Urban Anthropology,3.0
+ANTH250,Anthropology of Immigration,3.0
+ANTH255,Psychological Anthropology,3.0
+ANTH310,Societies In Transition: The Impact of Modernization and the Third World,3.0
+ANTH312,Approaches to Intercultural Behavior,3.0
+ANTH330,Media Anthropology,3.0
+ANTH335,Anthropology of Education,3.0
+ANTH340,Crete Through The Looking Glass,3.0
+ANTH345,Visual Anthropology,3.0
+ANTH350,Anthropology of Language,3.0
+ANTH355,Anthropology of Cyberspace,3.0
+ANTH360,Culture and the Environment,3.0
+ANTH363,Sacred Traditions of the East,3.0
+ANTH365,Family and Kinship,3.0
+ANTH370,Ethnographic Methods,3.0
+ANTH380,Special Topics in Anthropology,3.0
+ANTH390,Seminar in Ethnography,3.0
+ANTH410,Cultural Theory,3.0
+ANTH499,Directed Studies in Anthropology,12.0
+ARBC101,Arabic I,4.0
+ARBC102,Arabic II,4.0
+ARBC103,Arabic III,4.0
+ARBC201,Arabic IV,4.0
+ARBC202,Arabic V,4.0
+ARBC203,Arabic VI,4.0
+ARBC301,Arabic VII,3.0
+ARBC302,Arabic VIII,3.0
+ARBC303,Arabic IX,3.0
+ARBC399,Arabic Advanced Independent Study,0.5-12.0
+ARBC411,Arabic - Introduction to Arabic Stylistics,3.0
+ARBC471,Arabic Civilization,3.0
+ARBC480,Arabic Minor Thesis Course,4.0
+ARCH101,Studio 1-A,4.5
+ARCH102,Studio 1-B,4.5
+ARCH103,Studio 2-A,4.5
+ARCH104,Studio 2-B,4.5
+ARCH105,Studio 3-A,4.5
+ARCH106,Studio 3-B,4.5
+ARCH111,Studio 1-1,3.0
+ARCH112,Studio 1-2,3.0
+ARCH113,Studio 1-3,3.0
+ARCH121,Studio 2-1,3.0
+ARCH122,Studio 2-2,3.0
+ARCH123,Studio 2-3,3.0
+ARCH131,Architectural Representation I-Drawing Basics,3.0
+ARCH132,Architectural Representation II-Drawing,3.0
+ARCH133,Architectural Representation III-Digital,4.0
+ARCH134,Architectural Representation IV-3D Modeling,4.0
+ARCH135,Architectural Representation V-Advanced Methods,3.0
+ARCH141,Architecture and Society I,3.0
+ARCH142,Architecture and Society II,3.0
+ARCH143,Architecture and Society III,3.0
+ARCH161,Architectural Construction,3.0
+ARCH171,Design Build,3.0
+ARCH191,Studio 1-1,3.0
+ARCH192,Studio 1-2,3.0
+ARCH231,Studio 3-1,3.0
+ARCH232,Studio 3-2,3.0
+ARCH233,Studio 3-3,3.0
+ARCH241,Studio 4-1,4.0
+ARCH242,Studio 4-2,4.0
+ARCH243,Studio 4-3,4.0
+ARCH261,Environmental Systems I,3.0
+ARCH262,Environmental Systems II,3.0
+ARCH263,Environmental Systems III,3.0
+ARCH271,Materials & Structural Behavior I,3.0
+ARCH272,Materials & Structural Behavior II,3.0
+ARCH273,Materials & Structural Behavior III,3.0
+ARCH315,Sustainable Built Environment I,3.0
+ARCH320,Sustainable Built Environment II,3.0
+ARCH321,General Lecture Series I,3.0
+ARCH322,General Lecture Series II,3.0
+ARCH335,Professional Practice I,3.0
+ARCH336,Professional Practice II,3.0
+ARCH341,Theories of Architecture I,3.0
+ARCH342,Theories of Architecture II,3.0
+ARCH343,Theories of Architecture III,3.0
+ARCH344,History of Modern Architecture I,3.0
+ARCH345,History of Modern Architecture II,3.0
+ARCH346,History of Philadelphia Architecture,3.0
+ARCH347,Summer Study Tour Abroad,6.0
+ARCH348,Studies in Vernacular Architecture,3.0
+ARCH351,Studio 5-1,4.0
+ARCH352,Studio 5-2,4.0
+ARCH353,Studio 5-3,4.0
+ARCH361,Studio 6-1,4.0
+ARCH362,Studio 6-2,4.0
+ARCH363,Studio 6-3,4.0
+ARCH399,Independent Study in Architecture,0.5-12.0
+ARCH421,Environmental Psychology and Design Theory,3.0
+ARCH431,Architectural Programming,3.0
+ARCH432,The Development Process,3.0
+ARCH441,Urban Design Seminar I,3.0
+ARCH442,Urban Design Seminar II,3.0
+ARCH451,Advanced Drawing,3.0
+ARCH455,Computer Applications in Architecture I,3.0
+ARCH456,Computer Applications in Architecture II,3.0
+ARCH463,Emerging Architectural Technology,3.0
+ARCH464,Building Enclosure Design,3.0
+ARCH465,Energy and Architecture,3.0
+ARCH491,Advanced Topics in Architecture,3.0
+ARCH496,Thesis I,8.0
+ARCH497,Thesis II,8.0
+ARCH498,Thesis III,8.0
+ARCH499,Special Topics in Architecture,3.0
+ARTH101,History of Art I: Ancient to Medieval,3.0
+ARTH102,History of Art II: High Renaissance to Modern,3.0
+ARTH103,History of Art- Early to Late Modern,3.0
+ARTH300,History of Modern Design,3.0
+ARTH301,Asian Art and Culture,3.0
+ARTH302,Art of India,3.0
+ARTH303,Art of China,3.0
+ARTH304,Art of Japan,3.0
+ARTH320,Art in the Age of Technology,3.0
+ARTH330,History of Interior Space and Furnishings,3.0
+ARTH335,History of Costume I: Preclassical to Directoire,3.0
+ARTH336,History of Costume II: Directoire to World War I,3.0
+ARTH337,History of Costume: Post World War I to Present,3.0
+ARTH340,Women in Art,3.0
+ARTH399,Independent Study In Art His,0.5-12.0
+ARTH465,Special Topics in Art History,3.0
+ARTH477,Art History Seminar,3.0
+AS-A351,Study Abroad Literature/Civics/Arts,12.0
+AS-A352,Study Abroad-Psychology and Sociology,20.0
+AS-A353,Study Abroad-History/Political Science,20.0
+AS-A354,Study Abroad-European Union,12.0
+AS-A398,Independent Research Project - Study Abroad,12.0
+AS-A399,Study Abroad - Independent Study,12.0
+AS-I103,AIDS 101,3.0
+AS-I180,Interdisciplinary Study in the Arts & Sciences,1.0-3.0
+AS-I265,Special Interdisciplinary Study in Arts & Sciences,0.5-6.0
+BACS100,Life Span Human Development,3.0
+BACS200,Foundation of Behavioral Health Care,3.0
+BACS210,Behavioral Disorders,3.0
+BACS220,Counseling Theory and Practice,3.0
+BACS230,Genetics and Mental Health,3.0
+BACS232,Ethics and Professional Responsibility,3.0
+BACS234,Introduction to Addictive Disorders,3.0
+BACS236,Psychiatric Rehabilitation Principles and Practices,3.0
+BACS250,Behavioral Health Informatics,3.0
+BACS255,Multicultural Counseling,3.0
+BACS301,Group Counseling I,3.0
+BACS304,Cognitive and Behavioral Counseling I,3.0
+BACS310,Recovery and Relapse Prevention,3.0
+BACS312,Case Management Methods,3.0
+BACS320,Crisis and Brief Intervention,3.0
+BACS325,Psychopharmacology for Counselors,3.0
+BACS350,Child Psychopathology,3.0
+BACS360,Preventing Substance Abuse,3.0
+BACS367,Advanced Counseling Intervention,3.0
+BACS368,Addictions Counseling with Special Populations,3.0
+BACS370,Problem Gambling Interventions,3.0
+BACS390,Special Topics in Mental Health,3.0
+BACS401,Assessment and Treatment Planning,3.0
+BACS404,Cognitive and Behavioral Counseling II,3.0
+BACS405,Family-Focused Interventions,3.0
+BACS410,Child and Adolescent Support,3.0
+BACS411,Forensic Behavior Health Service,3.0
+BACS412,Group Counseling II,3.0
+BACS414,Co-Occurring Disorders,3.0
+BACS420,Psychiatric Rehabilitation Competencies,3.0
+BACS490,Senior Research Project,3.0
+BACS499,Readings in Behavioral Health,1.0-6.0
+BET301,Healthcare Technology,3.0
+BET302,Biomedical Electronics,4.0
+BET303,Medical Imaging Systems,3.0
+BET305,Clinical Laboratory Equipment,3.0
+BIO100,Applied Cells Genetics & Physiology,3.0
+BIO101,Applied Biological Diversity Ecology & Evolution,3.0
+BIO107,Cells Genetics & Physiology,3.0
+BIO108,Cells Genetics and Physiology Laboratory,1.0
+BIO109,Biological Diversity Ecology & Evolution,3.0
+BIO110,Biological Diversity Ecology and Evolution Laboratory,1.0
+BIO112,Biotechnology for Society,3.0
+BIO116,How Your Body Works-Or Not,3.0
+BIO118,Basics of Cancer,3.0
+BIO122,Cells and Genetics,4.5
+BIO124,Evolution & Organismal Diversity,4.5
+BIO126,Physiology and Ecology,4.5
+BIO141,Essential Biology,4.5
+BIO153,Anatomy and Physiology I,4.0
+BIO154,Anatomy and Physiology II,4.0
+BIO155,Anatomy and Physiology III,4.0
+BIO161,General Biology I,3.0
+BIO162,General Biology II,3.0
+BIO163,General Biology III,3.0
+BIO164,General Biology Laboratory I,1.0
+BIO165,General Biology Laboratory II,1.0
+BIO166,General Biology Laboratory III,1.0
+BIO201,Human Physiology I,4.0
+BIO202,Human Physiology Laboratory,2.0
+BIO203,Human Physiology II,4.0
+BIO212,Biotechnology,3.0
+BIO214,Principles of Cell Biology,3.0
+BIO215,Techniques in Cell Biology,2.5
+BIO217,Evolution,4.0
+BIO218,Principles of Molecular Biology,4.0
+BIO219,Techniques in Molecular Biology,2.5
+BIO220,Essential Microbiology,3.0
+BIO221,Microbiology,3.0
+BIO222,Microbiology Laboratory,2.0
+BIO223,Parasitology,3.0
+BIO224,Form Function & Evolution of Vertebrates,4.0
+BIO225,Vertebrate Biology and Evolution Laboratory,2.0
+BIO226,Microbiology for Health Professionals,5.0
+BIO227,Exploring Parasites,2.0
+BIO231,Cell Physiology,3.0
+BIO244,Genetics I,3.0
+BIO256,Vertebrate Morphology and Physiology,5.0
+BIO260,Plant Biology I,4.0
+BIO262,Plant Biology II,4.0
+BIO264,Ethnobotany,3.0
+BIO270,Development Biology,3.0
+BIO271,Developmental Biology Laboratory,2.0
+BIO284,Biology of Stress,3.0
+BIO306,Biochemistry Laboratory,2.0
+BIO310,Comparative Physiology,3.0
+BIO311,Biochemistry,4.0
+BIO312,Genetically Modified Foods,2.0
+BIO313,Comparative Physiology Laboratory,2.0
+BIO314,Pharmacology,3.0
+BIO318,Biology of Cancer,3.0
+BIO320,Microbial Pathogenesis,3.0
+BIO322,Mycology,4.5
+BIO331,Bioinformatics I,3.0
+BIO332,Bioinformatics II,3.0
+BIO333,Bioinformatics Laboratory,2.0
+BIO346,Stem Cell Research,3.0
+BIO368,Embryology,4.0
+BIO370,Teratology,3.0
+BIO386,Gross Anatomy,3.0
+BIO387,Gross Anatomy Laboratory,2.0
+BIO404,Structure and Function of Biomolecules,4.0
+BIO406,Computational Biochemistry Laboratory,2.0
+BIO412,Biology of Aging,3.0
+BIO413,Genomics,3.0
+BIO415,Proteins,3.0
+BIO416,Biochemistry of Major Diseases,3.0
+BIO420,Virology,3.0
+BIO421,Biomembranes,3.0
+BIO424,Microbial Physiology,3.0
+BIO426,Immunology,3.0
+BIO427,Immunology Laboratory,2.0
+BIO430,Cell Biology of Disease,3.0
+BIO433,Advanced Cell Biology,3.0
+BIO434,Advanced Cell Biology Laboratory,2.0
+BIO435,Immunobiology of Disease,3.0
+BIO442,Modeling Methods in Biology I,3.0
+BIO443,Modeling Methods in Biology II,3.0
+BIO444,Human Genetics,3.0
+BIO445,Microbial Genetics,3.0
+BIO447,Advanced Genetics and Molecular Biology,3.0
+BIO449,Recombinant DNA Laboratory,5.0
+BIO451,Genetic Reg Development,3.0
+BIO453,Protein Dysfunction in Disease,3.0
+BIO462,Biology of Neuron Function,3.0
+BIO463,Molecular Mechanisms of Neurodegeneration,3.0
+BIO465,Neurobiology of Disease,3.0
+BIO466,Endocrinology,4.0
+BIO471,Seminar in Biological Sciences,2.0
+BIO472,Seminar in Biological Sciences,2.0
+BIO473,Seminar in Biological Sciences,2.0
+BIO480,Special Studies Biological Science,12.0
+BIO497,Research,0.5-12.0
+BIO498,Independent Study,0.5-12.0
+BLAW201,Business Law I,4.0
+BLAW202,Business Law II,4.0
+BLAW321,Law of Business Organizations,4.0
+BLAW330,Real Estate,4.0
+BLAW334,Labor Law,4.0
+BLAW338,Government Regulation and Business,4.0
+BLAW340,International Business Law,4.0
+BLAW342,Criminal Law,4.0
+BLAW346,Entrepreneurial Law,4.0
+BLAW348,White Collar Crime,4.0
+BLAW350,Life Insurance,3.0
+BLAW354,Property and Liability Insurance,3.0
+BLAW356,Legal Issues in Corporate Governance,4.0
+BLAW358,Employment Law,4.0
+BLAW360,Intellectual Property and Cyber Law,4.0
+BLAW481,Special Topics in Business Law,1.0-4.0
+BLAW498,Special Topics in Legal Studies,1.0-4.0
+BLAW499,Independent Study,1.0-4.0
+BMES124,Biomedical Engineering Freshman Seminar I,1.0
+BMES125,Foundations of Biomedical Engineering,2.0
+BMES126,Biomedical Engineering Freshman Seminar II,1.0
+BMES130,Problem Solving in Biomedical Engineering,2.0
+BMES201,Programming and Modeling for Biomedical Engineers I,3.0
+BMES202,Programming and Modeling for Biomedical Engineers ll,3.0
+BMES212,The Body Synthetic,3.0
+BMES235,Living Systems Engineering,4.0
+BMES301,Laboratory I: Experimental Biomechanics,2.0
+BMES302,Laboratory II: Biomeasurements,2.0
+BMES303,Laboratory III: Biomedical Electronics,2.0
+BMES304,Laboratory IV: Ultrasound Images,2.0
+BMES305,Laboratory V: Musculoskeletal Anatomy for Biomedical Engineers,2.0
+BMES310,Biomedical Statistics,4.0
+BMES315,Experimental Design in Biomedical Research,4.0
+BMES325,Principles of Biomedical Engineering I,3.0
+BMES326,Principles of Biomedical Engineering II,3.0
+BMES330,Biological Rhythm in Pharmacology and Toxicology,3.0
+BMES331,Computers in Health Systems I,3.0
+BMES332,Computers in Health Systems II,3.0
+BMES335,Biomedical Informatics I,3.0
+BMES336,Biomedical Informatics II: Hospital and Patient Information,3.0
+BMES338,Biomedical Ethics and Law,3.0
+BMES340,Health Care Administration,3.0
+BMES345,Mechanics of Biological Systems,3.0
+BMES350,Med & Bio Effects Of Light,3.0
+BMES363,Robotics in Medicine I,3.0
+BMES365,Robotics in Medicine II,3.0
+BMES372,Biosimulation,3.0
+BMES375,Computational Bioengineering,4.0
+BMES381,Junior Design Seminar I,2.0
+BMES382,Junior Design Seminar II,2.0
+BMES391,Biomedical Instrumentation I,3.0
+BMES392,Biomedical Instrumentation II,3.0
+BMES401,Biosensors I,4.0
+BMES402,Biosensors II,4.0
+BMES403,Biosensors III,4.0
+BMES405,Physiological Control Systems,3.0
+BMES409,Entrepreneurship for BMES,3.0
+BMES411,Chronoengineering I: Biological Rhythms in Health and Performance,3.0
+BMES412,Chronoengineering II: Sleep Functions in Health and Performance,3.0
+BMES421,Biomedical Imaging Systems I: Images,4.0
+BMES422,Biomedical Imaging Systems II: Ultrasound,4.0
+BMES423,Biomedical Imaging Systems III,4.0
+BMES430,Neural Aspects of Posture and Locomotion,3.0
+BMES432,Biomedical Systems and Signals,3.0
+BMES440,Introduction to Biodynamics,3.0
+BMES441,Biomechanics I: Introduction to Biomechanics,4.0
+BMES442,Biomechanics II: Musculoskeletal Modeling and Human Performance,4.0
+BMES443,Biomechanics III: Mechanics of Biological Tissues Implant Technology and Prosthetics,4.0
+BMES444,Biofluid Mechanics,3.0
+BMES451,Transport Phenomena in Living Systems,4.0
+BMES452,Transport Phenomena in Living Systems II,3.0
+BMES460,Biomaterials I,4.0
+BMES461,Biomaterials II,4.0
+BMES466,Robotics in Medicine III,3.0
+BMES471,Cellular and Molecular Foundations of Tissue Engineering,4.0
+BMES472,Developmental and Evolutionary Foundations of Tissue Engineering,4.0
+BMES475,Biomaterials and Tissue Engineering III,4.0
+BMES477,Neuroengineering I: Neural Signals,3.0
+BMES478,Neuroengineering II: Principles of Neuroengineering,3.0
+BMES480,Special Topics in Biomedical Engineering & Sciences,12.0
+BMES483,Quantitative Systems Biology,4.5
+BMES484,Genome Information Engineering,4.5
+BMES488,Medical Device Development,3.0
+BMES491,Senior Design Project I,3.0
+BMES492,Senior Design Project II,2.0
+BMES493,Senior Design Project III,3.0
+BMES494,Clinical Practicum I,3.0
+BMES495,Clinical Practicum II,3.0
+BMES496,Clinical Practicum III,3.0
+BMES499,Independent Study in Biomedical Engineering and Science,0.5-6.0
+BUSN101,Foundations of Business I,4.0
+BUSN102,Foundations of Business II,4.0
+BUSN103,Advanced First Year Business Seminar,2.0
+BUSN104,Career Management for Non Co-op Students,0.0
+BUSN110,Orientation Seminar for Evening Students,1.0
+BUSN111,Foundations for Business,4.0
+BUSN112,Career Management Business Residency,4.0
+BUSN200,Introductory Seminar in Business Research,4.0
+BUSN211,Peer Mentoring & Leadership Practicum,2.0
+BUSN301,Accounting and Finance for Nonfinancial Professionals,3.0
+BUSN399,Independent Study in Business,0.5-12.0
+BUSN401,Special Topics in Business I,1.0
+BUSN402,Special Topics in Business II,2.0
+BUSN430,Mentoring & Leadership Development Practicum,2.0
+BUSN431,Mentoring & Leadership Development Practicum,2.0
+BUSN432,Leadership & Mentoring Practicum,4.0
+BUSN451,Business Consulting,4.0
+BUSN460,Business Analytics Senior Project,4.0
+BUSN481,Special Topics in Business,0.5-12.0
+BUSN498,Special Topics in General Business,12.0
+BUSN499,Independent Study in General Business,0.5-20.0
+CAE491,Senior Design Project I,3.0
+CAE492,Senior Design Project II,3.0
+CAE493,Senior Design Project III,3.0
+CAEE201,Introduction to Infrastructure Engineering,3.0
+CAEE210,Measurements in Civil Architectural and Environmental Engineering I,3.0
+CAEE211,Measurements in Civil Architectural and Environmental Engineering II,4.0
+CAT180,Special Topics in Communications and Applied Technology,1.0-4.0
+CAT200,Strategies for Lifelong Learning,3.0
+CAT201,Interpersonal Communication,3.0
+CAT215,Emerging Trends of Video Games,3.0
+CAT302,Customer Service Theory and Practice,3.0
+CAT303,Client Relations Management,3.0
+CAT315,Expressive Power of Video Games,3.0
+CAT360,Applied Organizational Research,3.0
+CAT380,Advanced Special Topics in Communications and Applied Technology,0.5-12.0
+CAT399,Independent Study in Communications and Applied Technology,0.5-6.0
+CAT491,Senior Project in Communications and Applied Technology I,3.0
+CAT492,Senior Project in Communications and Applied Technology,3.0
+CDA399,Independent Study,0.5-12.0
+CDA465,Special Topics,12.0
+CHE201,Process Material Balances,3.0
+CHE202,Process Energy Balances,3.0
+CHE206,Basic Chemical Engineering Thermodynamics,3.0
+CHE250,Chemical Engineering Process Principles,3.0
+CHE301,Process Thermodynamics,3.0
+CHE302,Process Fluid Mechanics,4.0
+CHE303,Process Heat Transfer,3.0
+CHE304,Process Mass Transfer,4.0
+CHE305,Process Separations,4.0
+CHE307,Process Modeling I,4.0
+CHE308,Process Modeling II,4.0
+CHE310,Transport Phenomena,4.0
+CHE311,Fluid Flow and Transport,3.0
+CHE332,Chemical Engineering Laboratory,2.0
+CHE333,Chemical Engineering Laboratory II,2.0
+CHE334,Chemical Engineering Laboratory III,2.0
+CHE335,Statistics and Design of Experiments,3.0
+CHE360,BioProcess Principles,3.0
+CHE399,Special Problems in Chemical Engineering,1.0-12.0
+CHE400,Special Topics in Chemical Engineering,3.0
+CHE420,Process Systems Engineering,3.0
+CHE424,Chemical Kinetics and Reactor Design,4.0
+CHE450,Chemical Process Industries,3.0
+CHE451,Safety Engineering,3.0
+CHE452,Polymer Process Technology,3.0
+CHE460,Biochemical Engineering,3.0
+CHE481,Process Design I,3.0
+CHE482,Process Design II,3.0
+CHE483,Process Design III,3.0
+CHEC352,Physical Chemistry and Applications II,4.0
+CHEC353,Physical Chemistry and Applications III,4.0
+CHEM050,Preparatory Chemistry,0.0
+CHEM100,Chemistry,2.0
+CHEM101,General Chemistry I,3.5
+CHEM102,General Chemistry II,4.5
+CHEM103,General Chemistry III,5.0
+CHEM108,Health Chemistry I,3.0
+CHEM110,Environmental Chemistry,2.0
+CHEM111,General Chemistry I,4.0
+CHEM112,General Chemistry II,4.0
+CHEM113,General Chemistry I Laboratory,1.5
+CHEM114,General Chemistry II Laboratory,1.5
+CHEM121,Majors Chemistry I,5.0
+CHEM122,Majors Chemistry II,5.0
+CHEM123,Majors Chemistry III,5.5
+CHEM151,Applied Chemistry,3.0
+CHEM161,General Chemistry I,3.0
+CHEM162,General Chemistry II,3.0
+CHEM163,General Chemistry III,3.0
+CHEM164,General Chemistry Laboratory I,2.0
+CHEM165,General Chemistry Laboratory II,2.5
+CHEM201,Why Things Work: Everyday Chemistry,3.0
+CHEM230,Quantitative Analysis,4.0
+CHEM231,Quantitative Analysis Laboratory,2.0
+CHEM241,Organic Chemistry I,4.0
+CHEM242,Organic Chemistry II,4.0
+CHEM243,Organic Chemistry III,3.0
+CHEM244,Organic Chemistry Laboratory I,3.0
+CHEM245,Organic Chemistry Laboratory II,3.0
+CHEM246,Organic Chemistry for Majors I,6.5
+CHEM248,Organic Chemistry for Majors II,6.5
+CHEM249,Organic Chemistry for Majors III,7.0
+CHEM251,Physical Chemistry I,3.0
+CHEM253,Thermodynamics and Kinetics,4.0
+CHEM256,Physical Chemistry for Biological Sciences,4.5
+CHEM270,Software Skills for Chemists,3.0
+CHEM346,Qualitative Organic Chemistry,5.5
+CHEM355,Physical Chemistry IV,3.0
+CHEM356,Physical Chemistry Laboratory,2.0
+CHEM357,Physical Chemistry Laboratory I,2.5
+CHEM358,Physical Chemistry Laboratory II,2.5
+CHEM359,Atomic and Molecular Spectroscopy,3.0
+CHEM361,Advanced Organic Chemistry Laboratory,2.5
+CHEM364,Spectroscopic Analysis,3.0
+CHEM367,Chemical Information Retrieval,3.0
+CHEM371,Chemistry of Biomolecules,3.0
+CHEM420,Molecular Symmetry and Group Theory Applied Chemistry,3.0
+CHEM421,Inorganic Chemistry I,3.0
+CHEM422,Inorganic Chemistry II,3.0
+CHEM424,Special Chemistry Problems,0.5-12.0
+CHEM425,Inorganic Chemistry Laboratory,4.0
+CHEM430,Analytical Chemistry I,3.0
+CHEM431,Analytical Chemistry II,4.0
+CHEM465,Synthetic Polymer Chemistry,3.0
+CHEM466,Physical Chemistry of Polymers,3.0
+CHEM467,Polymer Chemistry III,3.0
+CHEM480,Special Topics in Chemistry,5.0
+CHEM493,Senior Research Project,0.5-12.0
+CHEM497,Research,0.5-12.0
+CHIN101,Chinese I,4.0
+CHIN102,Chinese II,4.0
+CHIN103,Chinese III,4.0
+CHIN201,Chinese IV,4.0
+CHIN202,Chinese V,4.0
+CHIN203,Chinese VI: Conversation & Composition,4.0
+CHIN301,Chinese VII,3.0
+CHIN302,Chinese VIII,3.0
+CHIN303,Chinese lX,3.0
+CHIN399,Advanced Independent Study in Chinese,0.5-12.0
+CHIN411,Introduction to Chinese Stylistics,3.0
+CHIN431,Introduction to Chinese Literature,3.0
+CHIN451,Introduction to Business and Professional Chinese,3.0
+CHIN480,Chinese Minor Thesis Course,4.0
+CIT336,Introduction to Complementary & Integrative Therapies,3.0
+CIT345,Holistic Self-Care,3.0
+CIT480,Special Topics in Complementary and Integrative Therapies,3.0
+CIVC100,Foundations of Civic Engagement,3.0
+CIVC101,Introduction to Civic Engagement,1.0
+CIVC200,Active Citizenship and Community-Based Learning,3.0
+CIVC201,Civic Engagement Leadership,3.0
+CIVC202,University-Community Partnerships,3.0
+CIVC299,Special Topics in Civic Engagement,3.0
+CIVC450,Independent Study,1.0-3.0
+CIVC490,Capstone Project in Civic Engagement,3.0
+CIVE240,Engineering Economic Analysis,3.0
+CIVE250,Construction Materials,4.0
+CIVE251,Engineering Surveying,3.0
+CIVE261,Materials and Structural Behavior I,3.0
+CIVE262,Materials and Structural Behavior II,3.0
+CIVE263,Materials and Structural Behavior III,3.0
+CIVE300,Theory of Structures I,3.0
+CIVE301,Theory of Structures II,4.0
+CIVE310,Soil Mechanics I,4.0
+CIVE320,Introduction to Fluid Flow,3.0
+CIVE330,Hydraulics,4.0
+CIVE341,Municipal Water Facilities,3.0
+CIVE370,Introduction to Structural Analysis,3.0
+CIVE371,Introduction to Structural Design,3.0
+CIVE372,Structural Laboratory,1.0
+CIVE375,Structural Material Behavior,3.0
+CIVE380,Special Topics in Civil Engineering,12.0
+CIVE399,Independent Study in Civil Engineering,12.0
+CIVE400,Structural Design I,3.0
+CIVE401,Structural Design II,3.0
+CIVE402,Structural Design III,3.0
+CIVE410,Foundation Engineering,3.0
+CIVE420,Water and Waste Treatment I,3.0
+CIVE430,Hydrology,3.0
+CIVE431,Hydrology-Ground Water,3.0
+CIVE432,Water Resources Design,3.0
+CIVE477,Seminar,2.0
+CIVE478,Seminar,1.0
+CJ204,Criminology,3.0
+CJ206,Criminal Justice,3.0
+CJ265,Criminal Investigation,3.0
+CJ266,Crime Prevention Planning,3.0
+CJ267,Introduction to Security Studies,3.0
+CJ273,Surveillance Technology and the Law,3.0
+CJ274,Sex Violence & Crime on the Internet,3.0
+CJ275,Issues in Domestic Violence,3.0
+CJ276,Introduction to Computer Crime,3.0
+CJ277,Introduction to Correctional Practices,3.0
+CJ278,Introduction to Law Enforcement,3.0
+CJ280,Communities and Crime,3.0
+CJ282,Community Policing,3.0
+CJ289,Terrorism,3.0
+CJ290,Crime and Public Policy,3.0
+CJ360,Juvenile Justice,3.0
+CJ362,Gender Crime and Justice,3.0
+CJ364,Community Corrections,3.0
+CJ365,Computer Investigation and the Law,3.0
+CJ369,Forensic Science Survey Course,3.0
+CJ372,Death Penalty - An American Dilemma,3.0
+CJ373,Environmental Crimes,3.0
+CJ374,Restorative Justice,3.0
+CJ375,Criminal Procedure,3.0
+CJ376,Sentencing: The History Necessity and Morality of Punishment in America,3.0
+CJ377,Intellectual Property Theft in the Digital Age,3.0
+CJ378,Science of Forensic Science,3.0
+CJ379,Forensic DNA Analysis,3.0
+CJ380,Special Topics,3.0
+CJ381,Legal Research and Writing I,3.0
+CJ382,Legal Research and Writing II,3.0
+CJ390,Internships in Criminal Justice,3.0-6.0
+CJ399,Independent Study,0.5-12.0
+CJ400,Critical Issues in Criminal Justice,3.0
+CMGT101,Introduction to Construction Management,3.0
+CMGT161,Building Materials and Construction Methods I,3.0
+CMGT162,Building Materials and Construction Methods II,3.0
+CMGT163,Building Materials and Construction Methods III,3.0
+CMGT240,Economic Planning for Construction,3.0
+CMGT251,Construction Surveying,3.0
+CMGT261,Construction Safety,3.0
+CMGT262,Building Codes,3.0
+CMGT263,Understanding Construction Drawings,3.0
+CMGT264,Construction Management of Field Operations,3.0
+CMGT265,Information Technologies in Construction,3.0
+CMGT266,Building Systems I,3.0
+CMGT267,Building Systems II,3.0
+CMGT355,Introduction to Sustainability in Construction,3.0
+CMGT361,Contracts And Specifications I,3.0
+CMGT362,Contracts and Specifications II,3.0
+CMGT363,Estimating I,3.0
+CMGT364,Estimating II,3.0
+CMGT365,Soil Mechanics in Construction,4.0
+CMGT366,Construction Accounting and Financial Management,3.0
+CMGT371,Structural Aspects in Construction I,3.0
+CMGT372,Structural Aspects in Construction II,3.0
+CMGT380,Special Topics in Construction Management,12.0
+CMGT450,Construction Management of Field Operations,3.0
+CMGT451,Heavy Construction Principles & Practices,3.0
+CMGT461,Construction Management,3.0
+CMGT463,Value Engineering,3.0
+CMGT465,Marketing Construction Services,3.0
+CMGT467,Techniques of Project Control,4.0
+CMGT468,Real Estate,3.0
+CMGT469,Construction Seminar: Contemporary Issues,3.0
+CMGT470,Productivity in Construction,3.0
+CMGT499,Construction Management Independent Study Project,0.5-4.0
+COM101,Human Communication,3.0
+COM111,Principles of Communication,3.0
+COM150,Mass Media and Society,3.0
+COM210,Theory and Models of Communication,3.0
+COM220,Qualitative Research Methods,3.0
+COM230,Techniques of Speaking,3.0
+COM240,New Technologies In Communication,3.0
+COM246,Media and Identity,3.0
+COM260,Fundamentals of Journalism,3.0
+COM265,Radio Journalism,3.0
+COM270,Business Communication,3.0
+COM280,Public Relations Principles and Theory,3.0
+COM282,Public Relations Writing,3.0
+COM284,Public Relations Research Measurement and Evaluation,3.0
+COM286,Public Relations Strategies and Tactics,3.0
+COM290,Sports and the Mass Media,3.0
+COM300,On-line Journalism,3.0
+COM305,Sports Journalism,3.0
+COM310,Technical Communication,3.0
+COM311,Dynamics of Interpersonal Communication,3.0
+COM315,Investigative Journalism,3.0
+COM316,Campaigns for Health & Environment,3.0
+COM317,Environmental Communication,3.0
+COM318,Film Celebrity and the Environmental Movement,3.0
+COM320,Science Writing,3.0
+COM325,The Cultural Significance of Fame,3.0
+COM330,Professional Presentations,3.0
+COM335,Electronic Publishing,3.0
+COM340,Desktop Publishing,3.0
+COM342,English Worldwide,3.0
+COM345,Intercultural Communication,3.0
+COM350,Message Design and Evaluation,3.0
+COM351,Computer Mediated Communication,3.0
+COM352,Social Media and Communication,3.0
+COM355,Ethnography of Communication,3.0
+COM360,International Communication,3.0
+COM361,International Public Relations,3.0
+COM362,International Negotiations,3.0
+COM363,Event Planning,3.0
+COM365,Journalists the Courts and the Law,3.0
+COM370,Advanced Business Writing,3.0
+COM375,Grant Writing,3.0
+COM380,Special Topics in Communication Theory,3.0
+COM384,Free Speech & Censorship,3.0
+COM385,Media Effects,3.0
+COM386,Public Relations Campaign Planning,3.0
+COM390,Global Journalism,3.0
+COM399,Independent Project,0.5-12.0
+COM400,Seminar in Communication,3.0
+COM410,Advanced Technical Writing,3.0
+COM420,Technical Editing,3.0
+COM491,Senior Project in Communication I,3.0
+COM492,Senior Project in Communication II,3.0
+COOP001,Co-op Essentials,0.0
+COOP101,Career Management and Professional Development,0.0
+COOP201,Co-op Experience,16.0
+COOP250,Professional Skills Enrichment,0.0
+COOP301,Co-op/Internship Experience,16.0
+CRTV301,Foundations in Creativity,3.0
+CRTV302,Tools and Techniques in Creativity,3.0
+CRTV303,Creativity in the Workplace,3.0
+CRTV380,Special Topics in Creativity Studies,0.5-12.0
+CS121,Computation Laboratory I,1.0
+CS122,Computation Laboratory II,1.0
+CS123,Computation Laboratory III,1.0
+CS132,Computer Programming B,3.0
+CS133,Computer Programming C,3.0
+CS140,Introduction to Multimedia Programming,3.0
+CS143,Computer Programming Fundamentals,3.0
+CS161,Introduction to Computing,3.0
+CS164,Introduction to Computer Science,3.0
+CS171,Computer Programming I,3.0
+CS172,Computer Programming II,3.0
+CS175,Computer Programming I-II,3.0
+CS190,Selected Computer Language,3.0
+CS203,Programming for Engineers,3.0
+CS204,Advanced Programming for Engineers,3.0
+CS260,Data Structures,3.0
+CS265,Advanced Programming Tools and Techniques,3.0
+CS270,Mathematical Foundations of Computer Science,3.0
+CS275,Web and Mobile App Development,3.0
+CS280,Special Topics in Computer Science,12.0
+CS281,Systems Architecture,4.0
+CS283,Systems Programming,3.0
+CS300,Applied Symbolic Computation,3.0
+CS303,Algorithmic Number Theory and Cryptography,3.0
+CS337,The Psychology of Human-Computer Interaction,3.0
+CS338,Graphical User Interfaces,3.0
+CS345,Computer Game Design and Development,3.0
+CS347,Experimental Game Development,3.0
+CS348,Serious Game Development,3.0
+CS350,Software Design,3.0
+CS352,Processor Architecture & Analysis,3.0
+CS360,Programming Language Concepts,3.0
+CS361,Concurrent Programming,3.0
+CS365,System Administration,3.0
+CS370,Operating Systems,3.0
+CS380,Artificial Intelligence,3.0
+CS383,Machine Learning,3.0
+CS385,Evolutionary Computing,3.0
+CS387,Game AI Development,3.0
+CS430,Computer Graphics,3.0
+CS431,Advanced Rendering Techniques,3.0
+CS432,Interactive Computer Graphics,3.0
+CS435,Computational Photography,3.0
+CS440,Theory of Computation,3.0
+CS441,Compiler Workshop I,3.0
+CS442,Compiler Workshop II,3.0
+CS445,Topics in Computer Gaming,3.0
+CS451,Software Engineering,3.0
+CS457,Data Structures and Algorithms I,3.0
+CS458,Data Structures and Algorithms II,3.0
+CS461,Database Systems,3.0
+CS470,Operating Systems Workshop,3.0
+CS472,Computer Networks: Theory Applications and Programming,3.0
+CS475,Computer and Network Security,3.0
+CS476,High Performance Computing,3.0
+CS480,Special Topics in Computer Science,12.0
+CS481,Advanced Artificial Intelligence,3.0
+CS485,Special Topics in Artificial Intelligence,3.0
+CS491,Software Engineering Workshop,3.0
+CS492,Software Engineering Workshop II,3.0
+CS493,Software Engineering Workshop III,3.0
+CS498,Independent Study in Computer Science,12.0
+CSDN101,Introduction to Multi-Disciplinary Methods,1.0
+CSDN102,Knowledge by Design Seminar,1.0
+CSDN203,Custom-Designed Major Seminar,1.0
+CSDN304,Custom-Designed Major Proj I,3.0
+CSDN305,Custom-Designed Major Project II,3.0
+CSDN306,Custom-Designed Major Project III,3.0
+CSDN307,Custom-Design Major Independent Study,1.0-3.0
+CT100,Microcomputer Hardware,3.0
+CT120,Microcomputer Operating System,3.0
+CT140,Network Administration I,3.0
+CT200,Server I,3.0
+CT210,Linux I,3.0
+CT212,Computer Forensics I: Fundamentals,3.0
+CT214,Computer Forensics II: Forensics and Investigations,3.0
+CT215,Computer Forensics III: Advanced Computer Forensics,3.0
+CT220,Database I,3.0
+CT222,Security and Information Warfare,3.0
+CT225,Data Mining Technology for Security,3.0
+CT230,Web Development I,3.0
+CT240,Web Development II,3.0
+CT290,Client Side Programming,3.0
+CT295,Public Key Infrastructure Technology,3.0
+CT300,Security Technology Models and Architecture I,3.0
+CT310,Linux II,3.0
+CT312,Access Control and Intrusion Detection Technology,3.0
+CT315,Security Management Practice,3.0
+CT320,Server II,3.0
+CT325,Operating System Security Architecture I,3.0
+CT326,Operating System Security Architecture II,3.0
+CT330,Network Administration II,3.0
+CT336,Internet Protocol Security and Virtual Private Network Technology,3.0
+CT339,Computing and Security Technology Practicum,3.0
+CT340,Operating Systems Architecture I,3.0
+CT350,Network Administration III,3.0
+CT355,Wireless Network Security Technology,3.0
+CT360,Operating Systems Architecture II,3.0
+CT362,Network Auditing Tools,3.0
+CT370,Object Oriented Systems Analysis,3.0
+CT375,Database II,3.0
+CT380,Operating Systems Architecture III,3.0
+CT382,Applied Cryptography,3.0
+CT385,Web Development III,3.0
+CT388,Topics in Computing Technology I,3.0
+CT389,Topics in Computing Technology II,3.0
+CT390,Server Side Programming,3.0
+CT392,Web Development IV,3.0
+CT393,Information Technology Security Risk Assessment,3.0
+CT395,Information Technology Security I,3.0
+CT399,Independent Study in Computing Security and Technology,0.5-6.0
+CT400,Network Security,3.0
+CT402,Network Security II,3.0
+CT405,Enterprise Programming,3.0
+CT407,Network Security III,3.0
+CT410,Linux III,3.0
+CT412,Information Technology Security Policies,3.0
+CT415,Disaster Recovery and Continuity Planning,3.0
+CT420,Information Technology Security II,3.0
+CT422,Incident Response Best Practices,3.0
+CT425,Database III,3.0
+CT427,E-Commerce and Web Security Technology,3.0
+CT430,Database IV,3.0
+CT431,Project Management,3.0
+CT432,Information Technology Security Systems Audits,3.0
+CT435,Database V,3.0
+CT438,Database VI,3.0
+CT472,Security Defense Countermeasures,3.0
+CT491,Senior Project I,3.0
+CT496,Senior Project II,3.0
+CULA115,Culinary Fundamentals,3.0
+CULA120,Techniques and Traditions I,3.0
+CULA121,Techniques and Traditions II,3.0
+CULA125,Foundations of Professional Baking,3.0
+CULA216,A la Carte,3.0
+CULA220,Patisserie I,2.0
+CULA225,Patisserie II,2.0
+CULA226,Patisserie III,2.0
+CULA235,Professional Dining Room Management,2.0
+CULA240,Fundamentals of Chinese Cuisine,3.0
+CULA290,Culinary Arts Practicum I,3.0
+CULA291,Culinary Arts Practicum II,6.0
+CULA300,Fundamentals of Vegetarian Cuisine,3.0
+CULA305,Fundamentals of Italian Cuisine,3.0
+CULA306,Advanced Italian Cuisine,3.0
+CULA310,Fundamentals of French Cuisine,3.0
+CULA311,Advanced French Technique,3.0
+CULA315,Fundamentals of American Cuisine,3.0
+CULA316,Butchery Laboratory,2.0
+CULA320,Advanced Culinary Studio,3.0
+CULA325,Garde Manger Laboratory,3.0
+CULA330,Charcuterie,3.0
+CULA335,Fundamentals of Indian Cuisine,3.0
+CULA399,Independent Study in Culinary Arts,12.0
+CULA400,Directed Studies with a Master Chef,3.0
+CULA405,Culture and Gastronomy I,3.0
+CULA410,Culture and Gastronomy II,3.0
+CULA412,Food Writing for Culinary Professionals,3.0
+CULA415,Food Styling and Show Competition,3.0
+CULA420,Senior Design Project,3.0
+CULA425,The Kitchen Garden,3.0
+CULA426,The Kitchen Garden: Summer,3.0
+CULA427,The Kitchen Garden: Fall,3.0
+CULA465,Special Topics,3.0
+CUST380,Special Topics in Customer Operations,0.5-12.0
+CUST401,Customer Service Practicum I,4.0
+CUST402,Customer Service Practicum II,4.0
+CUST403,Customer Service Practicum III,4.0
+CVPT101,Perfusion Technology I,3.0
+CVPT289,Cardiac Anatomy and Physiology,4.0
+CVPT293,Basic Surgery and Monitoring,3.0
+CVPT295,Clinical Practicum I,4.0
+CVPT300,Clinical Practicum II,6.0
+CVPT305,Pediatric Clinical Practicum,2.0
+CVPT307,Clinical Practicum III,6.0
+CVPT310,Perfusion Technology II,4.0
+CVPT320,Physiologic Management of Bypass,4.0
+CVPT330,Cardiovascular Pathology,4.0
+CVPT340,Cardiovascular Pharmacology,4.0
+CVPT350,Clinical Practicum IV,12.0
+CVPT360,Cardiac Surgical Practicum,2.0
+CVPT365,Clinical Practicum V,12.0
+CVPT370,Clinical Practicum VI,10.0
+CVPT375,Clinical Practicum VII,10.0
+DANC100,Survey of Dance Studies,3.0
+DANC101,Introduction to Dance Studies,3.0
+DANC110,Movement for Actors,3.0
+DANC131,Dance Practicum in Performance,1.0
+DANC132,Dance Practicum in Production,1.0
+DANC133,Dance Practicum in Choreography,1.0
+DANC140,Ballet Technique I,2.0
+DANC141,Ballet Technique II,2.0
+DANC150,Modern Dance Technique I,2.0
+DANC151,Modern Dance Technique II,2.0
+DANC160,Jazz Dance Technique I,2.0
+DANC161,Jazz Dance Technique II,2.0
+DANC170,Hip-Hop Dance Technique I,2.0
+DANC180,Dance Improvisation,2.0
+DANC190,African Dance Technique I,2.0
+DANC201,Dance Appreciation,3.0
+DANC210,Introduction to Dance,3.0
+DANC220,History of Dance,3.0
+DANC225,Dance Repertory,3.0
+DANC230,Survey of Dance and Movement Therapy,3.0
+DANC240,Dance Composition I,3.0
+DANC241,Dance Composition II,3.0
+DANC260,Injury Prevention for Dance,3.0
+DANC310,Dance Aesthetics and Criticism,3.0
+DANC325,Twentieth Century Dance,3.0
+DANC330,Introduction to Laban Movement Analysis,3.0
+DANC340,Dance Pedagogy,3.0
+DANC355,Rhythmic Study for Dance,3.0
+DANC380,Special Topics in Dance,0.5-3.0
+DANC495,Directed Studies in Dance,0.5-12.0
+DIGM100,Digital Design Tools,3.0
+DIGM105,Overview of Digital Media,3.0
+DIGM110,Digital Spatial Visualization,3.0
+DIGM220,Digital Still Imaging I,3.0
+DIGM221,Digital Still Imaging II,3.0
+DIGM223,Creative Concept Design,3.0
+DIGM250,Professional Practices,3.0
+DIGM252,Multimedia Timeline Design,3.0
+DIGM281,Interactive TV DVD-ROM,3.0
+DIGM291,Internship in Digital Media,0.5-12.0
+DIGM350,Digital Storytelling,3.0
+DIGM399,Independent Project-Digital Media,2.0-12.0
+DIGM451,Explorations in New Media,3.0
+DIGM465,Special Topics-Digital Media,3.0
+DIGM475,Seminar: The Future of Digital Media,3.0
+DIGM492,Senior Project in Digital Media I,3.0
+DIGM493,Senior Project in Digital Media II,3.0
+DIGM494,Senior Project in Digital Media III,3.0
+DSMR100,Computer Imaging I,3.0
+DSMR201,Analysis of Product,3.0
+DSMR205,eFashion Promotion,3.0
+DSMR210,Presentation Techniques Design and Merchandising,3.0
+DSMR211,Computer Design for Design and Merchandising,3.0
+DSMR230,Textiles for Design and Merchandising,3.0
+DSMR231,Retail Principles,3.0
+DSMR232,Retail Merchandise Planning,4.0
+DSMR233,Retail Image Analysis,3.0
+DSMR305,eTailing,3.0
+DSMR309,Color and Trend Forecasting,3.0
+DSMR310,Computer Integrated Merchandising Management,3.0
+DSMR311,Visual Merchandising,4.0
+DSMR312,Visual Merchandising II,3.0
+DSMR313,International Fashion Merchandising,3.0
+DSMR314,Visual Merchandising III,4.0
+DSMR315,Media Merchandising I,3.0
+DSMR316,Media Merchandising II,3.0
+DSMR317,Media Merchandising III,3.0
+DSMR318,Music Merchandising,3.0
+DSMR320,Merchandising and Design Directions,3.0
+DSMR321,Fashion Show Production I,2.0
+DSMR322,Fashion Show Production II,2.0
+DSMR324,Retail Directions,3.0
+DSMR325,Retail Buying and Assortment Strategies,4.0
+DSMR326,Fashion Product Promotion,4.0
+DSMR333,Fashion Product Development,3.0
+DSMR399,Independent Study in Design and Merchandising,12.0
+DSMR410,Career Strategies for Design and Merchandising,3.0
+DSMR411,Design and Merchandising Portfolio Design,3.0
+DSMR434,Fashion Product Sourcing,3.0
+DSMR465,Special Topics in Design and Merchandising,0.5-12.0
+DSMR477,Design and Merchandising Seminar,3.0
+DSMR496,Senior Problem in Design and Merchandising,3.0
+EAM130,Overview of Entertainment and Arts Management,3.0
+EAM200,Introduction to the Music Industry,3.0
+EAM211,Strategic Management for Entertainment and Arts Management,3.0
+EAM261,Copyrights and Trademarks,3.0
+EAM270,Audience Development for Arts,3.0
+EAM301,Gallery and Collection Management,3.0
+EAM302,Exhibition Design,3.0
+EAM312,Introduction to Fund Development for the Arts,3.0
+EAM313,Volunteer and Board Management,3.0
+EAM321,Box Office and Venue Management,3.0
+EAM322,Performing Arts Touring and Promotion,3.0
+EAM340,Artist Representation and Management,3.0
+EAM350,Arts Culture and Society,3.0
+EAM361,Law for Entertainment and Arts Management Managers,3.0
+EAM365,Media and Entertainment Business,3.0
+EAM391,Promotion Press and Publicity,3.0
+EAM399,Independent Study in Entertainment and Arts Management,12.0
+EAM401,Writing for Arts Managers,3.0
+EAM461,Entertainment Publishing,3.0
+EAM465,Special Topics in Entertainment and Arts Management,1.0-3.0
+EAM471,Fine Arts Market Development,3.0
+EAM472,Trends in Visual Arts,3.0
+EAM491,Entertainment and Arts Management Senior Project,1.0
+ECE101,Electrical and Computer Engineering in the Real World,1.0
+ECE102,Applications of Electrical and Computer Engineering,2.0
+ECE121,Introduction to Entertainment Engineering,3.0
+ECE190,Special Topics,1.0-4.0
+ECE200,Digital Logic Design,3.0
+ECE201,Foundations of Electric Circuits,3.0
+ECE203,Programming for Engineers,3.0
+ECE211,Electrical Engineering Principles,3.0
+ECE212,Electrical Engineering Principles Laboratory,1.0
+ECE290,Special Topics,1.0-4.0
+ECE361,Probability for Engineers,3.0
+ECE362,Engineering Statistics,3.0
+ECE390,Special Topics,1.0-4.0
+ECE391,Introduction to Engineering Design Methods,1.0
+ECE491,Senior Design Project I,2.0
+ECE492,Senior Design Project II,2.0
+ECE493,Senior Design Project III,4.0
+ECEC301,Advanced Programming for Engineers,3.0
+ECEC302,Digital Systems Projects,4.0
+ECEC304,Design with Microcontrollers,4.0
+ECEC352,Secure Computer Systems: Design Concepts,4.0
+ECEC353,Systems Programming,3.0
+ECEC355,Computer Organization & Architecture,4.0
+ECEC356,Embedded Systems,4.0
+ECEC357,Introduction to Computer Networks,4.0
+ECEC390,Special Topics,1.0-4.0
+ECEC411,Computer Hardware,3.0
+ECEC412,Modern Processor Design,3.0
+ECEC413,Introduction to Parallel Computer Architecture,3.0
+ECEC414,High Performance Computing,3.0
+ECEC421,Introduction to Operating Systems I,3.0
+ECEC422,Introduction to Operating Systems I,3.0
+ECEC431,Introduction to Computer Networks,3.0
+ECEC432,Internet Architecture and Protocols,3.0
+ECEC433,Network Programming,3.0
+ECEC441,Robotic Computer Interface & Control I,3.0
+ECEC442,Robotic Computer Interface & Control II,3.0
+ECEC443,Robotic Computer Interface & Control III,3.0
+ECEC451,Computer Arithmetic,3.0
+ECEC453,Image Processing Architecture,3.0
+ECEC455,Intelligent System Architectures,3.0
+ECEC457,Security in Computing,3.0
+ECEC459,Testing of Hardware,3.0
+ECEC471,Introduction to VLSI Design,3.0
+ECEC472,VLSI Design & Automation,3.0
+ECEC473,Modern VLSI IC Design,3.0
+ECEC474,ASIC Design I,3.0
+ECEC475,ASIC Design II,3.0
+ECEC490,Special Topics in Computer Engineering,12.0
+ECEC497,Research In Computer Engineering,0.5-12.0
+ECEC499,Independent Study in Computer Engineering,0.5-12.0
+ECEE302,Electronic Devices,4.0
+ECEE304,Electromagnetic Fields & Waves,4.0
+ECEE352,Analog Electronics,4.0
+ECEE354,Wireless and Optical Electronics,4.0
+ECEE390,Special Topics,1.0-4.0
+ECEE421,Advanced Electronics I,4.0
+ECEE422,Advanced Electronic Circuits I,3.0
+ECEE423,Advanced Electronics Circuits II,3.0
+ECEE434,Digital Electronics,4.0
+ECEE441,Lightwave Engineering I,3.0
+ECEE442,Lightwave Engineering II,3.0
+ECEE443,Lightwave Engineering III,3.0
+ECEE451,Electroacoustics,3.0
+ECEE471,RF Components and Techniques,4.0
+ECEE472,RF Electronics,4.0
+ECEE473,Antennas and Radiating Systems,4.0
+ECEE490,Special Topics in Electrophysics,12.0
+ECEE497,Research in Electrophysics,0.5-12.0
+ECEE499,Independent Study In Electrophysics,0.5-12.0
+ECEL301,Electrical Engineering Laboratory,2.0
+ECEL302,ECE Laboratory II,2.0
+ECEL303,ECE Laboratory III,2.0
+ECEL304,ECE Laboratory IV,2.0
+ECEL311,ECE Laboratory Methods I,3.0
+ECEL312,ECE Laboratory Methods II,3.0
+ECEL401,Lightwave Engineering Laboratory,3.0
+ECEL402,Nano-Photonics Laboratory,3.0
+ECEL403,Bio-Photonics Laboratory,3.0
+ECEL404,Software Defined Radio Laboratory,3.0
+ECEL405,Digital Systems Laboratory,3.0
+ECEL407,General Purpose GPU Programming,3.0
+ECEL490,Special Topics,1.0-4.0
+ECEP352,Electric Motor Control Principles,4.0
+ECEP354,Energy Management Principles,4.0
+ECEP372,Radiation Detection and Measurement,3.0
+ECEP380,Introduction to Renewable Energy,3.0
+ECEP390,Special Topics,1.0-4.0
+ECEP402,Theory of Nuclear Reactors,4.0
+ECEP403,Nuclear Power Plant Design & Operation,3.0
+ECEP404,Introduction to Nuclear Engineering,2.0
+ECEP406,Introduction to Radiation Health Principles,3.0
+ECEP411,Power Systems I,3.0
+ECEP412,Power Systems II,4.0
+ECEP413,Power Systems III,3.0
+ECEP421,Modeling and Analysis of Electric Power Distribution Systems,3.0
+ECEP422,Power Distribution Automation and Control,3.0
+ECEP423,Service and Power Quality Distribution Systems,3.0
+ECEP431,Advanced Electromagnetic Energy Conversion I,4.0
+ECEP432,Advanced Electromagnetic Energy Conversion II,4.0
+ECEP441,Protective Relaying,3.0
+ECEP451,Power Electronic Converter Fundamentals,3.0
+ECEP452,Experimental Study of Power Electronic Converters,3.0
+ECEP453,Applications of Power Electronic Converters,3.0
+ECEP461,High Voltage Laboratory,1.0
+ECEP471,Power Seminar I,0.5
+ECEP472,Power Seminar II,0.5
+ECEP473,Power Seminar III,0.5
+ECEP480,Solar Energy Engineering,3.0
+ECEP490,Special Topics in Power Engineering,12.0
+ECEP497,Research in Power Systems,0.5-12.0
+ECEP499,Independent Study In Power Engineering,0.5-12.0
+ECES201,Introduction to Audio-Visual Signals,4.0
+ECES302,Transform Methods and Filtering,4.0
+ECES304,Dynamic Systems and Stability,4.0
+ECES306,Analog & Digital Communication,4.0
+ECES352,Introduction to Digital Signal Process,4.0
+ECES354,Wireless Mobile & Cellular Communications,4.0
+ECES356,Theory of Control,4.0
+ECES358,Computer Control Systems,4.0
+ECES390,Special Topics,1.0-4.0
+ECES411,Convex Optimization in Engineering Systems,3.0
+ECES412,Simulation of Stochastic Engineering Systems,3.0
+ECES413,Strategies for Repeated Games,3.0
+ECES421,Communications I,3.0
+ECES422,Communications II,3.0
+ECES423,Communications III,3.0
+ECES434,Applied Digital Signal Processing,4.0
+ECES435,Recent Advances in Digital Signal Processing,4.0
+ECES436,Multi-disciplinary Digital Signal Processing,4.0
+ECES444,Systems and Control I,4.0
+ECES445,Systems and Control II,4.0
+ECES446,Systems and Control III,4.0
+ECES490,Special Topics in Systems Engineering,12.0
+ECES497,Research in Systems Engineering,0.5-12.0
+ECES499,Supervised Study in Systems Engineering,0.5-20.0
+ECON201,Principles of Microeconomics,4.0
+ECON202,Principles of Macroeconomics,4.0
+ECON240,Economics of Health Care Systems,4.0
+ECON250,Game Theory and Applications,4.0
+ECON301,Microeconomics,4.0
+ECON321,Macroeconomics,4.0
+ECON322,Economics Seminar,4.0
+ECON326,Economic Ideas,4.0
+ECON330,Managerial Economics,4.0
+ECON334,Public Finance,4.0
+ECON336,Labor Economics,4.0
+ECON338,Industrial Organization,4.0
+ECON342,Economic Development,4.0
+ECON344,Comparative Economic Systems,4.0
+ECON348,Mathematical Economics,4.0
+ECON350,Applied Econometrics,4.0
+ECON351,Resource and Environmental Economics,4.0
+ECON360,Time Series Econometrics,4.0
+ECON498,Special Topics in Economics,0.5-12.0
+ECON499,Independent Study,0.5-5.0
+EDEX142,Special Education Foundations: Referral and Assessment,3.0
+EDEX244,Inclusionary Practices for Exceptional Students,3.0
+EDEX246,Literacy and Content Skill Development PreK-8,3.0
+EDEX266,Literacy and Content Skill Development 7-12,3.0
+EDEX347,Special Education Processes PreK-8,3.0
+EDEX348,Emotional & Behavioral Support,3.0
+EDEX349,High Incident Disabilities,3.0
+EDEX350,Teaching Individuals with Low Incident Disabilities,3.0
+EDEX351,Pervasive Development Disorders,3.0
+EDEX352,Integrating Technology for Learning & Achievement,3.0
+EDEX353,Special Education: Methods & Practices PreK-8,3.0
+EDEX363,Special Education Methods & Practices 7-12,3.0
+EDGE210,Geography Education,3.0
+EDGE211,Geography Education: Teacher Laboratory,1.5
+EDUC101,Foundations in Education I: A Historical and Philosophical Perspective,3.0
+EDUC102,Foundations in Education II: Contemporary Issues,3.0
+EDUC105,Freshman Pedagogy Seminar,1.0
+EDUC112,Integrative Instruction: Focus on World Geography,3.0
+EDUC113,Organizational Structure of Secondary Schools,3.0
+EDUC115,Reasoning about Numbers and Quantity (4-8),3.0
+EDUC120,Child Development I: Typical Development,3.0
+EDUC121,Child Development II: Atypical Development,3.0
+EDUC123,Adolescent Development,3.0
+EDUC142,Special Education Foundations: Referral and Assessment,4.5
+EDUC201,Instructional Issues,3.0
+EDUC203,Design of Instructional Materials,3.0
+EDUC205,Sophomore Pedagogy Seminar,1.0
+EDUC210,Early Language Development,3.0
+EDUC216,Diversity and Today's Teacher,3.0
+EDUC223,Teaching the Middle School Child,3.0
+EDUC236,Early Literacy I,3.0
+EDUC240,Proportional Reasoning in Middle School,3.0
+EDUC244,Inclusionary Practices for Exceptional Students,4.5
+EDUC246,Literacy and Content Skill Development,4.5
+EDUC256,Teaching Writing Grades 4-8,3.0
+EDUC257,Content Area Reading (Grades 4-8),3.0
+EDUC258,Reading in the Content Areas,3.0
+EDUC265,Instructing English Language Learners,3.0
+EDUC284,Teaching Life Science in the Middle School,3.0
+EDUC285,Teaching Physical Science in the Middle School,3.0
+EDUC286,Teaching Earth & Space Science for Middle School,3.0
+EDUC292,Science Methods for Middle School,3.0
+EDUC301,Introduction to Personalized Systems of Instruction,3.0
+EDUC302,Advanced Seminar In Personalized Systems of Instruction,3.0
+EDUC305,Junior Pedagogy Seminar,1.0
+EDUC306,Assessment of Young Children I,3.0
+EDUC307,Assessment of Young Children II,4.0
+EDUC310,Computer Applications in Teaching,3.0
+EDUC311,Computer Applications in Curriculum Development,3.0
+EDUC314,Science Teaching Methods,3.0
+EDUC315,Secondary Science Teaching Methods,3.0
+EDUC317,Math Methods and Content: Early Childhood,3.0
+EDUC318,Math Methods & Content,3.0
+EDUC319,Teaching Secondary Mathematics,3.0
+EDUC320,Professional Studies in Instruction,6.0
+EDUC321,Non-Field Experience Professional Studies in Instruction,3.0
+EDUC322,Evaluation of Instruction,3.0
+EDUC323,Diagnostic Teaching,4.0
+EDUC324,Current Research in Curriculum & Instruction,3.0
+EDUC325,Multimedia in Instructional Design,3.0
+EDUC326,Language Arts Processes,3.0
+EDUC327,Learning Disabilities,3.0
+EDUC328,Language Arts Processes 4-8,3.0
+EDUC335,Engaging the Learner,3.0
+EDUC336,Early Literacy II,3.0
+EDUC337,Learning Disabilities II,3.0
+EDUC338,Expressive Arts for PK-4,3.0
+EDUC347,Special Education Processes,4.5
+EDUC348,Emotional & Behavioral Support,4.5
+EDUC349,High Incident Disabilities,4.5
+EDUC350,Low Incident Disabilities,4.5
+EDUC351,Pervasive Developmental Disorders,4.5
+EDUC352,Integrating Technology for Learning & Achievement,4.5
+EDUC353,Special Education: Methods & Practices,4.5
+EDUC355,Social Studies Teaching Methods,3.0
+EDUC356,Secondary Social Studies Methods,3.0
+EDUC405,Senior Pedagogy Seminar,1.0
+EDUC410,Student Teaching,9.0
+EDUC411,Family and Community Partnerships,3.0
+EDUC412,Student Teaching,12.0
+EDUC414,Special Education: Field Placement Seminar,9.0
+EDUC416,Introduction to Math Teaching Methods (4-8),3.0
+EDUC417,Advanced Math Teaching Methods (4-8),3.0
+EDUC428,Cultural and Historical Significance of Mathematics,3.0
+EDUC432,Algebraic Reasoning,3.0
+EDUC433,Functions in Middle School Math,3.0
+EDUC436,Distance Learning,3.0
+EDUC475,Special Studies in Teacher Education,12.0
+EDUC499,Independent Study in Teacher Education,0.5-12.0
+EET102,Introduction to Engineering Technology,3.0
+EET201,Circuit Analysis I,4.0
+EET202,Circuit Analysis II,4.0
+EET204,Introduction to Nanotechnology,3.0
+EET205,Digital Electronics,4.0
+EET206,Analog Electronics I,4.0
+EET207,Introduction to Laboratory and Process Control,3.0
+EET307,Basic Power Systems I,3.0
+EET310,Industrial Application of Nanotechnology,3.0
+EET311,Modeling of Engineering Systems,4.0
+EET313,Signals and Systems I,4.0
+EET317,Analog Electronics II,4.0
+EET319,PLC Fundamentals,4.0
+EET320,Renewable Energy Systems,3.0
+EET322,Energy Conversion,4.0
+EET323,Electrical Systems Design,3.0
+EET324,Power Electronics,4.0
+EET325,Microprocessors,3.0
+EET333,Non-Destructive Evaluation of Materials,4.0
+EET335,Acoustic Emission,4.0
+EET401,Applied Microcontrollers,3.0
+EET402,Control Engineering,3.0
+EET404,Signals and Systems II,3.0
+EET406,Communication Systems,3.0
+EET407,Power Systems Fundamentals,3.0
+EET409,Optical System Design,3.0
+EGMT462,Introduction to Engineering Management,3.0
+EGMT465,Introduction to Systems Engineering,3.0
+EMER210,Hazard Mitigation,3.0
+EMER215,Public Management in Times of Crisis,3.0
+EMER220,Emergency Incident Risk Management,3.0
+EMER225,Infrastructure Disaster Recovery,3.0
+EMER235,Public Information Strategies,3.0
+EMER245,Search and Rescue,3.0
+EMER380,Special Topics in Emergency Management,0.5-12.0
+EMS101,Principles of Emergency Care I,4.0
+EMS101,Principles of Emergency Care I,4.0
+EMS102,Principles of Emergency Care II,3.0
+EMS102,Principles of Emergency Care II,3.0
+EMS103,Physical Examination,3.0
+EMS103,Physical Examination,3.0
+EMS104,Disease Process I,3.0
+EMS104,Disease Process I,3.0
+EMS105,Pre-hospital Issues,2.0
+EMS105,Pre-hospital Issues,2.0
+EMS107,Disease Process II,3.0
+EMS107,Disease Process II,3.0
+EMS110,EMT Field Practicum,1.0
+EMS110,EMT Field Practicum,1.0
+EMS111,Introduction to Pharmacology,3.0
+EMS111,Introduction to Pharmacology,3.0
+EMS112,Pharmacology I,3.0
+EMS112,Pharmacology I,3.0
+EMS114,Emergency Medical Services Operations,2.0
+EMS114,Emergency Medical Services Operations,2.0
+EMS116,Electrocardiogram (EKG) Interpretation,1.0
+EMS116,Electrocardiogram (EKG) Interpretation,1.0
+EMS120,Pre-hospital Techniques,3.0
+EMS120,Pre-hospital Techniques,3.0
+EMS122,Special Topics in Emergency Medical Services I,3.0
+EMS122,Special Topics in Emergency Medical Services I,3.0
+EMS125,Field Practicum I,4.0
+EMS125,Field Practicum I,4.0
+EMS201,Clinical Concepts I,7.0
+EMS201,Clinical Concepts I,7.0
+EMS202,Medical Intervention I,3.0
+EMS202,Medical Intervention I,3.0
+EMS203,Clinical Concepts II,6.0
+EMS203,Clinical Concepts II,6.0
+EMS204,Medical Intervention II,3.0
+EMS204,Medical Intervention II,3.0
+EMS205,Instructional Issues,3.0
+EMS205,Instructional Issues,3.0
+EMS206,Clinical Concepts III,6.0
+EMS206,Clinical Concepts III,6.0
+EMS207,Trauma Interventions,3.0
+EMS207,Trauma Interventions,3.0
+EMS210,Management I,3.0
+EMS210,Management I,3.0
+EMS226,Field Practicum II,7.0
+EMS226,Field Practicum II,7.0
+EMS230,Special Topics in Emergency Medical Services II,3.0
+EMS230,Special Topics in Emergency Medical Services II,3.0
+EMS301,Management II,4.0
+EMS301,Management II,4.0
+EMS302,Clinical Capstone,1.0
+EMS302,Clinical Capstone,1.0
+EMS305,Design of Instructional Materials,3.0
+EMS305,Design of Instructional Materials,3.0
+EMS306,Concepts of Injury,3.0
+EMS306,Concepts of Injury,3.0
+EMS307,Critical Incident Stress Management,3.0
+EMS307,Critical Incident Stress Management,3.0
+EMS320,Accident Investigation,3.0
+EMS320,Accident Investigation,3.0
+EMS325,Industrial Safety,3.0
+EMS325,Industrial Safety,3.0
+EMS330,Special Topics in Emergency Medical Services III,3.0
+EMS330,Special Topics in Emergency Medical Services III,3.0
+EMS340,Hazardous Materials Response Implementation,3.0
+EMS340,Hazardous Materials Response Implementation,3.0
+EMS345,Response to Terrorism,3.0
+EMS345,Response to Terrorism,3.0
+EMS346,Introduction to Emergency Medical Services and Public Safety Quality,3.0
+EMS346,Introduction to Emergency Medical Services and Public Safety Quality,3.0
+EMS360,Local State and Federal Legislation,3.0
+EMS360,Local State and Federal Legislation,3.0
+EMS368,Practical Safety Services,3.0
+EMS368,Practical Safety Services,3.0
+EMS372,Incident Command for Emergency Medical Services,3.0
+EMS372,Incident Command for Emergency Medical Services,3.0
+EMS380,Advanced Physical Examination,3.0
+EMS380,Advanced Physical Examination,3.0
+EMS382,Pharmacology II,3.0
+EMS382,Pharmacology II,3.0
+EMS390,Public Safety Data Management,3.0
+EMS390,Public Safety Data Management,3.0
+EMS401,Independent Study in Emergency Medical Services and Public Safety,3.0
+EMS401,Independent Study in Emergency Medical Services and Public Safety,3.0
+EMS403,Instruments and Metrics for Emergency Medical Services and Public Safety Quality,3.0
+EMS403,Instruments and Metrics for Emergency Medical Services and Public Safety Quality,3.0
+EMS405,Planning and Fiscal Approaches,3.0
+EMS405,Planning and Fiscal Approaches,3.0
+EMS410,Quality Management and Six Sigma Integration,4.0
+EMS410,Quality Management and Six Sigma Integration,4.0
+EMS415,Funding and Publishing in Emergency Medical Services,3.0
+EMS415,Funding and Publishing in Emergency Medical Services,3.0
+EMS420,Medical Care Response to Weapons of Mass Destruction,3.0
+EMS420,Medical Care Response to Weapons of Mass Destruction,3.0
+EMS425,Risk Management in Health Care,3.0
+EMS425,Risk Management in Health Care,3.0
+EMS430,Leadership and Influence in Emergency Services,3.0
+EMS430,Leadership and Influence in Emergency Services,3.0
+EMS435,Special Topics in Emergency Medical Services IV,3.0
+EMS435,Special Topics in Emergency Medical Services IV,3.0
+EMS440,Research,3.0
+EMS440,Research,3.0
+EMS445,Organizing Community Response in Disasters,3.0
+EMS445,Organizing Community Response in Disasters,3.0
+EMS455,Internship,15.0
+EMS455,Internship,15.0
+EMS456,Internship I,8.0
+EMS456,Internship I,8.0
+EMS457,Internship II,7.0
+EMS457,Internship II,7.0
+ENGL101,Composition and Rhetoric I: Inquiry and Exploratory Research,3.0
+ENGL102,Composition and Rhetoric II: The Craft of Persuasion,3.0
+ENGL103,Composition and Rhetoric III: Thematic Analysis Across Genres,3.0
+ENGL105,Honors Freshman English,3.0
+ENGL200,Classical to Medieval Literature,3.0
+ENGL201,Renaissance to the Enlightenment,3.0
+ENGL202,Romanticism to Modernism,3.0
+ENGL203,Post-Colonial Literature I,3.0
+ENGL204,Post-Colonial Literature II,3.0
+ENGL205,American Literature I,3.0
+ENGL206,American Literature II,3.0
+ENGL207,African American Literature,3.0
+ENGL211,British Literature I,3.0
+ENGL212,British Literature II,3.0
+ENGL214,Readings in Fiction,3.0
+ENGL215,Readings in Poetry,3.0
+ENGL216,Readings in Drama,3.0
+ENGL300,Literature & Science,3.0
+ENGL302,Environmental Literature,3.0
+ENGL303,Science Fiction,3.0
+ENGL304,Young Adult Fiction,3.0
+ENGL305,The Mystery Story,3.0
+ENGL306,Literature of Baseball,3.0
+ENGL307,Literature of the Holocausts,3.0
+ENGL308,The Literature of Business,3.0
+ENGL310,Period Studies,3.0
+ENGL312,Research Project Development,1.0-3.0
+ENGL315,Shakespeare,3.0
+ENGL320,Major Authors,3.0
+ENGL323,Literature and Other Arts,3.0
+ENGL325,Topics in World Literature,3.0
+ENGL330,The Bible as Literature,3.0
+ENGL335,Mythology,3.0
+ENGL340,Classic Rhetoric,3.0
+ENGL345,American Ethnic Literature,3.0
+ENGL350,Jewish Literature and Civilization,3.0
+ENGL355,Women and Literature,3.0
+ENGL360,Literature and Society,3.0
+ENGL365,Topics in African American Literature,3.0
+ENGL370,Topics in Literature and Medicine,3.0
+ENGL380,Literary Theory,3.0
+ENGL395,Special Studies in Literature,3.0
+ENGL399,Independent Project in Literature,0.5-12.0
+ENGL470,Capstone Seminar in Medical Humanities,3.0
+ENGL490,Seminar in English and American Literature,4.0
+ENGL492,Seminar in World Literature,4.0
+ENGL499,Senior Project in Literature,4.0
+ENGR100,Beginning Computer Aided Drafting for Design,1.0
+ENGR101,Engineering Design Laboratory I,2.0
+ENGR102,Engineering Design Laboratory II,2.0
+ENGR103,Engineering Design Laboratory III,2.0
+ENGR104,Engineering Design Laboratory for Transfers,4.0
+ENGR180,Special Topics in Engineering,12.0
+ENGR199,Preparation for the Engineering Studies,6.0
+ENGR201,Evaluation & Presentation of Experimental Data I,3.0
+ENGR202,Evaluation & Presentation of Experimental Data II,3.0
+ENGR210,Introduction to Thermodynamics,3.0
+ENGR220,Fundamentals of Materials,4.0
+ENGR231,Linear Engineering Systems,3.0
+ENGR232,Dynamic Engineering Systems,3.0
+ENGR280,Introduction to Global Engineering,2.0
+ENGR361,Statistical Analysis of Engineering Systems,3.0
+ENGR491,Senior Project Design I,2.0
+ENGR492,Senior Project Design II,2.0
+ENGR493,Senior Project Design III,4.0
+ENTP299,Special Topics in Entrepreneurship,1.0-12.0
+ENTP399,Special Topics in Entrepreneurship,1.0-12.0
+ENTP499,Special Topics in Entrepreneurship,1.0-12.0
+ENVE300,Introduction to Environmental Engineering,3.0
+ENVE302,Environmental Transport and Kinetics,3.0
+ENVE335,Industrial Safety,3.0
+ENVE410,Solid and Hazardous Waste,3.0
+ENVE421,Water and Waste Treatment II,3.0
+ENVE422,Water and Waste Treatment Design,3.0
+ENVE435,Groundwater Remediation,3.0
+ENVE450,Data-based Engineering Modeling,3.0
+ENVE455,Geographic Information Systems,3.0
+ENVE460,Fundamentals of Air Pollution Control,3.0
+ENVE465,Indoor Air Quality,3.0
+ENVE480,Topics in Environmental Engineering,0.5-12.0
+ENVE485,Professional Environmental Engineering Practice,1.0
+ENVE486,Environmental Engineering Processes Laboratory I,2.0
+ENVE487,Environmental Engineering Processes Laboratory II,2.0
+ENVE491,Senior Project Design I,3.0
+ENVE492,Senior Design Project II,3.0
+ENVE493,Senior Design Project III,4.0
+ENVP275,Global Climate Change,3.0
+ENVP325,Introduction to Urban and Environmental Planning,3.0
+ENVP345,Sociology of the Environment,3.0
+ENVP346,Environmental Justice,3.0
+ENVP360,Environmental Movements in America,3.0
+ENVP365,Introduction to Environmental Policy Analysis,3.0
+ENVP399,Independent Study in ENVR Studies,0.5-12.0
+ENVP480,Special Topics,3.0
+ENVS101,Introduction to Environmental Science,5.0
+ENVS102,Natural History Research and Collections,2.0
+ENVS169,Environmental Science,3.0
+ENVS201,Practical Identification of Plants and Animals,2.0
+ENVS202,Tree of Life,2.0
+ENVS203,The Watershed Approach,2.0
+ENVS212,Evolution,4.0
+ENVS226,Discoveries in Animal Behavior,3.0
+ENVS230,General Ecology,3.0
+ENVS254,Invertebrate Morphology and Physiology,3.0
+ENVS255,Invertebrate Morphology and Physiology Lab,2.0
+ENVS260,Environmental Science and Society,3.0
+ENVS275,Global Climate Change,3.0
+ENVS280,Special Topics,12.0
+ENVS284,Physiological and Population Ecology,3.0
+ENVS285,Population Ecology Laboratory,2.0
+ENVS286,Community and Ecosystem Ecology,3.0
+ENVS287,Community Ecology Laboratory,2.0
+ENVS289,Global Warming Biodiversity and Your Future,3.0
+ENVS302,Environmental Chemistry Laboratory,2.0
+ENVS308,GIS and Environmental Modeling,4.0
+ENVS310,Introduction to Environmental Chemistry,3.0
+ENVS312,Systematic Bio: Principles & Methods,3.0
+ENVS321,Environmental Health,3.0
+ENVS322,Tropical Ecology,3.0
+ENVS323,Tropical Field Studies,3.0
+ENVS324,Microbial Ecology,3.0
+ENVS326,Molecular Ecology,3.0
+ENVS327,Molecular Ecology Laboratory,2.0
+ENVS328,Conservation Biology,3.0
+ENVS330,Aquatic Ecology,3.0
+ENVS333,Wetland Ecology,3.0
+ENVS334,Watershed Ecology,3.0
+ENVS336,Terrestrial Ecology,5.0
+ENVS341,Equatorial Guinea: Society & Environment,4.5
+ENVS342,Equatorial Guinea: Natural Resource Economics,4.5
+ENVS343,Equatorial Guinea: Field Methods,3.0
+ENVS344,Equatorial Guinea: Field Research,6.0
+ENVS351,Resource and Environmental Economics,4.0
+ENVS360,Evolutionary Developmental Biology,3.0
+ENVS364,Animal Behavior,3.0
+ENVS365,Animal Behavior Laboratory,2.0
+ENVS370,Practice of Environmental Economics,3.0
+ENVS382,Field Botany of the New Jersey Pine Barrens,4.0
+ENVS383,Ecology of the New Jersey Pine Barrens,4.0
+ENVS385,Systems Ecology,3.0
+ENVS388,Marine Field Methods,4.0
+ENVS390,Marine Ecology,3.0
+ENVS391,Diversity Evolution and Ecology of Algae,3.0
+ENVS392,Ichthyology and Herpetology,3.0
+ENVS393,Entomology,3.0
+ENVS394,Entomology Laboratory,2.0
+ENVS400,Cascade Mentoring,2.0
+ENVS401,Chemistry of the Environment,3.0
+ENVS405,Atmospheric Chemistry,3.0
+ENVS410,Physiological Ecology,3.0
+ENVS412,Biophysical Ecology,3.0
+ENVS413,Advanced Population Ecology,3.0
+ENVS414,Advanced Community Ecology,3.0
+ENVS436,Principles of Toxicology I,3.0
+ENVS437,Principles of Toxicology II,3.0
+ENVS438,Biodiversity,3.0
+ENVS441,Issues in Global Change I: Seminar,2.0
+ENVS442,Issues in Global Change II: Research,2.0
+ENVS443,Issues in Global Change III: Synthesis,2.0
+ENVS470,Advanced Topics in Evolution,3.0
+ENVS480,Special Topics,12.0
+ENVS497,Research,0.5-12.0
+ENVS498,Independent Study,0.5-12.0
+ESL001,Foundations of University Study,0.0
+ESL002,Foundations of Academic Writing,0.0
+ESL003,Foundations of Academic Reading,0.0
+ESL004,International Gateway Foundations of Academic Writing for Chemistry 201,0.0
+ESL010,Listening and Speaking I,0.0
+ESL011,Reading and Writing I,0.0
+ESL012,English in Everyday Life,0.0
+ESL013,Beginning Grammar,0.0
+ESL020,Listening and Speaking II,0.0
+ESL021,Reading and Writing II,0.0
+ESL022,Pronunication and Conversation,0.0
+ESL023,Intermediate Grammar,0.0
+ESL024,Presentations with Stories & Legends,0.0
+ESL030,Listening and Speaking III,0.0
+ESL031,Reading and Writing III,0.0
+ESL032,English for Business Purposes,0.0
+ESL034,Understanding the News Media,0.0
+ESL035,Vocabulary Development 3-4,0.0
+ESL036,TOEFL iBT Listening & Speaking,0.0
+ESL040,Listening and Speaking IV,0.0
+ESL041,Reading and Writing IV,0.0
+ESL042,Advanced Grammar,0.0
+ESL043,Advanced Presentation Skills,0.0
+ESL044,Skills for College Success,0.0
+ESL045,TOEIC Preparation 4-6,0.0
+ESL048,TOEFL iBT Reading & Writing,0.0
+ESL050,Listening and Speaking V,0.0
+ESL051,Reading and Writing V,0.0
+ESL052,Vocabulary Development 5-6,0.0
+ESL055,Strategies for Academic Reading,0.0
+ESL056,GMAT Preparation 5-6,0.0
+ESL057,Advanced Vocabulary and Idioms,0.0
+ESL058,Exploring American Life & Language,0.0
+ESL060,Listening and Speaking VI,0.0
+ESL061,Reading and Writing VI,0.0
+ESL062,TOEFL iBT for All Skills,0.0
+ESL070,GLOBE Business Information,0.0
+ESL071,GLOBE Business Communication,0.0
+ESL072,Business Site Visits,0.0
+ESL073,Introduction to Business Research,0.0
+ESL074,IELTS Listening and Speaking,0.0
+ESL075,IELTS Reading and Writing,0.0
+ESL076,IELTS (International English Language Testing System) Test Preparation All Skills,0.0
+ESL080,Preparation Course for International Teaching Assistants,0.0
+ESL081,Accent Reduction,0.0
+ESL090,English for Medical Purposes,0.0
+ESL091,Special Topics in English Language & Culture,0.0
+EVGD200,Introduction to Environmental Graphic Design,4.0
+EVGD210,Architectural Signage,4.0
+EVGD220,Wayfinding,4.0
+EVGD310,Design Techniques and Materials,3.0
+EVGD320,Exhibit Design,4.0
+EVGD421,Environmental Branding,4.0
+EVGD496,Senior Thesis in Environmental Graphic Design,3.0
+EXAM080,Common Exam Period - I,0.0
+EXAM081,Common Exam Period - II,0.0
+EXAM082,Common Exam Period - III,0.0
+FASH201,Survey of the Fashion Industry,3.0
+FASH210,Presentation Techniques in Fashion,3.0
+FASH211,Fashion Drawing I,3.0
+FASH212,Fashion Drawing II,3.0
+FASH220,Textile Design,3.0
+FASH230,Textiles for Fashion Design,3.0
+FASH241,Construction Skills,4.0
+FASH251,Fashion Design I,4.0
+FASH252,Fashion Design II,4.0
+FASH313,Fashion Drawing for Industry,3.0
+FASH314,Fashion Presentation Drawing,3.0
+FASH315,Computer Aided Design for Patternmaking,3.0
+FASH316,Computer Aided Design for Fashion Design,3.0
+FASH317,Technical Design,3.0
+FASH341,Flat Pattern Design,4.0
+FASH342,Draping Design,4.0
+FASH343,Tailoring and Design,4.0
+FASH351,Fashion Design III,4.0
+FASH352,Fashion Design IV,4.0
+FASH399,Independent Study in Fashion Design,0.5-12.0
+FASH450,Machine Knitting,3.0
+FASH451,Accessory Design,3.0
+FASH452,Millinery Design,3.0
+FASH454,Advanced Fashion Drawing,3.0
+FASH464,Professional Portfolio,3.0
+FASH465,Special Topics in Fashion Design,0.5-12.0
+FASH466,Business of Fashion,3.0
+FASH467,Style and the Media,3.0
+FASH477,Fashion Design Seminar,3.0
+FASH491,Senior Problem in Fashion Design I,4.0
+FASH492,Senior Problem in Fashion Design II,3.0
+FDSC154,Foods: Composition Interaction and Formulation,4.0
+FDSC270,Microbial Food Safety and Sanitation,4.0
+FDSC350,Experimental Foods: Product Development,3.0
+FDSC450,Food Microbiology,3.0
+FDSC451,Food Microbiology Laboratory,2.0
+FDSC454,Microbiology & Chemistry of Food Safety,3.0
+FDSC456,Food Preservation Processes,3.0
+FDSC458,Nutritional Impact of Food Processing Methods,3.0
+FDSC460,Food Chemistry,3.0
+FDSC461,Food Analysis,3.0
+FDSC468,Functional Foods,3.0
+FDSC480,Special Topics in Food Science,1.0-12.0
+FDSC490,Seminar in Food Science,1.0
+FDSC491,Senior Project I,2.0
+FDSC492,Senior Project II,2.0
+FDSC498,Independent Study in Food Science,1.0-12.0
+FIN301,Introduction to Finance,4.0
+FIN302,Intermediate Corporate Finance,4.0
+FIN321,Investment Securities & Markets,4.0
+FIN323,Risk Management,4.0
+FIN325,Financial Institutions and Markets,4.0
+FIN330,Derivative Securities,4.0
+FIN332,Investment Analysis,4.0
+FIN335,Entrepreneurial Finance,4.0
+FIN338,Money and Capital Markets,4.0
+FIN340,Seminar in Finance,4.0
+FIN341,Applied Portfolio Management,4.0
+FIN342,Advanced Portfolio Management,4.0
+FIN346,Global Financial Management,4.0
+FIN350,Personal Finance,4.0
+FIN498,Special Topics in Finance,12.0
+FIN499,Independent Study,0.5-5.0
+FMST101,Film History I: Emergence,3.0
+FMST102,Film History II: New Waves,3.0
+FMST103,Film History III: Trends,3.0
+FMST150,American Classic Cinema,3.0
+FMST160,European Cinema,3.0
+FMST245,Non-Western Cinema,3.0
+FMST250,The Documentary Tradition,3.0
+FMST255,Hitchcock,3.0
+FMST260,The Western,3.0
+FMST262,Film Comedy,3.0
+FMST263,Rock - N - Roll Cinema,3.0
+FMST264,Russian Cinema,3.0
+FMST265,Special Topics in Cinema Studies,3.0
+FMST266,The Cinematographer's Art,3.0
+FMST304,Film Voice and Style,3.0
+FMST340,French New Wave,3.0
+FMST345,Italian Neo Realism,3.0
+FMST352,The Horror Film,3.0
+FMST355,Contemporary Cinema,3.0
+FMVD110,Basic Shooting and Lighting,3.0
+FMVD115,Basic Editing,3.0
+FMVD120,Basic Sound,3.0
+FMVD200,Acting for the Screen,3.0
+FMVD202,Directing for the Screen,3.0
+FMVD206,Audio Production and Post,3.0
+FMVD207,Location Sound Recording,3.0
+FMVD210,Documentary Video Production,3.0
+FMVD215,Narrative Video Production,3.0
+FMVD218,Intermediate Cinematography,3.0
+FMVD220,Experimental Video Production,3.0
+FMVD235,Intermediate Lighting,3.0
+FMVD237,Intermediate Editing,3.0
+FMVD242,Film Production Design,3.0
+FMVD286,Producing for Features,3.0
+FMVD291,Film and Video Internship,0.5-3.0
+FMVD295,Hollywood 101,3.0
+FMVD305,Special Effects Make-up,3.0
+FMVD307,Cutting Trailers,3.0
+FMVD310,Camera Operators Workshop,3.0
+FMVD315,Audio Post Production,3.0
+FMVD317,Directing the Score,3.0
+FMVD320,Steadicam Workshop,3.0
+FMVD322,Production Workshop I,3.0
+FMVD323,Production Workshop II,3.0
+FMVD325,Stop Motion Animation,3.0
+FMVD327,Advanced Lighting,3.0
+FMVD328,New Technologies in Film,3.0
+FMVD332,Advanced Film,3.0
+FMVD335,The 16mm Film Project,3.0
+FMVD341,Creating Credits and Opticals,3.0
+FMVD344,Music Video Production,3.0
+FMVD365,Special Topics in Production,3.0
+FMVD399,Independent Project in Film and Video,0.5-12.0
+FMVD400,Advanced Directing,3.0
+FMVD415,Advanced Editing,3.0
+FMVD420,Advanced Audio Post-Production,3.0
+FMVD430,Advanced Cinematography,3.0
+FMVD465,Special Topics in Film and Video,3.0
+FMVD490,Directed Studies in Film and Video,0.5-12.0
+FMVD495,Senior Project in Film and Video,3.0
+FREN101,French I,4.0
+FREN102,French II,4.0
+FREN103,French III,4.0
+FREN201,French IV,4.0
+FREN202,French V,4.0
+FREN203,French VI: Conversations & Composition,4.0
+FREN311,Introduction to French Stylistics,4.0
+FREN312,French Stylistics,3.0
+FREN313,Advanced French Stylistics,3.0
+FREN331,Introduction to Studies in French Literature,3.0
+FREN332,Studies in French Literature,3.0
+FREN333,Advanced French Literature,3.0
+FREN351,Introduction to Business and Professional French,3.0
+FREN352,Business and Professional French,3.0
+FREN353,Advanced Business and Professional French,0.5-20.0
+FREN371,Special Studies in French Civilization and Culture,3.0
+FREN399,Advanced Independent Study in French,0.5-12.0
+FREN411,Special Studies in Advanced French Stylistics,3.0
+FREN431,Special Studies in Advanced French Literature,3.0
+FREN451,Special Studies in Advanced Business and Professional French,3.0
+FREN471,Special Studies in French Civilization,3.0
+FREN480,French Minor Thesis Course,4.0
+FREN499,Special Topics in French,0.5-12.0
+GEO101,Physical Geology,4.0
+GEO102,History of Life on Earth,4.0
+GEO103,Introduction to Field Methods in Earth Science,2.0
+GEO201,Earth Systems Processes,3.0
+GEO205,Dinosaurs and Their World,3.0
+GEO210,Structural Geology,4.0
+GEO215,Minerology,4.0
+GEO301,Advanced Field Methods in Earth Science,2.0
+GEO306,Environmental Geology,4.0
+GEO309,Geochemistry,4.0
+GEO310,Sedimentary Environments,4.0
+GEO311,Stratigraphy,4.0
+GEO320,Invertebrate Paleontology,4.0
+GEO322,Vertebrate Paleontology,4.0
+GEO324,Paleobotany,4.0
+GEO340,Quaternary Geology,4.0
+GEO342,Geomorphology,4.0
+GEO346,Coastal Geology,4.0
+GEO348,Oceanography,4.0
+GEO365,Field Methods in Paleoecology,4.0
+GEO401,Igneous and Metamorphic Petrology,4.0
+GEO412,Geology of Groundwater,4.0
+GEO418,Geophysics,4.0
+GEO480,Special Topics,12.0
+GEO497,Research,12.0
+GEO498,Independent Study,12.0
+GER101,German I,4.0
+GER102,German II,4.0
+GER103,German III,4.0
+GER201,German IV,4.0
+GER202,German V,4.0
+GER203,German VI: Conversation & Composition,4.0
+GER311,Introduction to German Stylistics,3.0
+GER312,German Stylistics,3.0
+GER313,Advanced German Stylistics,3.0
+GER331,Introduction to Studies in German Literature,3.0
+GER332,Studies in German Literature,3.0
+GER333,Advanced German Literature,3.0
+GER351,Introduction to Business and Professional German,3.0
+GER352,Business and Professional German,3.0
+GER353,Advanced Business and Professional German,0.5-20.0
+GER371,Special Studies in German Civilization & Culture,3.0
+GER399,Advanced Independent Study in German,0.5-12.0
+GER411,Special Studies in Advanced German Stylistics,3.0
+GER431,Special Studies in Advanced German Literature,3.0
+GER451,Special Studies in Advanced Business and Professional German,3.0
+GER471,Special Studies in German Civilization,3.0
+GER480,German Minor Thesis Course,4.0
+GER499,Special Topics in German,0.5-12.0
+GMAP260,Overview of Computer Gaming,3.0
+GMAP345,Game Development Foundations,3.0
+GMAP347,Serious Games,3.0
+GMAP348,Experimental Games,3.0
+GMAP367,Character Animation for Gaming,3.0
+GMAP368,Artificial Intelligence in Gaming,3.0
+GMAP369,Mobile Game Development,3.0
+GMAP377,Game Development: Workshop I,3.0
+GMAP378,Game Development: Workshop II,3.0
+GMAP399,Independent Project in Game Art and Production,0.5-12.0
+GMAP421,Advanced Game Art Production,3.0
+GMAP465,Special Topics in Game Production,3.0
+GREC101,Modern Elementary Greek I,4.0
+GREC102,Modern Elementary Greek II,4.0
+GREC103,Modern Elementary Greek III,4.0
+GREC201,Intermediate Modern Greek I,4.0
+GREC212,Introduction to Greek Folklore,3.0
+GREC225,Introduction to Greek Music & Dance,3.0
+GREC280,Communicate in Greek: Philoxenia,3.0
+GREC313,Greek History Economy & Society,3.0
+GREC380,Special Topics in Greek Studies,1.0-4.0
+GREC399,Independent Study in Greek,1.0-3.0
+GSTD100,Strategies for Academic Success,1.0
+GSTD111,Learning Skills & Strategies,3.0
+GSTD150,Introduction to World Religions,3.0
+GSTD180,Special Topics in General Studies,1.0-4.0
+GSTD200,Lifelong Learning Theory & Practice,3.0
+GSTD210,Fact & Fiction in Film,3.0
+GSTD380,Advanced Special Topics in General Studies,1.0-4.0
+GSTD399,Independent Study in General Studies,0.5-12.0
+GSTD400,Practicum,3.0
+GSTD491,Senior Project in General Studies,3.0
+HBRW101,Introduction to Hebrew I,4.0
+HBRW102,Introduction to Hebrew II,4.0
+HBRW103,Introduction to Hebrew III,4.0
+HBRW201,Intermediate Hebrew IV,4.0
+HBRW202,Intermediate Hebrew V,4.0
+HBRW203,Intermediate Hebrew VI,4.0
+HIST140,Europe and the Modern World I,4.0
+HIST141,Europe and the Modern World II,4.0
+HIST161,Themes in World Civilization I,3.0
+HIST162,Themes in World Civilization II,3.0
+HIST163,Themes in World Civilization III,3.0
+HIST201,United States History to 1815,3.0
+HIST202,United States History 1815-1900,3.0
+HIST203,United States History since 1900,3.0
+HIST209,The United States & Central America: From Monroe Doctrine to Cold War,3.0
+HIST212,Themes in African-American History,3.0
+HIST214,United States Civil Rights Movement,3.0
+HIST215,American Slavery,3.0
+HIST216,Freedom in America,3.0
+HIST218,Race and Film in United States History,3.0
+HIST220,History of American Business,3.0
+HIST222,History of Work & Workers in America,3.0
+HIST223,Women and Work in America,3.0
+HIST224,Women in American History,3.0
+HIST230,United States Military History I (before 1900),3.0
+HIST231,US Military History II (since 1900),3.0
+HIST232,The American Revolution,3.0
+HIST234,The United States Civil War,3.0
+HIST235,The Great War 1914-1918,3.0
+HIST236,World War II,3.0
+HIST237,Topics in the Cold War,3.0
+HIST238,The Vietnam War,3.0
+HIST241,Modern France,3.0
+HIST242,Modern Italy,3.0
+HIST243,Germany & World of Hitler,3.0
+HIST244,Twentieth Century Russia & the USSR,3.0
+HIST245,England to Elizabeth to 1558,3.0
+HIST246,England from Elizabeth to Waterloo 1558-1815,3.0
+HIST247,Modern England 1815 - present,3.0
+HIST249,Modern Jewish History,3.0
+HIST250,European Revolutionary Movements and Ideology 1815-1914,3.0
+HIST251,Fascism,3.0
+HIST252,Europe between Wars 1919-1939,3.0
+HIST253,Jewish Life and Culture in the Middle Ages,3.0
+HIST254,Russian History Before 1900,3.0
+HIST258,History of Europe in the 19th Century,3.0
+HIST259,History of Europe in the 20th Century,3.0
+HIST263,The World and China,3.0
+HIST264,East Asia in Modern Times,3.0
+HIST267,Twentieth Century World I,3.0
+HIST268,Twentieth Century World II,3.0
+HIST270,Introduction to Latin American History,3.0
+HIST271,History of Mexico,3.0
+HIST272,Ancient and Colonial Mexico,3.0
+HIST273,Modern Mexico,3.0
+HIST274,Conquest of Mexico,3.0
+HIST276,The History of Philadelphia,3.0
+HIST280,History of Science: Ancient to Medieval,3.0
+HIST281,History of Science: Enlightenment to Modernity,3.0
+HIST282,History of Science: Medieval to Enlightenment,3.0
+HIST285,Technology in Historical Perspective,3.0
+HIST286,Exploration in Technology and Gender,3.0
+HIST290,Technology and the World Community,3.0
+HIST292,Technology in American Life,3.0
+HIST296,Research Methods in History,3.0
+HIST298,Special Studies in History,12.0
+HIST299,Historical Background of Current Issues,3.0
+HIST301,The Study of History,3.0
+HIST310,Women Crime and History,3.0
+HIST332,Junior Seminar,3.0
+HIST490,Senior Seminar I,3.0
+HIST491,Senior Seminar II,3.0
+HIST492,Senior Seminar,3.0
+HLSO101,Intro to Health & Society,1.0
+HLSO301,Rhetoric and Reality of Health Care,3.0
+HLSO302,Consumer-Driven Health Care,3.0
+HLSO303,Urban Health Care,3.0
+HLSO304,Health Care and Quality Improvement,3.0
+HLSO305,Health Promotion and Wellness,3.0
+HLSO306,Human Services & Health Systems,3.0
+HLSO307,Disaster Planning and Health Care,3.0
+HLSO308,Concepts of Injury Prevention,3.0
+HLSO309,Health Fads Trends & Myths,3.0
+HLSO310,Children & Health Care,3.0
+HLSO313,AIDS Society & Health Care,3.0
+HLSO314,Human Sexuality & Health Care,3.0
+HLSO319,Health Care Legislation,3.0
+HLSO320,Individual and Health Care Politics,3.0
+HLSO321,Health Issues and the Environment,3.0
+HLSO322,Ideologies & Health Care,3.0
+HLSO327,Health & Illness in Film,3.0
+HLSO329,Grief & the Healing Arts,3.0
+HLSO370,Spec Topics in Health & Society,3.0
+HLSO470,Readings in Health & Society,1.0-6.0
+HLSO490,Senior Research Project,3.0
+HNRS200,Introduction to Honors Program,1.0
+HNRS201,Colloquium I,3.0
+HNRS202,Sophomore Colloquium II,3.0
+HNRS301,Colloquium II,3.0
+HNRS302,Honors Colloquium,3.0
+HNRS303,Honors Colloquium,3.0
+HNRS304,Honors Colloquium,3.0
+HNRS305,Honors Colloquium,3.0
+HNRS306,Honors Colloquium,3.0
+HNRS307,Honors Colloquium,3.0
+HNRS450,Honors Directed Study,12.0
+HNRS490,Honors Special Topics,0.5-12.0
+HNRS499,Honors Senior Thesis,0.5-12.0
+HRM110,Introduction to the Hospitality Industry,3.0
+HRM120,Principles of Food-Service Management,3.0
+HRM130,Tourism I,3.0
+HRM135,Tourism II,3.0
+HRM150,Customer Service,3.0
+HRM160,Laws of the Hospitality Industry,3.0
+HRM200,Software for Hospitality Industry,3.0
+HRM215,Commercial Food Production,4.0
+HRM220,Purchasing for the Hospitality Industry,3.0
+HRM225,Equipment Design and Layout,3.0
+HRM250,Contract Foodservice Management,3.0
+HRM310,Hospitality Accounting Systems,3.0
+HRM315,Continental Ethnic and Regional Cuisine,3.0
+HRM320,Hospitality Management Information Systems,3.0
+HRM325,Hotel Rooms Division Management,3.0
+HRM326,Hotel Rooms Division Management II,3.0
+HRM330,Hotel and Restaurant Marketing,3.0
+HRM335,Beverage Management,3.0
+HRM340,Catering Management,3.0
+HRM345,Convention Management,3.0
+HRM347,Sport Tourism,3.0
+HRM350,Cost Controls in Hospitality,3.0
+HRM355,Resort Management,3.0
+HRM360,Hospitality Industry Public Relations,3.0
+HRM365,Heritage Tourism,3.0
+HRM370,Gaming and Casino Management I,3.0
+HRM371,Gaming and Casino Management II,3.0
+HRM375,Security and Loss Prevention,3.0
+HRM385,Tourism Guest Lecture Series,3.0
+HRM395,Economics of Tourism,3.0
+HRM399,Independent Study in Hotel and Restaurant Management,12.0
+HRM405,Current Issues in Travel and Tourism,3.0
+HRM415,Fine Dining and Services,4.0
+HRM420,Hospitality Design,3.0
+HRM425,Hospitality Industry Administration,3.0
+HRM435,Wine and Spirits,3.0
+HRM450,Hospitality Leadership Seminar,3.0
+HRM455,Hospitality Human Resources Management,3.0
+HRM465,Special Topics in Hotel and Restaurant Management,12.0
+HRM470,Gaming Legislation Policy and Law,3.0
+HRM472,Gaming Information Systems,3.0
+HRM475,Current Issues in Gaming,3.0
+HRMT321,Staffing in Organizations,4.0
+HRMT323,Principles of Human Resource Administration,4.0
+HRMT330,Collective Bargaining,4.0
+HRMT345,Seminar In Human Resource Management,4.0
+HRMT499,Independent Study,1.0-4.0
+HSAD125,Medical Terminology,3.0
+HSAD210,Health-Care Ethics I,3.0
+HSAD309,Advanced Health-Care Ethics,3.0
+HSAD310,Introduction to Health-Systems Administration,3.0
+HSAD312,Development of World Health Care,3.0
+HSAD313,Evolution of Health Care in the United States,3.0
+HSAD315,Interdisciplinary Health Services,3.0
+HSAD316,Health Care across Cultures,3.0
+HSAD317,Religious Views on Health Care,3.0
+HSAD318,Health and Vulnerable Populations,3.0
+HSAD319,Women and the Health Professions,3.0
+HSAD320,Managed Health Care,3.0
+HSAD321,Health-Care Human Resources,3.0
+HSAD322,Health-Care Law,3.0
+HSAD323,Health Services and the Elderly,3.0
+HSAD324,Health Technology and Ethical Responsibility,3.0
+HSAD325,Issues in Health Care System,3.0
+HSAD326,Holism and Health Care,3.0
+HSAD327,Partnerships in Health Care,3.0
+HSAD328,Health Care for Diverse Groups,3.0
+HSAD329,Health Care and the Media,3.0
+HSAD330,Financial Management in Health Care,3.0
+HSAD331,Non-profits and Health Care,3.0
+HSAD332,Health-Care Marketing,3.0
+HSAD333,Health Illness and the Arts,3.0
+HSAD334,Management of Health Services,3.0
+HSAD335,Health-Care Policy,3.0
+HSAD336,Urban Health Care,3.0
+HSAD337,Health Care/Quality Improvement,3.0
+HSAD338,Human Services & Health Systems,3.0
+HSAD339,Health Care Legislation,3.0
+HSAD340,Leadership in Health Services Administration,3.0
+HSAD341,Risk Management in Healthcare Organizations,3.0
+HSAD342,Children and Health Care,3.0
+HSAD343,Health and Illness in Film,3.0
+HSAD344,The Individual and Health Care Politics,3.0
+HSAD345,Ethics in Health Care Management,3.0
+HSAD351,Ethical Issues in Reproduction,3.0
+HSAD352,Ethics in Health Care Research,3.0
+HSAD353,Public Health Ethics,3.0
+HSAD470,Readings in Health-Services Administration,1.0-6.0
+HSAD480,Special Topics in Health-Services Administration,3.0
+HSAD490,Senior Research Project,3.0
+HSCI201,Health Assessment through the Lifespan,4.0
+HSCI204,Clinical Health Informatics,3.0
+HSCI301,Pharmacology I,3.0
+HSCI302,Pharmacology II,3.0
+HSCI310,Introduction to Clinical Research,4.0
+HSCI313,Clinical Trials Protocols,4.0
+HSCI315,Current Issues in Clinical Research,3.0
+HSCI325,Exercise Physiology,4.0
+HSCI326,Applied Anatomy and Kinesiology,4.0
+HSCI337,Genetics and Health,3.0
+HSCI415,Musculoskeletal Pathophysiology,4.0
+HSCI430,Developmental Anatomy,4.0
+HSCI470,Readings in Health Sciences,1.0-6.0
+HSCI480,Special Topics in Health Sciences,1.0-12.0
+HSCI490,Senior Research Project,3.0
+HSM380,Special Topics in Homeland Security Management,0.5-12.0
+HUM006,Oral Communication Skills for Non-Native Speakers,0.0
+HUM106,Humanities and Communications I,3.0
+HUM107,Humanities and Communications II,3.0
+HUM108,Humanities and Communications III,3.0
+HUM159,Peer Tutoring Workshop,3.0
+HUM211,Studies in the Humanities I,3.0
+HUM305,Metaphorical Thinking,3.0
+HUM315,Perspectives in Medical Humanities,3.0
+IAS190,Global Research Methods,3.0
+IAS230,Arab Women Writers,3.0
+IAS235,African Francophone Women Writers,3.0
+IAS260,Evil Isms,3.0
+IAS320,Building Global Bridges,3.0
+IAS359,Culture and Values,3.0
+IAS360,Special Topics in World Civilization,3.0-12.0
+IAS370,Iran Then and Now,3.0
+IAS385,Rum Rice and Revolution: Caribbean History,3.0
+IAS390,Special Topics in International Area Studies,1.0-6.0
+IAS399,Independent Study in International Area Studies,1.0-12.0
+ICVT300,Introduction to Cardiology,3.0
+ICVT302,Cardiovascular System,2.0
+ICVT303,Patient Assessment I,3.0
+ICVT304,Cardiac Laboratory Procedures,3.0
+ICVT305,Coronary Anatomy & Imaging,2.0
+ICVT306,ECG & Special Topics,4.0
+ICVT308,Cardiovascular Angiography,3.0
+ICVT309,Hemodynamic Data I,4.0
+ICVT310,Radiation Safety & Equipment,3.0
+ICVT311,Patient Assessment II,2.0
+ICVT312,Clinical Practicum I,8.0
+ICVT406,Disease & Medical Emergencies,3.0
+ICVT407,Cardiovascular Review I,4.0
+ICVT409,Hemodynamic Data II,3.0
+ICVT410,Cardiovascular Review II,5.0
+ICVT411,Special Topics in Cardiology,2.0
+ICVT412,Clinical Practicum II,8.0
+ICVT422,Clinical Practicum III,10.0
+ICVT432,Clinical Practicum IV,8.0
+INDE240,Technology Economics,3.0
+INDE300,Quality Management,3.0
+INDE301,Health Systems Introduction,3.0
+INDE340,Introduction to Decision Analysis,3.0
+INDE350,Industrial Engineering Simulation,3.0
+INDE351,Intelligent Manufacturing Systems,3.0
+INDE361,Quality Control,3.0
+INDE362,Operations Research for Engineering I,3.0
+INDE363,Operations Research for Engineering II,3.0
+INDE364,Special Topics in Industrial Engineering,0.5-12.0
+INDE365,Systems Analysis Methods I,3.0
+INDE366,Systems Analysis Methods II,3.0
+INDE367,Data Processing,3.0
+INDE370,Industrial Project Management,3.0
+INDE375,Quality Improvement by Experimental Design,4.0
+INDE399,Independent Study in Industrial Engineering,0.5-12.0
+INDE400,Designs of Program Evaluation Systems,3.0
+INDE461,Methods of Engineering and Measurement,3.0
+INDE462,Industrial Plant Design,3.0
+INDE463,Production Management,3.0
+INDE467,Decision Processes,3.0
+INDE468,Analysis of Experimental Data,3.0
+INDE469,Organization Planning and Control,3.0
+INDE470,Engineering Quality Methods,3.0
+INDE490,Senior Project Design,4.0
+INFO101,Introduction to Information Technology,3.0
+INFO105,Introduction to Informatics,3.0
+INFO108,Foundations of Software,3.0
+INFO110,Human-Computer Interaction I,3.0
+INFO111,Informatics Design Workshop I,3.0
+INFO112,Informatics Design Workshop II,3.0
+INFO120,IST Seminar for Transfer Students,2.0
+INFO140,Information Systems Laboratory I,1.0
+INFO150,Ubiquitous Information Technologies,3.0
+INFO151,Web Systems and Services I,3.0
+INFO152,Web Systems and Services II,3.0
+INFO153,Applied Data Management,3.0
+INFO154,Software System Construction,3.0
+INFO200,Systems Analysis I,3.0
+INFO203,Information Technology for Engineers,3.0
+INFO204,Nursing Informatics,3.0
+INFO205,Strategic Uses of Information Systems,3.0
+INFO210,Database Management Systems,3.0
+INFO215,Social Aspects of Information Systems,3.0
+INFO216,Issues in Information Policy,3.0
+INFO220,Geographic Information Science,3.0
+INFO240,Introduction to Data Science,3.0
+INFO250,Information Visualization,3.0
+INFO300,Information Retrieval Systems,3.0
+INFO310,Human-Computer Interaction II,3.0
+INFO320,Server Technology I,4.0
+INFO321,Server Technology II,4.0
+INFO322,Server Technology III,4.0
+INFO324,Team Process and Product,3.0
+INFO330,Computer Networking Technology I,4.0
+INFO331,Computer Networking Technology II,4.0
+INFO333,Introduction to Information Security,3.0
+INFO336,Distributed Systems Security,3.0
+INFO340,Programming Internet Information Systems I,3.0
+INFO341,Programming Internet Information Systems II,3.0
+INFO350,Visual Analytics,3.0
+INFO355,Systems Analysis II,3.0
+INFO360,Language Processing,3.0
+INFO365,Database Administration I,3.0
+INFO366,Database Administration II,3.0
+INFO370,Artificial Intelligence for Information Systems,3.0
+INFO371,Data Mining with Machine Learning,3.0
+INFO373,Digital Forensics,3.0
+INFO375,Introduction to Information Systems Assurance,3.0
+INFO399,Independent Study,2.0-12.0
+INFO404,Nursing Informatics for the Bachelor of Science in Nursing Completion,3.0
+INFO405,Social and Collaborative Computing,3.0
+INFO410,Information Technology Infrastructure,3.0
+INFO415,Information Technology Services,3.0
+INFO420,Software Project Management,3.0
+INFO424,Team Project Practicum,3.0
+INFO425,Design Problem I,3.0
+INFO426,Design Problem II,3.0
+INFO435,Information Services,3.0
+INFO440,Social Media Trend Spotting,3.0
+INFO450,Expert Consultant Systems,3.0
+INFO480,Special Topics in Information Systems,4.0
+INTB200,International Business,4.0
+INTB332,Multinational Corporations,4.0
+INTB334,International Trade,4.0
+INTB336,International Money and Finance,4.0
+INTB338,Regional Studies in Economic Policies and International Business,4.0
+INTB440,Seminar in International Business,4.0
+INTB481,Special Topics in International Business,0.5-12.0
+INTB482,International Business and Emerging Markets,1.0
+INTB499,Independent Study in International Business,12.0
+INTR150,Issues of the Interior Environment,3.0
+INTR160,Visualization I: Computer Imaging,3.0
+INTR200,History of Modern Architecture and Interiors,3.0
+INTR211,Textiles for Interiors,3.0
+INTR220,Visualization II: Orthographic,3.0
+INTR225,Environmental Design Theory,3.0
+INTR231,Structure,4.0
+INTR232,Interior Studio I,4.0
+INTR233,Interior Studio II,4.0
+INTR241,Visualization III: Digital,3.0
+INTR245,Visualization IV: 3D Modeling,3.0
+INTR250,Interior Materials,3.0
+INTR300,Visual Culture: Interiors,3.0
+INTR305,Visual Culture: Furniture,3.0
+INTR310,Sustainability: History Theory and Critic,3.0
+INTR331,Residential Design Studio,4.0
+INTR341,Visualization V: Methods,3.0
+INTR350,Interior Detailing,3.0
+INTR351,Interior Lighting,3.0
+INTR399,Independent Study In Interior Design,0.5-12.0
+INTR410,Collaborative Research in Sustainability,3.0
+INTR430,Commercial Design Studio,4.0
+INTR435,Topical Issues Studio,4.0
+INTR441,Furniture Design,4.0
+INTR442,Hospitality Design Studio,4.0
+INTR445,Contract Documentation for Interior Design,3.0
+INTR450,Professional Practice,3.0
+INTR451,Interior Systems,3.0
+INTR465,Special Topics in Interior Design,1.0-12.0
+INTR470,Competition Studio,3.0
+INTR491,Senior Project I,3.0
+INTR492,Senior Project II,3.0
+INTR493,Senior Project III,3.0
+INTR496,Interior Design Investigations,3.0
+IST398,International Research Project and Study Abroad,0.5-20.0
+ITAL101,Italian I,4.0
+ITAL102,Italian II,4.0
+ITAL103,Italian III,4.0
+ITAL201,Italian IV,4.0
+ITAL202,Italian V,4.0
+ITAL203,Italian VI: Conversation and Composition,4.0
+ITAL311,Introduction to Italian Stylistics,3.0
+ITAL312,Italian Stylistics,3.0
+ITAL313,Advanced Italian Stylistics,3.0
+ITAL331,Introduction to Italian Literature Studies,3.0
+ITAL333,Advanced Italian Literature,3.0
+ITAL351,Introduction to Business and Professional Italian,3.0
+ITAL352,Business and Professional Italian,3.0
+ITAL371,Special Studies in Italian Civilization and Culture,3.0
+ITAL399,Advanced Independent Study in Italian,0.5-12.0
+ITAL411,Special Studies in Advanced Italian Stylistics,3.0
+ITAL431,Special Studies in Advanced Italian Literature,3.0
+ITAL451,Special Studies in Advanced Business and Professional Italian,3.0
+ITAL471,Special Studies in Italian Civilization,3.0
+ITAL480,Italian Minor Thesis Course,4.0
+ITAL499,Special Topics in Italian,0.5-12.0
+JAPN101,Japanese I,4.0
+JAPN102,Japanese II,4.0
+JAPN103,Japanese III,4.0
+JAPN104,Japanese Writing I,3.0
+JAPN105,Japanese Writing II,3.0
+JAPN201,Japanese IV,4.0
+JAPN202,Japanese V,4.0
+JAPN203,Japanese VI: Conversation and Composition,4.0
+JAPN204,Japanese Writing III,3.0
+JAPN301,Japanese VII,3.0
+JAPN302,Japanese VIII,3.0
+JAPN303,Japanese IX,3.0
+JAPN399,Advanced Independent Study in Japanese,0.5-12.0
+JAPN411,Introduction to Japanese Stylistics,3.0
+JAPN451,Introduction to Business and Professional Japanese,3.0
+JAPN480,Japanese Minor Thesis Course,4.0
+JUDA201,Jewish Literature and Civilization,3.0
+JUDA202,Jewish Life and Culture in Middle Ages,3.0
+JUDA203,Modern Jewish History,3.0
+JUDA211,American Jewish Experience,3.0
+JUDA212,Contemporary Jewish Life,3.0
+JUDA213,Jewish Cultural Tapestry,3.0
+JUDA214,Language and Cultural Diversity in the USA,3.0
+JUDA215,Reconstructing History After Genocide,3.0
+JUDA216,Yiddish Literature & Culture,3.0
+JUDA280,Special Topics in Judaic Studies,3.0
+JUDA298,Field Work in Judaic Studies,3.0
+JUDA299,Independent Study in Judaic Studies,3.0
+KOR101,Korean I,4.0
+KOR102,Korean II,4.0
+KOR103,Korean III,4.0
+KOR201,Korean IV,4.0
+KOR202,Korean V,4.0
+KOR203,Korean VI,4.0
+KOR301,Korean VII,3.0
+KOR302,Korean VIII,3.0
+KOR303,Korean IX,3.0
+KOR399,Korean Advanced Independent Study,0.5-12.0
+KOR480,Korean Minor Thesis Course,4.0
+LANG180,Special Topics in Languages,0.5-12.0
+LANG200,Crossing the Bridge,3.0
+LEAD100,Introduction To Leadership Development: Theory and Practice,2.0
+LEAD199,Independent Study in Leadership,0.5-4.0
+LEAD200,Leadership Issues at Work,1.0
+LEAD300,College and School-based Courses,1.0
+LEAD400,Relating Community and Classroom,1.0
+LING101,Introduction to Linguistics,3.0
+LING102,Language and Society,3.0
+MATE100,Materials for Emerging Technologies,2.0
+MATE101,Fundamentals of Materials,4.0
+MATE214,Introduction to Polymers,4.0
+MATE221,Introduction to Mechanical Behavior of Materials,3.0
+MATE240,Thermodynamics of Materials,4.0
+MATE245,Kinetics of Materials,4.0
+MATE280,Advanced Materials Laboratory,4.0
+MATE315,Processing Polymers,4.5
+MATE341,Defects in Solids,3.0
+MATE345,Processing of Ceramics,4.5
+MATE351,Electronic and Photonic Properties of Materials,4.0
+MATE355,Structure and Characterization of Crystalline Materials,3.0
+MATE366,Processing of Metallic Materials,4.5
+MATE370,Mechanical Behavior of Solids,3.0
+MATE410,Case Studies in Materials,3.0
+MATE450,The Nuclear Fuel Cycle & Materials,3.0
+MATE455,Biomedical Materials,3.0
+MATE458,Advanced Biomaterials,3.0
+MATE460,Engineering Computational Laboratory,4.0
+MATE473,Electronic Magnetic and Optical Characterization of Energy Materials,3.0
+MATE476,Recycling of Materials,3.0
+MATE482,Materials for Energy Storage,3.0
+MATE483,Environmental Effects on Materials,3.0
+MATE491,Senior Project Design I,2.0
+MATE492,Senior Project Design II,2.0
+MATE493,Senior Project Design III,4.0
+MATE495,Special Topics in Materials,0.5-12.0
+MATE499,Independent Study,0.5-12.0
+MATH004,Trigonometry,0.0
+MATH050,Elements of Precalculus,0.0
+MATH100,Fundamentals of Mathematics,3.0
+MATH101,Introduction to Analysis I,4.0
+MATH102,Introduction to Analysis II,4.0
+MATH107,Probability and Statistics for Liberal Arts,3.0
+MATH108,Mathematics for Nursing Professionals,3.0
+MATH110,Precalculus,3.0
+MATH119,Mathematical Foundations for Design,4.0
+MATH121,Calculus I,4.0
+MATH122,Calculus II,4.0
+MATH123,Calculus III,4.0
+MATH180,Discrete Computational Structures,4.0
+MATH181,Mathematical Analysis I,3.0
+MATH182,Mathematical Analysis II,3.0
+MATH183,Mathematical Analysis III,3.0
+MATH200,Multivariate Calculus,4.0
+MATH201,Linear Algebra,4.0
+MATH205,Survey of Geometry,3.0
+MATH210,Differential Equations,4.0
+MATH220,Introduction to Mathematical Reasoning,3.0
+MATH221,Discrete Mathematics,3.0
+MATH235,Math Competition Problem Solving Seminar,0.5-4.0
+MATH238,History of Mathematics,3.0
+MATH239,Mathematics for the Life Sciences,4.0
+MATH261,Linear Algebra,3.0
+MATH262,Differential Equations,3.0
+MATH279,Special Topics in Mathematics,12.0
+MATH285,Differential Equations II,3.0
+MATH286,Applied Differential Equations,3.0
+MATH291,Complex and Vector Analysis for Engineers,4.0
+MATH300,Numerical Analysis I,4.0
+MATH301,Numerical Analysis II,3.0
+MATH305,Introduction to Optimization Theory,4.0
+MATH310,Probability and Statistics,4.0
+MATH311,Probability and Statistics I,4.0
+MATH312,Probability and Statistics II,4.0
+MATH316,Mathematical Applications of Symbolic Software,3.0
+MATH318,Mathematical Applications of Statistical Software,3.0
+MATH319,Techniques of Data Analysis,4.0
+MATH320,Actuarial Mathematics,3.0
+MATH321,Vector Calculus,4.0
+MATH322,Complex Variables,4.0
+MATH323,Partial Differential Equations,4.0
+MATH331,Abstract Algebra I,4.0
+MATH332,Abstract Algebra II,3.0
+MATH382,Advanced Calculus,3.0
+MATH387,Linear Algebra II,3.0
+MATH401,Elements of Modern Analysis I,3.0
+MATH402,Elements of Modern Analysis II,3.0
+MATH410,Scientific Data Analysis I,3.0
+MATH411,Scientific Data Analysis II,3.0
+MATH422,Introduction to Topology,4.0
+MATH449,Mathematical Finance,3.0
+MATH450,Introduction to Graph Theory,3.0
+MATH475,Cryptography,3.0
+MATH480,Special Topics in Mathematics,12.0
+MATH483,Discrete Event Simulation,3.0
+MATH489,Tensor Analysis,3.0
+MATH497,Independent Study in Mathematics,0.5-12.0
+MATH498,Special Topics,12.0
+MATH499,Independent Study in Mathematics,6.0
+MBC101,Medical Terminology for Billers and Coders,3.0
+MBC201,Medical Billing I,3.0
+MBC202,Medical Billing II,3.0
+MBC250,Medical Billing Software,3.0
+MBC301,Physician-Based Medical Coding I,3.0
+MBC302,Physician-Based Medical Coding II,3.0
+MBC303,Hospital-Based Medical Coding I,3.0
+MBC304,Hospital-Based Medical Coding II,3.0
+MBC350,Physician-Based Chart Auditing,3.0
+MBC360,Hospital-Based Case Studies,3.0
+MEM201,Foundations of Computer Aided Design,3.0
+MEM202,Statics,3.0
+MEM220,Basic Fluid Mechanics,4.0
+MEM230,Mechanics of Materials I,4.0
+MEM238,Dynamics,4.0
+MEM255,Introduction to Controls,4.0
+MEM304,Introduction to Biomechanical Engineering,3.0
+MEM310,Thermodynamic Analysis I,4.0
+MEM311,Thermal Fluid Science Laboratory,2.0
+MEM320,Fluid Dynamics I,3.0
+MEM330,Mechanics of Materials II,4.0
+MEM331,Experimental Mechanics I,2.0
+MEM333,Mechanical Behavior of Materials,3.0
+MEM345,Heat Transfer,4.0
+MEM351,Dynamic Systems Laboratory I,2.0
+MEM355,Performance Enhancement of Dynamic Systems,4.0
+MEM361,Engineering Reliability,3.0
+MEM371,Introduction to Nuclear Engineering I,2.0
+MEM373,Space Systems Engineering I,3.0
+MEM374,Space Systems Engineering II,3.0
+MEM380,Special Topics in Mechanical Engineering,12.0
+MEM395,Hess Undergraduate Scholars Research,0.5-3.0
+MEM399,Independent Study in Mechanical Engineering,0.5-12.0
+MEM400,Internal Combustion Engines,3.0
+MEM402,Power Plant Design,3.0
+MEM403,Gas Turbines & Jet Propulsion,3.0
+MEM405,Principles of Combustion I,3.0
+MEM406,Principles of Combustion II,3.0
+MEM410,Thermodynamic Analysis II,3.0
+MEM413,HVAC Loads,3.0
+MEM414,HVAC Equipment,3.0
+MEM415,Fuel Cell Engines,3.0
+MEM417,Introduction to Microfabrication,3.0
+MEM419,Microfluidics and Lab-on-a-Chip,3.0
+MEM420,Aerodynamics,3.0
+MEM423,Mechanics of Vibration,4.0
+MEM424,Biomechanics,3.0
+MEM425,Aircraft Design & Performance,3.0
+MEM426,Aerospace Structures,3.0
+MEM427,Finite Element Methods,3.0
+MEM428,Introduction to Composites I,3.0
+MEM429,Introduction to Composites II,3.0
+MEM430,Advanced Stress Analysis,4.0
+MEM431,Machine Design I,3.0
+MEM435,Introduction to Computer-Aided Design and Manufacturing,4.0
+MEM436,Introduction to Computer-Aided Manufacturing,3.0
+MEM437,Manufacturng Process I,3.0
+MEM438,Manufacturing Process II,3.0
+MEM440,Thermal Systems Design,3.0
+MEM444,Biofluid Mechanics,3.0
+MEM445,Solar Energy Fundamentals,3.0
+MEM446,Fundamentals of Plasmas I,3.0
+MEM447,Fundamentals of Plasmas II,3.0
+MEM448,Applications of Thermal Plasmas,3.0
+MEM449,Applications of Non-Thermal Plasmas,3.0
+MEM453,Aircraft Flight Dynamics & Control I,3.0
+MEM454,Aircarft Flight Dynamics & Control II,3.0
+MEM455,Introduction to Robotics,4.0
+MEM456,Robotics II,3.0
+MEM457,Robotics III,3.0
+MEM458,Micro-Based Control Systems I,3.0
+MEM459,Micro-Based Control Systems II,3.0
+MEM462,Introduction to Engineering Management,3.0
+MEM475,Medical Robotics I,3.0
+MEM476,Medical Robotics II,3.0
+MEM477,Haptics for Medical Robotics,3.0
+MEM478,Computer-Aided Tissue Engr,3.0
+MEM491,Senior Design Project I,3.0
+MEM492,Senior Design Project II,3.0
+MEM493,Senior Design Project III,3.0
+MET100,Graphical Communication,3.0
+MET101,Manufacturing Materials,4.0
+MET201,Introduction to Manufacturing Processes,3.0
+MET202,Computer-Aided Drafting,4.0
+MET204,Applied Quality Control,3.0
+MET205,Robotics and Mechatronics,3.0
+MET209,Fluid Power,3.0
+MET213,Applied Mechanics,4.0
+MET301,Advanced Design Graphics,3.0
+MET307,HazMat for Manufacturing,3.0
+MET308,Maritime Manufacturing,3.0
+MET310,Advanced Robotics and Mechatronics,3.0
+MET316,Computer Numerical Control,3.0
+MET380,Special Topic in Manufacturing,1.0-5.0
+MET402,Manufacturing Design with CAD,3.0
+MET403,Three Dimensional Modeling,3.0
+MET404,Digital Instrumentation,3.0
+MET407,Manufacturing Processes,3.0
+MET408,MFG Information Management,3.0
+MET409,Green Manufacturing,3.0
+MET411,Advanced Computer Numerical Control,3.0
+MET421,Senior Design Project I,3.0
+MET422,Senior Design Project II,3.0
+MET423,Senior Design Project III,3.0
+MGMT260,Introduction to Entrepreneurship,4.0
+MGMT363,Directed Study in Entrepreneurship,4.0
+MGMT364,Technology Management,4.0
+MGMT365,Business Plan for Entrepreneurs,4.0
+MGMT366,Entrepreneurship Certificate Project,1.0
+MGMT450,Strategy and Competitive Advantage,4.0
+MGMT451,Management Simulation,4.0
+MGMT498,Special Topics in Management,4.0
+MGMT499,Independent Study,4.0
+MHT201,Kinematics,3.0
+MHT205,Thermodynamics I,3.0
+MHT206,Thermodynamics II,3.0
+MHT214,Technology Laboratory I,3.0
+MHT220,Applied Statics,3.0
+MHT222,Applied Dynamics I,3.0
+MHT224,Applied Dynamics II,3.0
+MHT226,Measurement Techniques and Instrumentation,3.0
+MHT295,Environmental Control Plasma Laboratory,2.0
+MHT301,Fluid Mechanics I,3.0
+MHT310,Applied Strength of Materials I,3.0
+MHT312,Applied Strength of Materials II,3.0
+MHT314,Thermo and Heat Transfer Analysis,3.0
+MHT316,Fluid Mechanics Laboratory,3.0
+MHT401,Mechanical Design I,4.0
+MHT402,Mechanical Design II,4.0
+MHT403,Fluid Mechanics II,3.0
+MHT404,Advanced Materials,3.0
+MHT405,HVAC,3.0
+MIP131,History of the Music Industry,3.0
+MIP133,Computer and Digital Applications I,3.0
+MIP161,Copyrights in the Music Industry,3.0
+MIP170,Radio Management,3.0
+MIP179,Music Recording I,3.0
+MIP227,Listening Techniques in Music,1.0
+MIP233,Computer and Digital Applications II,3.0
+MIP239,Survey of Modern Production Techniques,2.0
+MIP262,Trademarks and Patents in the Music Industry,3.0
+MIP263,Media Promotion,3.0
+MIP271,The Recording Industry I,3.0
+MIP272,The Recording Industry II,3.0
+MIP279,Music Recording II,3.0
+MIP311,Artists and Repertoire in the Music Industry I,4.0
+MIP312,Artists and Repertoire in the Music Industry II,4.0
+MIP318,Music Merchandising,3.0
+MIP331,Music Venues and Concerts,3.0
+MIP333,Computer and Digital Applications III,3.0
+MIP341,Touring and Booking,3.0
+MIP343,MADKo Concert Promotions,3.0
+MIP361,The Publishing Industry,3.0
+MIP363,Legal Issues in the Music Industry,3.0
+MIP374,Entrepreneurship in the Music Industry,3.0
+MIP375,Marketing and Promo in Music Industry,3.0
+MIP377,Bantic Media,3.0
+MIP379,Music Recording III,3.0
+MIP380,Special Topics in Music Industry,0.5-12.0
+MIP381,Audio for Video,3.0
+MIP382,Scoring to Picture,3.0
+MIP383,MAD Dragon Studios,1.0
+MIP384,Synthesis and Sampling,3.0
+MIP385,Remixing,3.0
+MIP386,Commercial Music Production,3.0
+MIP387,Studio Maintenance and Assisting,3.0
+MIP388,Production Company Management,2.0
+MIP389,Sound Reinforcement,3.0
+MIP390,Video Game Music and Audio,3.0
+MIP433,Computer and Digital Applications IV,3.0
+MIP440,Legal and Business Affairs for MAD Program,3.0
+MIP441,DraKo Booking,3.0
+MIP443,Entertainment Contracts I,3.0
+MIP444,MAD Dragon Records,3.0
+MIP445,MAD Dragon Publishing,3.0
+MIP453,Entertainment Contracts II,3.0
+MIP462,Global Issues in the Music Industry,3.0
+MIP464,Music Industry Cyberlaw,3.0
+MIP467,Artist Representation,3.0
+MIP468,Music Industry E-Commerce,3.0
+MIP477,Music Production,3.0
+MIP481,Mixing and Mastering,3.0
+MIP482,Recording Session,3.0
+MIP491,Senior Project in Music Industry,1.0
+MIP495,Directed Studies in Music Industry,0.5-12.0
+MIS200,Management Information Systems,4.0
+MIS250,Introduction to Enterprise Application Software Using SAP,4.0
+MIS341,Microcomputer Technologies for Business,4.0
+MIS342,Systems Analysis and Design,4.0
+MIS343,Database Design and Implementation,4.0
+MIS344,Networking Technologies for Business,4.0
+MIS345,Client/Server Computing for Business,4.0
+MIS346,Management Information Systems Strategy,4.0
+MIS347,Domestic and Global Outsourcing Management,4.0
+MIS348,Visual Basic Database Programming for Business,4.0
+MIS349,Predictive Business Analytics with Relational Database Data,4.0
+MIS350,Advanced Topics in Enterprise Application Software Using SAP,4.0
+MIS351,Introduction to Programming for Business in C#,4.0
+MIS352,Advanced Business Programming with ASP.Net,4.0
+MIS361,Information System Project Management,4.0
+MIS481,Special Topics in Management Information Systems,1.0-4.0
+MIS498,Special Topics in MIS,3.0
+MIS499,Independent Study,1.0-4.0
+MKTG301,Introduction to Marketing Management,4.0
+MKTG321,Selling and Sales Management,4.0
+MKTG322,Advertising & Integrated Marketing Communications,4.0
+MKTG324,Marketing Channels and Distribution Systems,4.0
+MKTG326,Marketing Research,4.0
+MKTG344,Professional Personal Selling,4.0
+MKTG347,New Product Development,4.0
+MKTG348,Services Marketing,4.0
+MKTG351,Marketing for Non-Profit Organizations,4.0
+MKTG353,Business-to-Business Marketing,4.0
+MKTG355,Interactive Marketing,4.0
+MKTG356,Consumer Behavior,4.0
+MKTG357,Global Marketing,4.0
+MKTG362,Brand and Reputation Management,4.0
+MKTG363,Brand & Reputation Management Project,1.0
+MKTG364,Marketing for New Ventures,4.0
+MKTG365,New Media Marketing,4.0
+MKTG366,Customer Analytics,4.0
+MKTG380,Seminar in Marketing Strategy,4.0
+MKTG498,Special Topics in Marketing,1.0-12.0
+MKTG499,Independent Study,0.5-6.0
+MLSC101,Basic Leadership Lab/Practicum,0.0
+MLSC102,Basic Leadership Lab/Practicum,0.0
+MLSC103,Basic Leadership Lab/Practicum,0.0
+MLSC110,Leadership and Personal Developmnt,1.0
+MLSC120,Foundations in Leadership,1.0
+MLSC130,Continuing Studies: Foundations in Leadership,1.0
+MLSC201,Basic Leadership Lab/Practicum,0.0
+MLSC202,Basic Leadership Lab/Practicum,0.0
+MLSC203,Basic Leadership Lab/Practicum,0.0
+MLSC210,Innovative Tactical Leadership,2.0
+MLSC220,Leadership in Changing Environments,2.0
+MLSC230,Adaptive Team Leadership,2.0
+MLSC301,Leadership Lab/Practicum,0.0
+MLSC302,Leadership Lab/Practicum,0.0
+MLSC303,Leadership Lab/Practicum,0.0
+MLSC310,Leadership in Contact,2.0
+MLSC320,Complex Team Leadership Issues,2.0
+MLSC330,Military Leadership Co-op Preparation,2.0
+MLSC390,Special Topics in Military Science,0.5-12.0
+MLSC401,Leadership Lab/Practicum,0.0
+MLSC402,Leadership Lab/Practicum,0.0
+MLSC403,Leadership Lab/Practicum,0.0
+MLSC410,Developing Adaptive Leaders,2.0
+MLSC420,Leadership in Contemporary Environments,2.0
+MLSC430,Advanced Leadership in Contemporary Environments,2.0
+MUSC101,University Chorus,1.0
+MUSC102,Chamber Singers,1.0
+MUSC105,Concert Band,1.0
+MUSC106,Guitar Ensembles,1.0
+MUSC107,Jazz Ensembles,1.0
+MUSC109,String Ensembles,1.0
+MUSC110,Keyboard Ensembles,1.0
+MUSC111,Chamber Music Ensemble,1.0
+MUSC112,Fusion Band,1.0
+MUSC113,Percussion Ensembles,1.0
+MUSC115,Gospel Choir,1.0
+MUSC120,Music Fundamentals,3.0
+MUSC121,Music Theory I,3.0
+MUSC122,Music Theory II,3.0
+MUSC123,Music Theory III,3.0
+MUSC125,Ear Training I,1.0
+MUSC126,Ear Training II,1.0
+MUSC127,Ear Training III,1.0
+MUSC130,Introduction to Music,3.0
+MUSC190,Class Piano I,2.0
+MUSC191,Class Guitar I,2.0
+MUSC192,Class Percussion I,2.0
+MUSC193,Class Voice I,2.0
+MUSC194,Class Bass I,2.0
+MUSC195,Class Bass II,2.0
+MUSC229,Modern Arranging Techniques,3.0
+MUSC231,Music History I,3.0
+MUSC232,Music History II,3.0
+MUSC234,The Beatles,3.0
+MUSC236,Rock Music Through the Mid-60s,3.0
+MUSC238,Rock Music Since the Mid-60s,3.0
+MUSC241,Applied Music,2.0
+MUSC242,Applied Music V,2.0
+MUSC243,Applied Music VI,2.0
+MUSC249,Digital Music Composition,3.0
+MUSC252,Music Composition,3.0
+MUSC290,Advanced Class Piano,2.0
+MUSC291,Advanced Class Guitar,2.0
+MUSC292,Advanced Class Percussion,2.0
+MUSC300,Improvisation,3.0
+MUSC323,Songwriting,3.0
+MUSC331,World Musics,3.0
+MUSC333,Afro-American Music USA,3.0
+MUSC336,History of Jazz,3.0
+MUSC338,American Popular Music,3.0
+MUSC341,Advanced Applied Music,2.0
+MUSC342,Applied Music-Recital,2.0
+MUSC380,Special Topics in Music,0.5-12.0
+MUSC381,MADKo Concert Promotions,1.0-3.0
+MUSC470,Advanced Seminar in Music,3.0
+MUSC495,Directed Studies in Music,0.5-12.0
+NEUR410,Neuroscience,4.0
+NFS100,Nutrition Foods and Health,2.0
+NFS101,Introduction to Nutrition & Food,3.0
+NFS111,Introduction to Dietetics,2.0
+NFS200,Nutrition I: Principles of Nutrition,4.0
+NFS203,Nutrition II: Nutrition in the Lifecycle,4.0
+NFS205,Introduction to Human Lactation,3.0
+NFS215,Nutritional Chemistry,3.0
+NFS216,Nutrition and the Schoolchild,3.0
+NFS217,Nutrient Quality & Composition,1.0
+NFS220,Normal & Lifespan Nutrition,4.0
+NFS230,Intermediate Nutrition,4.0
+NFS265,Professional Issues in Nutrition and Foods,3.0
+NFS310,Nutrition and Sports,3.0
+NFS315,Nutrition in Chronic Disease,4.0
+NFS320,Pediatric Nutrition,4.0
+NFS325,Nutrition & Exercise Physiology,3.0
+NFS345,Foods and Nutrition of World Cultures,3.0
+NFS365,Nutrition Laboratory: Food and Nutrient Analysis,4.0
+NFS370,Foodservice Systems Management,4.0
+NFS371,Institutional Organization and Administration,3.0
+NFS391,Community Nutrition,4.0
+NFS415,Advanced Nutrition I: Macronutrition,4.0
+NFS416,Advanced Nutrition II: Micronutrients,4.0
+NFS431,Nutrition Counseling,4.0
+NFS443,Medical Nutrition Therapy I,3.0
+NFS444,Medical Nutrition Therapy II,3.0
+NFS445,Medical Nutrition Therapy III,3.0
+NFS446,Perspectives in World Nutrition,3.0
+NFS475,Advanced Seminar in the Dietetics Profession,3.0
+NFS480,Special Studies in Nutrition and Food,12.0
+NFS494,Senior Project I,2.0
+NFS495,Senior Project II,2.0
+NFS496,Senior Project III,2.0
+NFS497,Research,1.0-3.0
+NFS498,Independent Study,1.0-3.0
+NURS104,Ethics Advocacy and Professionalism in Nursing III,1.0
+NURS110,Essentials of Relationship-Based Professional Nursing Practice,4.0
+NURS112,Relationship-Based Health Assessment & Promotion,5.0
+NURS200,Principles of Nursing Practice,6.0
+NURS204,Nursing Informatics,3.0
+NURS300,Comprehensive Adult Nursing I,6.0
+NURS301,Pharmacology for Nursing I,3.0
+NURS303,Women's Health Nursing,6.0
+NURS304,Nursing of Children,6.0
+NURS305,Comprehensive Adult Nursing II,6.0
+NURS306,Pharmacology for Nursing II,3.0
+NURS308,Mental Health Nursing,6.0
+NURS324,Intro to Online Learning:Tools for Success,2.0-3.0
+NURS325,Critical Issues in Nursing,3.0
+NURS330,Research Basis of Nursing,4.0
+NURS336,Alternative and Complementary Health Interventions,3.0
+NURS337,Genetics in Nursing and Health,3.0
+NURS339,Pathophysiology,3.0
+NURS340,Transformational Leadership,3.0
+NURS345,Holistic Self-Care,3.0
+NURS346,Health Assessment,6.0
+NURS350,Independent Study in Nursing,1.0-3.0
+NURS370,Issues in Aging and Longevity,4.0
+NURS375,Nurses Building a Healthy Community,6.0
+NURS388,Nursing Case Study I,1.0
+NURS400,Leadership Management and Entrepreneurship in Nursing,3.0
+NURS401,Comprehensive Adult Nursing III,6.0
+NURS403,Community Public Health Nursing,6.0
+NURS404,Nursing Informatics for BSN Completion,3.0
+NURS450,Contemporary Gerontological Nursing,6.0
+NURS460,Global Health & Policy Issues,6.0
+NURS462,Science Technology and Health,3.0
+NURS464,Senior Concentration in Nursing,3.0
+NURS465,Senior Thesis in Nursing,3.0
+NURS480,Special Topics in Nursing,1.0-12.0
+NURS481,Issues & Resolutions in End of Life Care,3.0
+NURS482,Cultural Dimensions of Nursing Care,3.0
+NURS488,Nursing Case Study II,1.0
+NURS489,Synthesis of Nursing Knowledge,4.0
+NURS490,Senior Project in Nursing,3.0
+NURS491,Senior Project in Nursing II,3.0
+NURS492,Senior Seminar in Nursing,3.0
+OPM200,Operations Management,4.0
+OPM315,Service Operations Management,4.0
+OPM321,Planning and Control of Operations,4.0
+OPM325,Advanced Planning and Control of Operations,4.0
+OPM341,Supply Chain Management,4.0
+OPM481,Special Topics in Operations Management,0.5-12.0
+OPM499,Independent Study in Operations Management,0.5-12.0
+OPR320,Linear Models for Decision Making,4.0
+OPR330,Advanced Decision Making and Simulation,4.0
+OPR499,Independent Study,0.5-4.0
+ORGB300,Organizational Behavior,4.0
+ORGB320,Leadership: Theory and Practice,4.0
+ORGB420,Negotiations and Conflict Resolution,4.0
+ORGB498,Special Topics in Organizational Behavior,3.0
+ORGB499,Independent Study,1.0-4.0
+PBHL101,Public Health 101,3.0
+PBHL301,Epidemiology in Public Health,3.0
+PBHL302,Introduction to the History of Public Health,3.0
+PBHL303,Overview of Issues in Global Health,3.0
+PBHL304,Introduction to Health & Human Rights,3.0
+PBHL305,Women and Children: Health & Society,3.0
+PBHL306,Introduction to Community Health,3.0
+PBHL307,Injury Prevention and Control,3.0
+PBHL308,The U.S. Public Health System,3.0
+PBHL309,Public Health Ethics,3.0
+PBHL310,Burden of Disease,3.0
+PBHL311,Public Health Biology,3.0
+PBHL312,Making Sense of Public Health Data,3.0
+PBHL313,The Social Determinants of Health and Well-Being,3.0
+PBHL314,Environmental and Occupational Health,3.0
+PBHL315,Public Health Leadership,3.0
+PBHL316,Drugs Society and Public Health,3.0
+PBHL317,The World's Water,3.0
+PBHL318,Violence and Trauma in Public Health,3.0
+PBHL497,Capstone Experience I,3.0
+PBHL498,Capstone Experience II,3.0
+PBHL499,Capstone Experience III,3.0
+PHEV141,Atmospheric Science I: Climate and Global Change,3.0
+PHEV142,Atmospheric Science I Laboratory,1.0
+PHEV143,Atmospheric Science II: Weather Analysis and Forecasting,3.0
+PHEV144,Atmospheric Science II Laboratory,1.0
+PHEV145,Weather I: Climate and Global Change,4.0
+PHEV146,Weather II: Analysis and Forecasting,4.0
+PHEV346,Atmospheric Dynamics,3.0
+PHGY325,Physiology,5.0
+PHGY382,Pathophysiology for Health Professions,5.0
+PHIL101,Introduction to Western Philosophy,3.0
+PHIL102,Introduction to Eastern Philosophy,3.0
+PHIL105,Critical Reasoning,3.0
+PHIL107,Philosophy and Knowledge Organization,3.0
+PHIL111,Propositional (zero-order) Logic,3.0
+PHIL207,Predicate (first-order) Logic,3.0
+PHIL210,Philosophy of Sport,3.0
+PHIL211,Metaphysics,3.0
+PHIL212,Ancient Philosophy,3.0
+PHIL214,Modern Philosophy,3.0
+PHIL215,Contemporary Philosophy,3.0
+PHIL216,Philosophy of Time,3.0
+PHIL221,Epistemology,3.0
+PHIL231,Aesthetics,3.0
+PHIL241,Social & Political Philos,3.0
+PHIL251,Ethics,3.0
+PHIL255,Philosophy of Sex & Love,3.0
+PHIL301,Business Ethics,3.0
+PHIL305,Communication Ethics,3.0
+PHIL311,Computer Ethics,3.0
+PHIL315,Engineering Ethics,3.0
+PHIL317,Ethics and Design Professions,3.0
+PHIL321,Biomedical Ethics,3.0
+PHIL322,Ethics of Human Enhancement,3.0
+PHIL323,Organizational Ethics,3.0
+PHIL325,Ethics in Sports Management,3.0
+PHIL330,Ethical Issues in Criminal Justice,3.0
+PHIL335,Global Ethical Issues,3.0
+PHIL341,Philosophy of the Environment,3.0
+PHIL351,Philosophy of Technology,3.0
+PHIL355,Philosophy of Medicine,3.0
+PHIL361,Philosophy of Science,3.0
+PHIL371,Philosophy of Social Sciences,3.0
+PHIL381,Philosophy in Literature,3.0
+PHIL385,Philosophy of Law,3.0
+PHIL391,Philosophy of Religion,3.0
+PHIL395,Advanced Topics in Logic,3.0
+PHIL399,Independent Project in Philosophy,1.0-12.0
+PHIL421,Seminar in Ancient Philosophy,3.0
+PHIL425,Seminar in Medieval Philosophy,3.0
+PHIL431,Seminar in Rationalism & Empiricism,3.0
+PHIL461,Seminar in Contemporary Philosophy,3.0
+PHIL465,Seminar in American Philosophy,3.0
+PHIL475,Special Problems in Philosophy,3.0
+PHIL481,Seminar in a Philosophical School,3.0
+PHIL485,Seminar in a Major Philosopher,3.0
+PHIL497,Senior Essay I: Research & Thesis,3.0
+PHIL498,Senior Essay II: Argument Construction,3.0
+PHIL499,Senior Essay III: Defense,3.0
+PHTO110,Photography,3.0
+PHTO140,Digital Photography I,4.0
+PHTO210,Intermediate Photography,3.0
+PHTO231,Color Photography,4.0
+PHTO233,Large Format Photography,4.0
+PHTO234,Studio Photography,4.0
+PHTO236,Photojournalism,4.0
+PHTO240,Digital Photography II,4.0
+PHTO253,Fine Black and White Printing,3.0
+PHTO275,History of Photography I,3.0
+PHTO276,History of Photography II,3.0
+PHTO291,Internship,0.5-12.0
+PHTO334,Advanced Studio Photography,4.0
+PHTO335,Portraiture,3.0
+PHTO336,Assignment Photography,3.0
+PHTO340,Digital Photography III,4.0
+PHTO361,Advanced Photography,4.0
+PHTO392,Junior Project in Photography,3.0
+PHTO399,Independent Study In Photography,0.5-12.0
+PHTO451,Photography and Business,3.0
+PHTO452,History of Contemporary Photography,3.0
+PHTO453,Photography Production,3.0
+PHTO455,Landscape Photography,3.0
+PHTO456,Fashion Photography,3.0
+PHTO457,Palladium Printing,3.0
+PHTO458,Advertising Portfolio Development,3.0
+PHTO459,Marketing for Photographers,3.0
+PHTO465,Special Topics in Photography,0.5-12.0
+PHTO492,Senior Thesis in Photography I,3.0
+PHTO493,Senior Thesis in Photography II,3.0
+PHTO495,Senior Thesis in Photography III,3.0
+PHYS050,Preparation for Engineering Studies,0.0
+PHYS100,Preparation for Engineering Studies,4.0
+PHYS101,Fundamentals of Physics I,4.0
+PHYS102,Fundamentals of Physics II,4.0
+PHYS103,General Physics I,4.0
+PHYS104,General Physics II,4.0
+PHYS105,Computational Physics I,3.0
+PHYS106,The Physics of High Fidelity,3.0
+PHYS107,Acoustics,3.0
+PHYS113,Contemporary Physics I,5.0
+PHYS114,Contemporary Physics II,5.0
+PHYS115,Contemporary Physics III,5.0
+PHYS121,Physical Science for Design I,4.0
+PHYS122,Physical Science for Design II,4.0
+PHYS131,Survey of the Universe,3.0
+PHYS135,How Things Work,4.0
+PHYS137,Issues in Science and Religion,3.0
+PHYS141,Atmospheric Science I - Climate and Global Change,3.0
+PHYS142,Atmospheric Science I Laboratory,1.0
+PHYS143,Atmospheric Science II - Weather & Forecasting,3.0
+PHYS144,Atmospheric Science II Laboratory,1.0
+PHYS151,Applied Physics,3.0
+PHYS152,Introductory Physics I,4.0
+PHYS153,Introductory Physics II,4.0
+PHYS154,Introductory Physics III,4.0
+PHYS160,Introduction to Scientific Computing,3.0
+PHYS181,Astronomy,3.0
+PHYS182,Applied Physics I,3.0
+PHYS183,Applied Physics II,3.0
+PHYS184,Applied Physics III,3.0
+PHYS185,Fundamentals of Physics Lecture I,3.0
+PHYS186,Physics I-A,1.0
+PHYS188,Physics II-A,1.0
+PHYS189,Fundamentals of Physics Lecture II,3.0
+PHYS201,Fundamentals of Physics III,4.0
+PHYS202,Fundamentals of Physics IV,4.0
+PHYS217,Thermodynamics,4.0
+PHYS222,Modern Physics,4.0
+PHYS223,Modern Physics Laboratory,3.0
+PHYS226,Instrumentation for Scientists I,3.0
+PHYS227,Instrumentation for Scientists II,3.0
+PHYS231,Introductory Astrophysics,3.0
+PHYS232,Observational Astrophysics,3.0
+PHYS262,Introduction to Biophysics,3.0
+PHYS280,Fundamentals of Physics Lecture III,3.0
+PHYS282,Fundamentals of Physics Laboratory III,1.0
+PHYS305,Computational Physics II,3.0
+PHYS311,Classical Mechanics I,4.0
+PHYS312,Classical Mechanics II,4.0
+PHYS317,Statistical Mechanics,3.0
+PHYS321,Electromagnetic Fields I,4.0
+PHYS322,Electromagnetic Fields II,4.0
+PHYS324,Topics in Mathematical Physics,3.0
+PHYS326,Quantum Mechanics I,4.0
+PHYS327,Quantum Mechanics II,4.0
+PHYS328,Advanced Laboratory,3.0
+PHYS330,Introduction to Nuclear Physics,2.0
+PHYS399,Independent Study in Physics,12.0
+PHYS405,Advanced Computational Physics,3.0
+PHYS408,Physics Seminar,1.0
+PHYS409,Astrophysics Seminar,1.0
+PHYS428,Quantum Mechanics III,4.0
+PHYS431,Galactic Dynamics,3.0
+PHYS432,Cosmology,3.0
+PHYS451,Quantum Structure of Materials,4.0
+PHYS452,Solid State Physics,3.0
+PHYS453,Nanoscience,3.0
+PHYS461,Biophysics,3.0
+PHYS462,Computational Biophysics,3.0
+PHYS463,Single Molecule Methods,3.0
+PHYS471,Nonlinear Dynamics,3.0
+PHYS476,Nuclear and Particle Physics,3.0
+PHYS480,Special Topics,12.0
+PHYS485,Research,3.0
+PHYS491,Senior Research I,3.0
+PHYS492,Senior Research II,3.0
+PHYS493,Senior Research III,3.0
+POM345,Seminar in Operations Management,3.0
+PORT101,Introduction to Portuguese I,4.0
+PORT102,Introduction to Portuguese II,4.0
+PRFA380,Special Topics in Performing Arts,0.5-12.0
+PRFA495,Directed Studies in Performing Arts,0.5-12.0
+PRMT110,Introduction to Property Management,3.0
+PRMT210,Rental Property & Fair Housing Law,3.0
+PRMT215,Building Systems for PRMT I,3.0
+PRMT216,Building Systems for PRMT II,3.0
+PRMT225,Technical Drawings for Property Managers,3.0
+PRMT310,Property Financing & Valuation,3.0
+PRMT315,Property Risk Management,3.0
+PRMT320,Sustainable Property Management,3.0
+PRMT325,Human Resource Strategies - Property Management,3.0
+PRMT330,Property Management Technology,3.0
+PRMT333,Social Responsibility for Property Managers,3.0
+PRMT335,Marketing and Leasing for Residential Properties,3.0
+PRMT340,Managing and Marketing for Retail Properties,3.0
+PRMT341,Managing and Marketing Office Buildings,3.0
+PRMT342,Managing and Marketing Industrial Properties,3.0
+PRMT345,Managing & Marketing Housing for an Aging Population,3.0
+PRMT350,Affordable Housing Management,3.0
+PRMT355,Student Housing Management,3.0
+PRMT356,Military Housing Management,3.0
+PRMT360,Managing & Marketing for Commercial Properties,3.0
+PRMT363,Commercial Property Financial Reports,3.0
+PRMT365,Commercial Property Appraisal,3.0
+PRMT380,Special Topics in PRMT,0.5-12.0
+PRMT399,Independent Study in Property Management,1.0-6.0
+PRMT491,Senior Project in Property Management,3.0
+PROD101,History and Analysis of Product Design,3.0
+PROD205,Applied Making I,3.0
+PROD210,Introduction to Product Design,3.0
+PROD215,Design Thinking in Production Design,4.0
+PROD220,Product Design Form Studio,4.0
+PROD225,Computer Aided Imagining in Product Design,3.0
+PROD230,Product Design Process Studio,4.0
+PROD235,Applied Design Visualization,3.0
+PROD245,Seminar Professional Landscape,3.0
+PROD255,Applied Materials in Product Design,3.0
+PROD340,Interdisciplinary Product Design Studio,4.0
+PROD345,Applied Human Centered Design,3.0
+PROD350,Sponsored Product Design Studio,4.0
+PROD399,Independent Study in Product Design,3.0
+PROD425,Applied Design Research,3.0
+PROD460,Research Synthesis Studio,4.0
+PROD465,Special Topics in Product Design,4.0
+PROD470,Create Build Studio,4.0
+PROD475,Professional Practice in Product Design,3.0
+PROD480,Exhibition Studio,4.0
+PROJ301,Introduction to Project Management,3.0
+PROJ380,Special Topics in Project Management,0.5-12.0
+PRST180,Special Topics in PRST,1.0-4.0
+PRST211,Computer Applications for Professionals,3.0
+PRST212,Creative Studies in the World Wide Web,3.0
+PRST303,Interpersonal Skills for Virtual Teams,3.0
+PRST330,Career & Professional Development,3.0
+PRST380,Advanced Special Topics in PRST,1.0-4.0
+PRST399,Independent Study in Professional Studies,0.5-6.0
+PRST440,Policy Analysis,3.0
+PRST450,Creative Leadership for Professionals,3.0
+PRST491,Professional Portfolio I,3.0
+PRST492,Professional Portfolio II,3.0
+PSCI100,Introduction to Political Science,4.0
+PSCI110,American Government I,4.0
+PSCI120,History of Political Thought,4.0
+PSCI130,Research Methods in Political Science I,4.0
+PSCI140,Introduction to Comparative Political Analysis,4.0
+PSCI150,International Politics,4.0
+PSCI211,American Government II,4.0
+PSCI220,Constitutional Law I,3.0
+PSCI230,Research Methods in Political Science II,4.0
+PSCI240,Comparative Government,3.0
+PSCI250,American Foreign Policy,3.0
+PSCI255,International Political Economics,4.0
+PSCI270,Problems of Individual Liberty and Government Authority,3.0
+PSCI272,Contemporary Political Issues,3.0
+PSCI313,State & Local Government,3.0
+PSCI323,Comparative Political Thought,3.0
+PSCI325,Political Theory from Below,3.0
+PSCI327,Democratic Theory,3.0
+PSCI329,Theories of Justice,3.0
+PSCI330,Public Opinion & Propaganda,3.0
+PSCI331,Environmental Politics,3.0
+PSCI335,Political Communication,3.0
+PSCI340,Politics of Developing Nations,3.0
+PSCI344,Introduction to 20th Century Middle East,3.0
+PSCI345,Comparative Politics of the Middle East,3.0
+PSCI351,International Organizations,3.0
+PSCI352,Ethics and International Relations,3.0
+PSCI353,International Human Rights,3.0
+PSCI354,United States & the Third World,3.0
+PSCI357,The European Union,3.0
+PSCI358,Political Economy of Japan,3.0
+PSCI363,Constitutional Law II,3.0
+PSCI364,Constitutional Law III,3.0
+PSCI365,Politics Law & Justice,3.0
+PSCI366,Supreme Court and American Politics,3.0
+PSCI367,International Law,3.0
+PSCI369,The Politics of Food,3.0
+PSCI370,Topics in Public Policy,3.0
+PSCI371,Science Technology & Public Policy,3.0
+PSCI372,City in United States Political Development,3.0
+PSCI374,Politics of Sport,3.0
+PSCI375,Politics of Immigration,3.0
+PSCI376,Running for Political Office,3.0
+PSCI377,Politics of Latin America,3.0
+PSCI470,Junior Seminar in Political Science,3.0
+PSCI472,Special Studies in Political Science,12.0
+PSCI490,Senior Seminar I,3.0
+PSCI491,Senior Seminar II,3.0
+PSCI492,Political Science Honors Thesis I,3.0
+PSCI493,Political Science Honors Thesis II,3.0
+PSY101,General Psychology I,3.0
+PSY111,Pre-Professional General Psychology I,3.0
+PSY112,Pre-Professional General Psychology II,3.0
+PSY120,Developmental Psychology,3.0
+PSY140,Approaches to Personality,3.0
+PSY150,Introduction to Social Psychology,3.0
+PSY210,Evolutionary Psychology,3.0
+PSY212,Physiological Psychology,3.0
+PSY213,Sensation and Perception,3.0
+PSY222,Psychological Problems of Modern Youth,3.0
+PSY225,Child Psychopathology,3.0
+PSY240,Abnormal Psychology,3.0
+PSY242,Psychology of Disability,3.0
+PSY244,Culture and Personality,3.0
+PSY245,Sports Psychology,3.0
+PSY250,Industrial Psychology,3.0
+PSY252,Death and Dying,3.0
+PSY254,Psychology of Sexual Behavior,3.0
+PSY260,Psychological Research I,3.0
+PSY264,Computer-Assisted Data Analysis I,3.0
+PSY290,History and Systems of Psychology,3.0
+PSY305,Science and Pseudoscience in Psychology,3.0
+PSY310,Drugs & Human Behavior,3.0
+PSY320,Educational Psychology,3.0
+PSY322,Advanced Developmental Psychology,3.0
+PSY325,Psychology of Learning,3.0
+PSY330,Cognitive Psychology,3.0
+PSY332,Human Factors and Cognitive Engineering,3.0
+PSY336,Psychology of Language,3.0
+PSY337,Human-Computer Interaction,3.0
+PSY342,Counseling Psychology,3.0
+PSY345,Narrative Psychology,3.0
+PSY350,Advanced Social Psychology,3.0
+PSY352,Environmental Psychology,3.0
+PSY355,Health Psychology,3.0
+PSY356,Women's Health Psychology,3.0
+PSY357,The Psychology of Eating Disorders and Obesity,3.0
+PSY360,Experimental Psychology,3.0
+PSY364,Computer-Assisted Data Analysis I,3.0
+PSY365,Computer-Assisted Data Analysis II,3.0
+PSY368,Critical Psychology,3.0
+PSY370,Forensic Psychology,3.0
+PSY380,Psychological Testing and Assessment,3.0
+PSY410,Neuropsychology,3.0
+PSY440,Advanced Personality Seminar,3.0
+PSY442,Theories & Practices in Clinical Psychology,3.0
+PSY445,Positive Psychology,3.0
+PSY450,Autism Spectrum Disorders,3.0
+PSY460,Advanced Experimental Psychology: Laboratory Applications and Techniques,3.0
+PSY477,Senior Seminar I,3.0
+PSY478,Senior Seminar II,3.0
+PSY480,Directed Studies in Psychology,0.5-12.0
+PSY490,Psychology Senior Thesis I,4.0
+PSY491,Psychology Senior Thesis II,4.0
+PSY492,Psychology Senior Thesis III,4.0
+PSY499,Independent Study,1.0-3.0
+PTM399,Independent Study in Print Technology Management,0.5-12.0
+RADI100,Introduction to Radiologic Technology,2.0
+RADI102,Introduction to Radiologic Principles II,1.0
+RADI132,Radiologic Physics I,3.0
+RADI133,Radiologic Physics II,3.0
+RADI140,Imaging Systems in Radiography,3.0
+RADI150,Principles of Radiographic Exposure I,2.0
+RADI153,Principles of Radiographic Exposure II,2.0
+RADI154,Radiographic Exposure III,2.0
+RADI164,Radiologic Procedures I,3.0
+RADI165,Radiographic Procedures II,3.0
+RADI166,Radiographic Procedures III,3.0
+RADI193,Methods of Patient Care I,2.0
+RADI194,Methods of Patient Care II,1.0
+RADI195,Clinical Practicum I,1.0
+RADI196,Clinical Practicum II,1.0
+RADI197,Clinical Practicum III,1.0
+RADI198,Clinical Practicum IV,2.0
+RADI200,Radiologic Procedures IV,3.0
+RADI201,Medical Imaging,2.0
+RADI202,Radiologic Procedures V,1.0
+RADI203,Principles of Exposure IV,2.0
+RADI204,Principles of Radiation Protection,2.0
+RADI215,Radiation Biology,3.0
+RADI221,Quality Assurance,2.0
+RADI222,Pathology,3.0
+RADI223,Registry Review,1.0
+RADI291,Clinical Practicum V,2.0
+RADI292,Clinical Practicum VI,2.0
+RADI293,Clinical Practicum VII,2.0
+RADI499,Topics in Radiologic Sciences,3.0
+REAL310,Introduction to Real Estate,3.0
+REAL320,Real Estate Law - Principle & Practice,3.0
+REAL330,Facilities & Property Management,3.0
+REAL470,Real Estate Investments - Market & Feasibility Analysis,3.0
+REAL471,Advanced Real Estate in Investment & Analysis,3.0
+REAL472,Advanced Market Research & Analysis,3.0
+REAL473,Sales & Marketing of Real Estate,3.0
+REAL474,Real Estate Economics in Urban Markets,3.0
+REAL475,Real Estate Finance,3.0
+REAL476,Real Estate Valuation & Analysis,3.0
+RETL315,Power of Retail Brands,3.0
+RETL325,Applied In-Store Visual Strategies,3.0
+RETL400,Retail Leadership Capstone,3.0
+RUSS101,Russian I,4.0
+RUSS102,Russian II,4.0
+RUSS103,Russian III,4.0
+RUSS201,Russian IV,4.0
+RUSS202,Russian V,4.0
+RUSS203,Russian VI: Conversation & Composition,4.0
+RUSS301,Russian VII,3.0
+RUSS302,Russian VIII,3.0
+RUSS303,Russian IX,3.0
+RUSS399,Advanced Independent Study in Russian,0.5-12.0
+RUSS411,Introduction to Russian Stylistics,3.0
+RUSS431,Introduction to Russian Literature,3.0
+RUSS451,Introduction to Business & Professional Russian,3.0
+RUSS480,Russian Minor Thesis Course,4.0
+RUSS499,Independent Study in Russian,0.5-12.0
+SAPA395,Performing Arts in Liverpool,0.5-12.0
+SCRP220,Playwriting I,3.0
+SCRP225,Playwriting II,3.0
+SCRP241,Writing TV Comedy,3.0
+SCRP242,Writing TV Drama,3.0
+SCRP250,Creating Stand-up Comedy,3.0
+SCRP270,Screenwriting I,3.0
+SCRP275,Screenwriting II,3.0
+SCRP280,Writing the Short Film,3.0
+SCRP310,Literature for Screenwriters,3.0
+SCRP350,Writing the TV Comedy Series,3.0
+SCRP353,Writing the TV Drama Series,3.0
+SCRP370,Screenplay Story Development,3.0
+SCRP380,Screenwriting Workshop I,3.0
+SCRP381,Screenwriting Workshop II,3.0
+SCRP382,Playwriting Workshop I,3.0
+SCRP383,Playwriting Workshop II,3.0
+SCRP399,Independent Study in SCRP,0.5-12.0
+SCRP465,Special Topics in SCRP,3.0
+SCRP495,Senior Project in Dramatic Writing I,3.0
+SCRP496,Senior Project in Dramatic Writing II,3.0
+SCRP497,Senior Project in Dramatic Writing III,3.0
+SE101,Foundations of Software Engineering I,3.0
+SE101,Foundations of Software Engineering I,3.0
+SE102,Foundations of Software Engineering II,3.0
+SE102,Foundations of Software Engineering II,3.0
+SE103,Foundations of Software Engineering III,3.0
+SE103,Foundations of Software Engineering III,3.0
+SE210,Software Specification and Design I,3.0
+SE210,Software Specification and Design I,3.0
+SE211,Software Specification and Design II,3.0
+SE211,Software Specification and Design II,3.0
+SE280,Special Topics in Software Engineering,4.0
+SE280,Special Topics in Software Engineering,4.0
+SE310,Software Architecture I,3.0
+SE310,Software Architecture I,3.0
+SE311,Software Architecture II,3.0
+SE311,Software Architecture II,3.0
+SE320,Software Verification and Validation,3.0
+SE320,Software Verification and Validation,3.0
+SE410,Software Evolution,3.0
+SE410,Software Evolution,3.0
+SE480,Advanced Topics in Software Engineering,4.0
+SE480,Advanced Topics in Software Engineering,4.0
+SE491,Design Project I,3.0
+SE491,Design Project I,3.0
+SE492,Design Project II,3.0
+SE492,Design Project II,3.0
+SE493,Design Project III,3.0
+SE493,Design Project III,3.0
+SMT101,Principles of Coaching,3.0
+SMT102,Principles of Coaching II,3.0
+SMT110,The Business of Sport,3.0
+SMT152,Leadership in Sports & Society,3.0
+SMT200,Introduction to Sport Facility and Event Management,3.0
+SMT201,Sports Marketing Promotion and Public Relations,3.0
+SMT203,Sports Conditioning,3.0
+SMT205,Sports Information,3.0
+SMT210,Prevention and Care Athletic Injuries,3.0
+SMT215,Sports Ticket Sales & Operations,3.0
+SMT220,Recreation Wellness & Society,3.0
+SMT225,Sports Budgeting,3.0
+SMT230,Sports and the Law,3.0
+SMT235,Sports Administration and Governance,3.0
+SMT240,Olympic Games,3.0
+SMT245,NCAA Compliance,3.0
+SMT250,Technology and Sport,3.0
+SMT254,Women & Minority Opportunities in Sport,3.0
+SMT255,Legal Foundations of Title IX,3.0
+SMT260,Sports Agents & Labor Relations,3.0
+SMT270,Sports Facility Planning & Management,3.0
+SMT275,Sports Event Management,3.0
+SMT280,Kinesiology,3.0
+SMT290,Digital Media in Sport,3.0
+SMT300,Quantitative Analysis and Statistics for Sports,3.0
+SMT305,Fundraising in Sports,3.0
+SMT307,Corporate Sponsorship in Sports,3.0
+SMT309,Capital Campaigns in Athletics,3.0
+SMT310,Sports Contracts,3.0
+SMT315,Sports Publications & Graphics,3.0
+SMT320,Economic Aspects of Sports Management,3.0
+SMT337,Risk Management in Sports,3.0
+SMT340,International Aspects of Sport,3.0
+SMT345,Fan Experience Management,3.0
+SMT347,Sport Tourism,3.0
+SMT365,Operations Management in Sport,3.0
+SMT390,Special Topics in Sports Management,3.0
+SMT399,Independent Study,0.5-12.0
+SMT401,Professional Portfolio,3.0
+SMT475,Sports Industry Practicum,3.0
+SOC101,Introduction to Sociology,3.0
+SOC110,Sociology of the Future,3.0
+SOC115,Social Problems,3.0
+SOC120,Sociology of the Family,3.0
+SOC125,Sociology of Aging,3.0
+SOC137,Issues in Science and Religion,3.0
+SOC150,Sex and Society,3.0
+SOC204,Criminology,3.0
+SOC205,Criminology & Criminal Justice,3.0
+SOC210,Race and Ethnic Relations,3.0
+SOC215,Industrial Sociology,3.0
+SOC220,Wealth and Power,3.0
+SOC225,Sociology of Technology & Aging,3.0
+SOC230,Women & Men in a Changing Society,3.0
+SOC235,Sociology of Health,3.0
+SOC240,Urban Sociology,3.0
+SOC250,Research Methods I,3.0
+SOC260,Classical Social Theory,3.0
+SOC268,Sociology of Sport,3.0
+SOC270,Theory of Applied and Community Sociology,3.0
+SOC275,Issues in Domestic Violence,3.0
+SOC310,Topics in Political Sociology,3.0
+SOC311,Topics in Sociology of Religion,3.0
+SOC312,Topics in Sociology of Science and Technology,3.0
+SOC315,HIV/AIDS and Africa,3.0
+SOC320,Sociology of Deviant Behavior,3.0
+SOC325,Introduction to Urban and Environmental Planning,3.0
+SOC330,Developing Nations and the International Division of Labor,3.0
+SOC335,Sociology of Education I,3.0
+SOC336,Sociology of Education II,3.0
+SOC340,Globalization,3.0
+SOC341,Environmental Movements in America,3.0
+SOC343,The American Experience of the Wilderness,3.0
+SOC344,Social Movements,3.0
+SOC345,Sociology of the Environment,3.0
+SOC346,Environmental Justice,3.0
+SOC347,Introduction to Environmental Policy Analysis,3.0
+SOC349,Sociology of Disasters,3.0
+SOC350,Research Methods II,3.0
+SOC364,Computer-Assisted Data Analysis,3.0
+SOC365,Computer-Assisted Data Analysis II,3.0
+SOC370,Practicum in Applied and Community Sociology,0.5-5.0
+SOC380,Special Topics in Sociology,3.0
+SOC395,Seminar in Sociology,3.0
+SOC435,Seminar - Organization of American States,3.0
+SOC460,Contemporary Social Theory,3.0
+SOC470,Social Change & Planning,3.0
+SOC490,Sociology Research Seminar I,4.0
+SOC491,Sociology Research Seminar II,4.0
+SOC492,Sociology Research Seminar III,4.0
+SOC495,Directed Studies in Sociology,0.5-12.0
+SPAN101,Spanish I,4.0
+SPAN102,Spanish II,4.0
+SPAN103,Spanish III,4.0
+SPAN201,Spanish IV,4.0
+SPAN202,Spanish V,4.0
+SPAN203,Spanish VI: Conversation & Comprehension,4.0
+SPAN311,Introduction to Spanish Stylistics,3.0
+SPAN312,Spanish Stylistics,3.0
+SPAN313,Advanced Spanish Stylistics,3.0
+SPAN331,Introduction to Spanish Literature Studies,3.0
+SPAN332,Studies in Spanish and Spanish American Literature,3.0
+SPAN333,Advanced Spanish and Spanish American Literature,3.0
+SPAN351,Introduction to Business & Professional Spanish,3.0
+SPAN352,Business & Professional Spanish,3.0
+SPAN353,Advanced Business & Professional Spanish,0.5-20.0
+SPAN371,Special Studies in Spanish Civilization & Culture,3.0
+SPAN399,Advanced Independent Study in Spanish,0.5-12.0
+SPAN411,Special Studies in Advanced Spanish Stylistics,3.0
+SPAN431,Special Studies in Advanced Spanish and Latin American Literature,3.0
+SPAN451,Special Studies in Advanced Spanish for Business and the Professions,3.0
+SPAN471,Special Studies in Spanish and Latin American Civilization,3.0
+SPAN480,Spanish Minor Thesis Course,4.0
+SPAN499,Special Topics in Spanish,0.5-12.0
+STAT201,Introduction to Business Statistics,4.0
+STAT202,Business Statistics II,4.0
+STAT205,Statistical Inference I,4.0
+STAT206,Statistical Inference II,4.0
+STAT261,Statistics I,3.0
+STAT262,Statistics II,3.0
+STAT263,Statistics III,3.0
+STAT301,Applied Statistical Models for Business,4.0
+STAT321,Statistical Decision Methods,3.0
+STAT325,Six-Sigma Quality Implementation,4.0
+STAT331,Introduction to Data Mining for Business,4.0
+STAT481,Special Topics in Applied Statistics,4.0
+STAT498,Special Topics in Decision Sciences,12.0
+STAT499,Independent Study,12.0
+STATE313,Quantitative Analysis III,3.0
+STS345,Statistics for the Health Sciences,4.0
+STS350,Advanced Statistics for Clinical Science,4.0
+TAX341,Individual Income Taxes,4.0
+TAX342,Business Income Taxes,4.0
+TAX353,Personal Income Taxes,4.0
+TAX390,Financial Planning and Taxes,4.0
+TAX481,Special Topics in Taxation,0.5-12.0
+TAX499,Independent Study,0.5-4.0
+THTR110,Voice and Articulation,3.0
+THTR115,Theatrical Experience,3.0
+THTR116,Philadelphia Theatre Let's Go!,3.0
+THTR121,Dramatic Analysis,3.0
+THTR130,Introduction to Theater Production Practicum,1.0
+THTR131,Theatre Performance Practicum,1.0
+THTR132,Theatre Production Practicum,1.0
+THTR209,Improvisation for the Theatre,3.0
+THTR210,Acting: Fundamentals,3.0
+THTR211,Acting: Scene Study,2.0
+THTR212,Sketch Comedy,3.0
+THTR221,Theatre History I,3.0
+THTR222,Theatre History II,3.0
+THTR231,Introduction to Musical Theatre,3.0
+THTR232,Contemporary Musical Theatre,3.0
+THTR240,Theatre Production I,3.0
+THTR241,Theatre Production II,3.0
+THTR260,Production Design,3.0
+THTR320,Play Direction,3.0
+THTR360,Lighting Design,3.0
+THTR380,Special Topics in Theatre,0.5-12.0
+THTR495,Directed Studies in Theatre,12.0
+TVIE180,TV Industry Overview,3.0
+TVIE280,Research Sales and Programming,3.0
+TVIE285,Media Law and Ethics,3.0
+TVIE290,Introduction to Money and the Media,3.0
+TVIE365,Special Topics: TVIE,3.0
+TVIE390,Practicum: Promotions,3.0
+TVIE391,Practicum: Programming,3.0
+TVIE392,Practicum: New Media Management,3.0
+TVIE399,Independent Project in TV Industry and Enterprise,0.5-12.0
+TVIE480,TV Professions and Business,3.0
+TVIE495,Senior Project: TV Enterprise I,3.0
+TVIE496,Senior Project: TV Enterprise II,3.0
+TVIE497,Senior Project: TV Enterprise III,3.0
+TVIT270,Digital Content Delivery,3.0
+TVIT275,Introduction to Information Technology for TV,3.0
+TVIT365,Special Topics: TVIT,3.0
+TVIT370,Monetizing TV Web Content,3.0
+TVIT375,Web Streaming Project,3.0
+TVIT399,Independent Project in TV Information and Technology,0.5-12.0
+TVPR100,TV Studio: Basic Operations,3.0
+TVPR200,TV Studio: Live Directing,3.0
+TVPR201,TV Studio: Comedy,3.0
+TVPR202,TV Studio: Drama,3.0
+TVPR205,TV Studio: Advanced Live Directing,3.0
+TVPR212,TV Commercials and Promos,3.0
+TVPR220,TV News Writing,3.0
+TVPR221,TV News Production,3.0
+TVPR230,TV Field: Drama,3.0
+TVPR232,TV Field: Industrials,3.0
+TVPR236,TV Field: Nonfiction,3.0
+TVPR240,Producing for Television,3.0
+TVPR242,TV On-Camera Performance,3.0
+TVPR315,Episodic Webisode Production,3.0
+TVPR340,Remote TV Production,3.0
+TVPR347,Advanced TV Lighting,3.0
+TVPR348,TV Directing Workshop,3.0
+TVPR351,TV Comedy Series I,3.0
+TVPR352,TV Comedy Series II,3.0
+TVPR354,TV Drama Series I,3.0
+TVPR355,TV Drama Series II,3.0
+TVPR356,TV Magazine Show I,3.0
+TVPR357,TV Magazine Show II,3.0
+TVPR365,Special Topics: TVPR,3.0
+TVPR399,Independent Project in TV Production,0.5-12.0
+TVPR495,Senior Project: TV Production I,3.0
+TVPR496,Senior Project: TV Production II,3.0
+TVPR497,Senior Project: TV Production III,3.0
+TVST260,History of Television,3.0
+TVST261,History of TV Journalism,3.0
+TVST361,Art of TV Comedy,3.0
+TVST362,Art of TV Drama,3.0
+TVST363,Science Fiction Television,3.0
+TVST365,Special Topics: TVST,3.0
+TVST399,Independent Project: TVST,0.5-12.0
+UNIV101,The Drexel Experience - Freshman,1.0
+UNIV101,The Drexel Experience - Other,0.5
+UNIV241,Great Works Symposium,3.0
+UNIV320,Writing and Peer Tutoring Workshop,3.0
+UNIV380,Special Topics-University Wide,6.0
+UNIVA101,The Drexel Experience,2.0
+VSCM100,Computer Imaging I,3.0
+VSCM140,Calligraphy,3.0
+VSCM200,Computer Imaging II,3.0
+VSCM230,Visual Communication I,4.0
+VSCM231,Visual Communication II,4.0
+VSCM232,Visual Communication III,4.0
+VSCM240,Typography I,3.0
+VSCM241,Production,3.0
+VSCM242,Typography II,3.0
+VSCM247,On Screen Typography,3.0
+VSCM330,Visual Communication IV,4.0
+VSCM331,Visual Communication V,4.0
+VSCM340,Typography III,3.0
+VSCM350,Graphic Design: 20th Century and Beyond,3.0
+VSCM360,Design on Site,3.0
+VSCM399,Independent Study in Graphic Design,0.5-12.0
+VSCM430,Visual Communication VI,4.0
+VSCM440,Book Design,4.0
+VSCM450,Professional Portfolio,3.0
+VSCM455,Electronic Portfolio,3.0
+VSCM460,Professional Practice,3.0
+VSCM465,Special Topics in Graphic Design,3.0-12.0
+VSCM477,Graphic Design Seminar,3.0
+VSCM478,Graphic Design Seminar: Advanced Techniques,3.0
+VSCM479,Graphic Design Seminar: Advanced Media,3.0
+VSCM480,Graphic Design Seminar: Design Perceptions,3.0
+VSCM482,Graphic Design for Cultural Organizations,3.0
+VSCM485,Annual Report Design,3.0
+VSCM496,Senior Thesis Graphic Design,3.0
+VSST101,Design I,4.0
+VSST102,Design II,4.0
+VSST103,Design III,4.0
+VSST104,Accelerated Design I,2.0
+VSST105,Accelerated Design II,2.0
+VSST106,Accelerated Design III,2.0
+VSST108,Design I for Media,3.0
+VSST109,Design II for Media,3.0
+VSST110,Introductory Drawing,3.0
+VSST111,Figure Drawing I,3.0
+VSST112,Figure Drawing II,3.0
+VSST201,Multimedia: Performance,4.0
+VSST202,Multimedia: Space,4.0
+VSST203,Multimedia: Materials,4.0
+VSST204,Materials Exploration,4.0
+VSST301,Painting I,4.0
+VSST302,Painting II,4.0
+VSST303,Painting III,4.0
+VSST310,Sculpture: Metal Fabrication,4.0
+VSST311,Sculpture I,4.0
+VSST312,Sculpture II,4.0
+VSST313,Sculpture III,4.0
+VSST321,Screenprint I,4.0
+VSST322,Printmaking I,4.0
+VSST323,Printmaking II,4.0
+VSST324,Advanced Printmaking,4.0
+VSST325,Screenprint II,4.0
+VSST350,Painting - Special Studies,0.5-12.0
+VSST399,Independent Study: Visual Studies,0.5-12.0
+VSST465,Special Topics in Visual Studies,3.0
+WBDV216,History of Web Development,3.0
+WBDV240,Web Authoring I,3.0
+WBDV241,Vector Authoring I,3.0
+WBDV242,Dynamic Vector Graphics,3.0
+WBDV243,Content Management Systems,3.0
+WBDV265,Web Game Design,3.0
+WBDV332,Rich Internet Applications,3.0
+WBDV370,Mobile Interactive Design I,3.0
+WBDV371,Mobile Interactive Design II,3.0
+WBDV399,Independent Project in Interactive Digital Media,0.5-12.0
+WBDV445,Advanced Hybrid Interactivity,3.0
+WBDV447,Vector Authoring III,3.0
+WBDV448,Interactive Digital Media Workshop I,3.0
+WBDV449,Interactive Digital Media Workshop II,3.0
+WBDV452,Web Information Database Applications,3.0
+WBDV460,Experimental Web Technologies,3.0
+WBDV465,Special Topics in Interactive Digital Media,3.0
+WEST399,Independent Study Westphal,0.5-12.0
+WEST465,Special Topics in Media Arts and Design,0.5-12.0
+WMGD210,Motion Graphics I,4.0
+WMGD220,Web Graphics I,4.0
+WMGD330,Web Graphics II,4.0
+WMGD421,Motion Graphics II,4.0
+WMGD465,Special Topics,3.0
+WMGD496,Senior Thesis in Web and Motion Graphic Design,3.0
+WMST101,Introduction to Women's Studies,3.0
+WMST230,Arab Women Writers,3.0
+WMST235,African Francophone Women Writers,3.0
+WMST240,Women and Society in a Global Context,3.0
+WMST250,African American Herstories,3.0
+WMST275,Women's Health & Human Rights,3.0
+WMST280,Special Topics in Women's Studies,3.0
+WMST299,Independent Study in Women's Studies,12.0
+WMST301,Seminar in Feminist Theory,3.0
+WMST308,Queer Theory,3.0
+WMST320,Masculinities,3.0
+WRIT210,The Peer Reader in Context,3.0
+WRIT220,Creative Nonfiction Writing,3.0
+WRIT225,Creative Writing,3.0
+WRIT301,Writing Poetry,3.0
+WRIT302,Writing Fiction,3.0
+WRIT303,Writing Humor and Comedy,3.0
+WRIT304,Special Topics in Writing,3.0
+WRIT306,Writing About the Media,4.0
+WRIT310,Literary Editing & Publication,3.0
+WRIT312,The Practice of Professional Writing,3.0
+WRIT400,Writing in Cyberspace,4.0
+WRIT405,Internship in Literary Publishing,2.0

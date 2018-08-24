@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edit_credits1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="   Credits"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/edit_credits2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".6"
+                android:text="GPA"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/edit_credits3"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Desired GPA"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">"
+
+            <EditText
+                android:id="@+id/edit_credits"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Credits"
+                android:inputType="numberDecimal">
+            </EditText>
+
+            <EditText
+                android:id="@+id/edit_gpa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:hint="GPA"
+                android:inputType="numberDecimal"
+                android:nextFocusRight="@+id/edit_desired_gpa" />
+
+            <EditText
+                android:id="@id/edit_desired_gpa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Desired"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate" />
+
+        <TextView
+            android:id="@+id/edit_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+

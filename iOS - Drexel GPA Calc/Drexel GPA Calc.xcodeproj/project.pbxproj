@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E455EB1A87843F7AEFB30E9 /* libPods-Drexel GPA Calc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EFACBC6779448889EA95F6 /* libPods-Drexel GPA Calc.a */; };
+		7323137D191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 73231372191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.m */; };
+		7323137E191C1ED000A510EC /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73231374191C1ED000A510EC /* SWCellScrollView.m */; };
+		7323137F191C1ED000A510EC /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73231376191C1ED000A510EC /* SWLongPressGestureRecognizer.m */; };
+		73231380191C1ED000A510EC /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73231378191C1ED000A510EC /* SWTableViewCell.m */; };
+		73231381191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323137A191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.m */; };
+		73231382191C1ED000A510EC /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323137C191C1ED000A510EC /* SWUtilityButtonView.m */; };
+		73231385191C368300A510EC /* editClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73231384191C368300A510EC /* editClassViewController.m */; };
+		73231388191C563E00A510EC /* gpaForcasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73231387191C563E00A510EC /* gpaForcasterViewController.m */; };
+		733EC4AC1909E52F00D8EAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EC4AB1909E52F00D8EAF5 /* Foundation.framework */; };
+		733EC4AE1909E52F00D8EAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EC4AD1909E52F00D8EAF5 /* CoreGraphics.framework */; };
+		733EC4B01909E52F00D8EAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EC4AF1909E52F00D8EAF5 /* UIKit.framework */; };
+		733EC4B61909E52F00D8EAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733EC4B41909E52F00D8EAF5 /* InfoPlist.strings */; };
+		733EC4B81909E52F00D8EAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EC4B71909E52F00D8EAF5 /* main.m */; };
+		733EC4BC1909E52F00D8EAF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EC4BB1909E52F00D8EAF5 /* AppDelegate.m */; };
+		733EC4BF1909E52F00D8EAF5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733EC4BD1909E52F00D8EAF5 /* Main_iPhone.storyboard */; };
+		733EC4C21909E52F00D8EAF5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733EC4C01909E52F00D8EAF5 /* Main_iPad.storyboard */; };
+		733EC4C51909E52F00D8EAF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EC4C41909E52F00D8EAF5 /* ViewController.m */; };
+		733EC4C71909E52F00D8EAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733EC4C61909E52F00D8EAF5 /* Images.xcassets */; };
+		733EC4CE1909E52F00D8EAF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EC4CD1909E52F00D8EAF5 /* XCTest.framework */; };
+		733EC4CF1909E52F00D8EAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EC4AB1909E52F00D8EAF5 /* Foundation.framework */; };
+		733EC4D01909E52F00D8EAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EC4AF1909E52F00D8EAF5 /* UIKit.framework */; };
+		733EC4D81909E52F00D8EAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733EC4D61909E52F00D8EAF5 /* InfoPlist.strings */; };
+		733EC4DA1909E52F00D8EAF5 /* Drexel_GPA_CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EC4D91909E52F00D8EAF5 /* Drexel_GPA_CalcTests.m */; };
+		73640D2B1922EA770083295F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73640D2A1922EA770083295F /* CoreData.framework */; };
+		73640D2E1922EAAB0083295F /* Classes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73640D2C1922EAAB0083295F /* Classes.xcdatamodeld */; };
+		73A493AE190DC7940056CEA9 /* termClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A493AD190DC7940056CEA9 /* termClasses.m */; };
+		73A493B1190DCAD40056CEA9 /* drexelclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A493B0190DCAD40056CEA9 /* drexelclass.m */; };
+		73EB2865197DF6AD00FE03E0 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EB2861197DF5AE00FE03E0 /* libxml2.2.dylib */; };
+		73EB28681981CDF800FE03E0 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB28671981CDF800FE03E0 /* loginViewController.m */; };
+		D901D5221B4479C300523813 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D901D51F1B4479C300523813 /* HTMLNode.m */; };
+		D901D5231B4479C300523813 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D901D5211B4479C300523813 /* HTMLParser.m */; };
+		D935F9FD1B4EF6DD00FC9F91 /* FinalList.txt in Resources */ = {isa = PBXBuildFile; fileRef = D935F9FC1B4EF6DD00FC9F91 /* FinalList.txt */; };
+		F103F6901923952F00773C52 /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = F103F68F1923952F00773C52 /* Classes.m */; };
+		F196F86E191141F300EABBFD /* addClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F196F86D191141F300EABBFD /* addClassViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		733EC4D11909E52F00D8EAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 733EC4A01909E52F00D8EAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733EC4A71909E52F00D8EAF5;
+			remoteInfo = "Drexel GPA Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B3B61089CD4A2EBA8BA978 /* Pods-Drexel GPA Calc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drexel GPA Calc.xcconfig"; path = "Pods/Pods-Drexel GPA Calc.xcconfig"; sourceTree = "<group>"; };
+		73231371191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		73231372191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		73231373191C1ED000A510EC /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		73231374191C1ED000A510EC /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		73231375191C1ED000A510EC /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		73231376191C1ED000A510EC /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		73231377191C1ED000A510EC /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		73231378191C1ED000A510EC /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		73231379191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		7323137A191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		7323137B191C1ED000A510EC /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		7323137C191C1ED000A510EC /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		73231383191C368300A510EC /* editClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editClassViewController.h; sourceTree = "<group>"; };
+		73231384191C368300A510EC /* editClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editClassViewController.m; sourceTree = "<group>"; };
+		73231386191C563E00A510EC /* gpaForcasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpaForcasterViewController.h; sourceTree = "<group>"; };
+		73231387191C563E00A510EC /* gpaForcasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gpaForcasterViewController.m; sourceTree = "<group>"; };
+		733EC4A81909E52F00D8EAF5 /* Drexel GPA Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drexel GPA Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733EC4AB1909E52F00D8EAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		733EC4AD1909E52F00D8EAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		733EC4AF1909E52F00D8EAF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		733EC4B31909E52F00D8EAF5 /* Drexel GPA Calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drexel GPA Calc-Info.plist"; sourceTree = "<group>"; };
+		733EC4B51909E52F00D8EAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		733EC4B71909E52F00D8EAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		733EC4B91909E52F00D8EAF5 /* Drexel GPA Calc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drexel GPA Calc-Prefix.pch"; sourceTree = "<group>"; };
+		733EC4BA1909E52F00D8EAF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		733EC4BB1909E52F00D8EAF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		733EC4BE1909E52F00D8EAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		733EC4C11909E52F00D8EAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		733EC4C31909E52F00D8EAF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		733EC4C41909E52F00D8EAF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		733EC4C61909E52F00D8EAF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		733EC4CC1909E52F00D8EAF5 /* Drexel GPA CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drexel GPA CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733EC4CD1909E52F00D8EAF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		733EC4D51909E52F00D8EAF5 /* Drexel GPA CalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drexel GPA CalcTests-Info.plist"; sourceTree = "<group>"; };
+		733EC4D71909E52F00D8EAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		733EC4D91909E52F00D8EAF5 /* Drexel_GPA_CalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drexel_GPA_CalcTests.m; sourceTree = "<group>"; };
+		73640D2A1922EA770083295F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		73640D2D1922EAAB0083295F /* Classes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Classes.xcdatamodel; sourceTree = "<group>"; };
+		73A493AC190DC7940056CEA9 /* termClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = termClasses.h; sourceTree = "<group>"; };
+		73A493AD190DC7940056CEA9 /* termClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = termClasses.m; sourceTree = "<group>"; };
+		73A493AF190DCAD40056CEA9 /* drexelclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drexelclass.h; sourceTree = "<group>"; };
+		73A493B0190DCAD40056CEA9 /* drexelclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drexelclass.m; sourceTree = "<group>"; };
+		73EB2861197DF5AE00FE03E0 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		73EB2863197DF5C300FE03E0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		73EB28661981CDF800FE03E0 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		73EB28671981CDF800FE03E0 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		88EFACBC6779448889EA95F6 /* libPods-Drexel GPA Calc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Drexel GPA Calc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D901D51E1B4479C300523813 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		D901D51F1B4479C300523813 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		D901D5201B4479C300523813 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		D901D5211B4479C300523813 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		D935F9FC1B4EF6DD00FC9F91 /* FinalList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FinalList.txt; sourceTree = "<group>"; };
+		F103F68E1923952F00773C52 /* Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classes.h; sourceTree = "<group>"; };
+		F103F68F1923952F00773C52 /* Classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classes.m; sourceTree = "<group>"; };
+		F196F86C191141F300EABBFD /* addClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addClassViewController.h; sourceTree = "<group>"; };
+		F196F86D191141F300EABBFD /* addClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addClassViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733EC4A51909E52F00D8EAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EB2865197DF6AD00FE03E0 /* libxml2.2.dylib in Frameworks */,
+				73640D2B1922EA770083295F /* CoreData.framework in Frameworks */,
+				733EC4AE1909E52F00D8EAF5 /* CoreGraphics.framework in Frameworks */,
+				733EC4B01909E52F00D8EAF5 /* UIKit.framework in Frameworks */,
+				733EC4AC1909E52F00D8EAF5 /* Foundation.framework in Frameworks */,
+				6E455EB1A87843F7AEFB30E9 /* libPods-Drexel GPA Calc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733EC4C91909E52F00D8EAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EC4CE1909E52F00D8EAF5 /* XCTest.framework in Frameworks */,
+				733EC4D01909E52F00D8EAF5 /* UIKit.framework in Frameworks */,
+				733EC4CF1909E52F00D8EAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73231370191C1ED000A510EC /* PodFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D901D51E1B4479C300523813 /* HTMLNode.h */,
+				D901D51F1B4479C300523813 /* HTMLNode.m */,
+				D901D5201B4479C300523813 /* HTMLParser.h */,
+				D901D5211B4479C300523813 /* HTMLParser.m */,
+				73231371191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.h */,
+				73231372191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.m */,
+				73231373191C1ED000A510EC /* SWCellScrollView.h */,
+				73231374191C1ED000A510EC /* SWCellScrollView.m */,
+				73231375191C1ED000A510EC /* SWLongPressGestureRecognizer.h */,
+				73231376191C1ED000A510EC /* SWLongPressGestureRecognizer.m */,
+				73231377191C1ED000A510EC /* SWTableViewCell.h */,
+				73231378191C1ED000A510EC /* SWTableViewCell.m */,
+				73231379191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.h */,
+				7323137A191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.m */,
+				7323137B191C1ED000A510EC /* SWUtilityButtonView.h */,
+				7323137C191C1ED000A510EC /* SWUtilityButtonView.m */,
+			);
+			path = PodFiles;
+			sourceTree = "<group>";
+		};
+		733EC49F1909E52F00D8EAF5 = {
+			isa = PBXGroup;
+			children = (
+				73A225F31915DB4600A0E0B8 /* Resources */,
+				733EC4B11909E52F00D8EAF5 /* Drexel GPA Calc */,
+				733EC4D31909E52F00D8EAF5 /* Drexel GPA CalcTests */,
+				733EC4AA1909E52F00D8EAF5 /* Frameworks */,
+				733EC4A91909E52F00D8EAF5 /* Products */,
+				14B3B61089CD4A2EBA8BA978 /* Pods-Drexel GPA Calc.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		733EC4A91909E52F00D8EAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733EC4A81909E52F00D8EAF5 /* Drexel GPA Calc.app */,
+				733EC4CC1909E52F00D8EAF5 /* Drexel GPA CalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		733EC4AA1909E52F00D8EAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2863197DF5C300FE03E0 /* libxml2.dylib */,
+				73EB2861197DF5AE00FE03E0 /* libxml2.2.dylib */,
+				73640D2A1922EA770083295F /* CoreData.framework */,
+				733EC4AB1909E52F00D8EAF5 /* Foundation.framework */,
+				733EC4AD1909E52F00D8EAF5 /* CoreGraphics.framework */,
+				733EC4AF1909E52F00D8EAF5 /* UIKit.framework */,
+				733EC4CD1909E52F00D8EAF5 /* XCTest.framework */,
+				88EFACBC6779448889EA95F6 /* libPods-Drexel GPA Calc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		733EC4B11909E52F00D8EAF5 /* Drexel GPA Calc */ = {
+			isa = PBXGroup;
+			children = (
+				73231370191C1ED000A510EC /* PodFiles */,
+				73A493AF190DCAD40056CEA9 /* drexelclass.h */,
+				73A493B0190DCAD40056CEA9 /* drexelclass.m */,
+				733EC4BA1909E52F00D8EAF5 /* AppDelegate.h */,
+				733EC4BB1909E52F00D8EAF5 /* AppDelegate.m */,
+				733EC4BD1909E52F00D8EAF5 /* Main_iPhone.storyboard */,
+				733EC4C01909E52F00D8EAF5 /* Main_iPad.storyboard */,
+				733EC4C31909E52F00D8EAF5 /* ViewController.h */,
+				733EC4C41909E52F00D8EAF5 /* ViewController.m */,
+				733EC4C61909E52F00D8EAF5 /* Images.xcassets */,
+				733EC4B21909E52F00D8EAF5 /* Supporting Files */,
+				73A493AC190DC7940056CEA9 /* termClasses.h */,
+				73A493AD190DC7940056CEA9 /* termClasses.m */,
+				F196F86C191141F300EABBFD /* addClassViewController.h */,
+				F196F86D191141F300EABBFD /* addClassViewController.m */,
+				73231383191C368300A510EC /* editClassViewController.h */,
+				73231384191C368300A510EC /* editClassViewController.m */,
+				73231386191C563E00A510EC /* gpaForcasterViewController.h */,
+				73231387191C563E00A510EC /* gpaForcasterViewController.m */,
+				73640D2C1922EAAB0083295F /* Classes.xcdatamodeld */,
+				F103F68E1923952F00773C52 /* Classes.h */,
+				F103F68F1923952F00773C52 /* Classes.m */,
+				73EB28661981CDF800FE03E0 /* loginViewController.h */,
+				73EB28671981CDF800FE03E0 /* loginViewController.m */,
+			);
+			path = "Drexel GPA Calc";
+			sourceTree = "<group>";
+		};
+		733EC4B21909E52F00D8EAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733EC4B31909E52F00D8EAF5 /* Drexel GPA Calc-Info.plist */,
+				733EC4B41909E52F00D8EAF5 /* InfoPlist.strings */,
+				733EC4B71909E52F00D8EAF5 /* main.m */,
+				733EC4B91909E52F00D8EAF5 /* Drexel GPA Calc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		733EC4D31909E52F00D8EAF5 /* Drexel GPA CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				733EC4D91909E52F00D8EAF5 /* Drexel_GPA_CalcTests.m */,
+				733EC4D41909E52F00D8EAF5 /* Supporting Files */,
+			);
+			path = "Drexel GPA CalcTests";
+			sourceTree = "<group>";
+		};
+		733EC4D41909E52F00D8EAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733EC4D51909E52F00D8EAF5 /* Drexel GPA CalcTests-Info.plist */,
+				733EC4D61909E52F00D8EAF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73A225F31915DB4600A0E0B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D935F9FC1B4EF6DD00FC9F91 /* FinalList.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		733EC4A71909E52F00D8EAF5 /* Drexel GPA Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733EC4DD1909E52F00D8EAF5 /* Build configuration list for PBXNativeTarget "Drexel GPA Calc" */;
+			buildPhases = (
+				CCCA81EB6DDC4DEBACAB597A /* Check Pods Manifest.lock */,
+				733EC4A41909E52F00D8EAF5 /* Sources */,
+				733EC4A51909E52F00D8EAF5 /* Frameworks */,
+				733EC4A61909E52F00D8EAF5 /* Resources */,
+				E2298CEF08AD4929826B5261 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drexel GPA Calc";
+			productName = "Drexel GPA Calc";
+			productReference = 733EC4A81909E52F00D8EAF5 /* Drexel GPA Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		733EC4CB1909E52F00D8EAF5 /* Drexel GPA CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733EC4E01909E52F00D8EAF5 /* Build configuration list for PBXNativeTarget "Drexel GPA CalcTests" */;
+			buildPhases = (
+				733EC4C81909E52F00D8EAF5 /* Sources */,
+				733EC4C91909E52F00D8EAF5 /* Frameworks */,
+				733EC4CA1909E52F00D8EAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				733EC4D21909E52F00D8EAF5 /* PBXTargetDependency */,
+			);
+			name = "Drexel GPA CalcTests";
+			productName = "Drexel GPA CalcTests";
+			productReference = 733EC4CC1909E52F00D8EAF5 /* Drexel GPA CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		733EC4A01909E52F00D8EAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tomer Shemesh";
+				TargetAttributes = {
+					733EC4A71909E52F00D8EAF5 = {
+						DevelopmentTeam = FDYR7V7AH4;
+					};
+					733EC4CB1909E52F00D8EAF5 = {
+						DevelopmentTeam = FDYR7V7AH4;
+						TestTargetID = 733EC4A71909E52F00D8EAF5;
+					};
+				};
+			};
+			buildConfigurationList = 733EC4A31909E52F00D8EAF5 /* Build configuration list for PBXProject "Drexel GPA Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 733EC49F1909E52F00D8EAF5;
+			productRefGroup = 733EC4A91909E52F00D8EAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				733EC4A71909E52F00D8EAF5 /* Drexel GPA Calc */,
+				733EC4CB1909E52F00D8EAF5 /* Drexel GPA CalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		733EC4A61909E52F00D8EAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EC4C21909E52F00D8EAF5 /* Main_iPad.storyboard in Resources */,
+				D935F9FD1B4EF6DD00FC9F91 /* FinalList.txt in Resources */,
+				733EC4C71909E52F00D8EAF5 /* Images.xcassets in Resources */,
+				733EC4BF1909E52F00D8EAF5 /* Main_iPhone.storyboard in Resources */,
+				733EC4B61909E52F00D8EAF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733EC4CA1909E52F00D8EAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EC4D81909E52F00D8EAF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCCA81EB6DDC4DEBACAB597A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2298CEF08AD4929826B5261 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Drexel GPA Calc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		733EC4A41909E52F00D8EAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D901D5221B4479C300523813 /* HTMLNode.m in Sources */,
+				733EC4C51909E52F00D8EAF5 /* ViewController.m in Sources */,
+				73640D2E1922EAAB0083295F /* Classes.xcdatamodeld in Sources */,
+				F103F6901923952F00773C52 /* Classes.m in Sources */,
+				73231382191C1ED000A510EC /* SWUtilityButtonView.m in Sources */,
+				73231380191C1ED000A510EC /* SWTableViewCell.m in Sources */,
+				73231385191C368300A510EC /* editClassViewController.m in Sources */,
+				73EB28681981CDF800FE03E0 /* loginViewController.m in Sources */,
+				7323137E191C1ED000A510EC /* SWCellScrollView.m in Sources */,
+				733EC4BC1909E52F00D8EAF5 /* AppDelegate.m in Sources */,
+				73A493AE190DC7940056CEA9 /* termClasses.m in Sources */,
+				7323137D191C1ED000A510EC /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				7323137F191C1ED000A510EC /* SWLongPressGestureRecognizer.m in Sources */,
+				F196F86E191141F300EABBFD /* addClassViewController.m in Sources */,
+				73231381191C1ED000A510EC /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				733EC4B81909E52F00D8EAF5 /* main.m in Sources */,
+				73A493B1190DCAD40056CEA9 /* drexelclass.m in Sources */,
+				D901D5231B4479C300523813 /* HTMLParser.m in Sources */,
+				73231388191C563E00A510EC /* gpaForcasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733EC4C81909E52F00D8EAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EC4DA1909E52F00D8EAF5 /* Drexel_GPA_CalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		733EC4D21909E52F00D8EAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 733EC4A71909E52F00D8EAF5 /* Drexel GPA Calc */;
+			targetProxy = 733EC4D11909E52F00D8EAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		733EC4B41909E52F00D8EAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EC4B51909E52F00D8EAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		733EC4BD1909E52F00D8EAF5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EC4BE1909E52F00D8EAF5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		733EC4C01909E52F00D8EAF5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EC4C11909E52F00D8EAF5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		733EC4D61909E52F00D8EAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733EC4D71909E52F00D8EAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		733EC4DB1909E52F00D8EAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tomer Shemesh (FDYR7V7AH4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tomer Shemesh (FDYR7V7AH4)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2/**",
+					"/usr/include/libxml2/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7CA86393-A37B-4715-95A3-7FAFFDB37287";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		733EC4DC1909E52F00D8EAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tomer Shemesh (FDYR7V7AH4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tomer Shemesh (FDYR7V7AH4)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2/**",
+					"/usr/include/libxml2/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "7CA86393-A37B-4715-95A3-7FAFFDB37287";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		733EC4DE1909E52F00D8EAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B3B61089CD4A2EBA8BA978 /* Pods-Drexel GPA Calc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drexel GPA Calc/Drexel GPA Calc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "Drexel GPA Calc/Drexel GPA Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		733EC4DF1909E52F00D8EAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B3B61089CD4A2EBA8BA978 /* Pods-Drexel GPA Calc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drexel GPA Calc/Drexel GPA Calc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "Drexel GPA Calc/Drexel GPA Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		733EC4E11909E52F00D8EAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drexel GPA Calc.app/Drexel GPA Calc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drexel GPA Calc/Drexel GPA Calc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drexel GPA CalcTests/Drexel GPA CalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		733EC4E21909E52F00D8EAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drexel GPA Calc.app/Drexel GPA Calc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drexel GPA Calc/Drexel GPA Calc-Prefix.pch";
+				INFOPLIST_FILE = "Drexel GPA CalcTests/Drexel GPA CalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		73D75979192C2F3100744E36 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tomer Shemesh (FDYR7V7AH4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tomer Shemesh (FDYR7V7AH4)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2/**",
+					"/usr/include/libxml2/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "7CA86393-A37B-4715-95A3-7FAFFDB37287";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		73D7597A192C2F3100744E36 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B3B61089CD4A2EBA8BA978 /* Pods-Drexel GPA Calc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drexel GPA Calc/Drexel GPA Calc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "Drexel GPA Calc/Drexel GPA Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		73D7597B192C2F3100744E36 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drexel GPA Calc.app/Drexel GPA Calc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drexel GPA Calc/Drexel GPA Calc-Prefix.pch";
+				INFOPLIST_FILE = "Drexel GPA CalcTests/Drexel GPA CalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733EC4A31909E52F00D8EAF5 /* Build configuration list for PBXProject "Drexel GPA Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733EC4DB1909E52F00D8EAF5 /* Debug */,
+				733EC4DC1909E52F00D8EAF5 /* Release */,
+				73D75979192C2F3100744E36 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733EC4DD1909E52F00D8EAF5 /* Build configuration list for PBXNativeTarget "Drexel GPA Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733EC4DE1909E52F00D8EAF5 /* Debug */,
+				733EC4DF1909E52F00D8EAF5 /* Release */,
+				73D7597A192C2F3100744E36 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733EC4E01909E52F00D8EAF5 /* Build configuration list for PBXNativeTarget "Drexel GPA CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733EC4E11909E52F00D8EAF5 /* Debug */,
+				733EC4E21909E52F00D8EAF5 /* Release */,
+				73D7597B192C2F3100744E36 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73640D2C1922EAAB0083295F /* Classes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73640D2D1922EAAB0083295F /* Classes.xcdatamodel */,
+			);
+			currentVersion = 73640D2D1922EAAB0083295F /* Classes.xcdatamodel */;
+			path = Classes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 733EC4A01909E52F00D8EAF5 /* Project object */;
+}

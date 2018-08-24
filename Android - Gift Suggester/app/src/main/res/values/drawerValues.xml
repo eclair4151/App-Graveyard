@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Top Rated</item>
+        <item>Browse</item>
+        <item>Search</item>
+        <item>Saved</item>
+        <item>More</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/drawer_top_icon</item>
+        <item>@drawable/drawer_browse_icon</item>
+        <item>@drawable/drawer_search_icon</item>
+        <item>@drawable/drawer_saved_icon</item>
+        <item>@drawable/drawer_more_icon</item>
+    </array>
+</resources>

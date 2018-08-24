@@ -1,0 +1,38 @@
+#
+# generated on 2014/08/31 07:47:34
+#
+# --table-start--
+dataClass=com.shayesapps.gifts.Models.Gift
+tableName=gift
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=smallProductImageUrl
+# --field-end--
+# --field-start--
+fieldName=mediumProductImageUrl
+# --field-end--
+# --field-start--
+fieldName=merchantName
+# --field-end--
+# --field-start--
+fieldName=price
+# --field-end--
+# --field-start--
+fieldName=merchantStoreUrl
+# --field-end--
+# --field-start--
+fieldName=bitlyUrl
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

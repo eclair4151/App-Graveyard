@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shemeshapps.waterproof.EncryptGPS">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/encLatitudeBox"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/encLongitudeBox"
+        android:layout_below="@id/encLatitudeBox"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Current Location"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/currentLocation"
+        android:textSize="13sp"
+        android:layout_below="@id/encLongitudeBox"
+        android:layout_marginTop="0dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt!"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/encryptButton"
+        android:textSize="17sp"
+        android:layout_below="@id/currentLocation"
+        android:layout_marginTop="70dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypted Coordinates:"
+        android:layout_below="@id/encryptButton"
+        android:id="@+id/encLabel"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "
+        android:layout_below="@id/encLabel"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/encLatitudeOutput"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "
+        android:layout_below="@id/encLatitudeOutput"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/encLongitudeOutput"
+        android:layout_marginLeft="30dp"/>
+</RelativeLayout>

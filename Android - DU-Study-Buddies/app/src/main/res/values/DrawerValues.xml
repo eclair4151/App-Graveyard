@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Suggested Groups</item>
+        <item>Browse Groups</item>
+        <item>Created Groups</item>
+        <item>Groups I\'m Attending</item>
+        <item>Create Group</item>
+        <item>Logout</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/lightbulb_icon</item>
+        <item>@drawable/search_icon</item>
+        <item>@drawable/group</item>
+        <item>@drawable/star</item>
+        <item>@drawable/add_icon</item>
+        <item>@drawable/logout_icon</item>
+    </array>
+
+</resources>

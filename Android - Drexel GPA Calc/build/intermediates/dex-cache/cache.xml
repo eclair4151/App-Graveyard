@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/build/intermediates/pre-dexed/debug/jsoup-1.7.3-ec4b04028c4b00f1b99eadac30c6f18145a07852.jar"
+        jar="/Users/tomer/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.3/92568d7167ce1bf9eb1fd815b022d5a2c113547a/jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="92568d7167ce1bf9eb1fd815b022d5a2c113547a"/>
+    <item
+        dex="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/build/intermediates/pre-dexed/debug/classes-64581b3c6e67919b8551290ad5d49bce286d3c7d.jar"
+        jar="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/build/intermediates/pre-dexed/debug/GraphView-3.1.2-7cfa976ced812988f70e1bd00e6082358d3ffe59.jar"
+        jar="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/libs/GraphView-3.1.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7ffc41c72432299f41689c8f707d0d89254d59d5"/>
+    <item
+        dex="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-67370e0f9c34f8957692d3d20270d8ff710ac11a.jar"
+        jar="/Users/tomer/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.5/77bf7cacf9cefe19dc105e5425d2eb1bb5285881/android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881"/>
+    <item
+        dex="/Users/tomer/Google Drive/Personal/new Drexel GPA Calc Android/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

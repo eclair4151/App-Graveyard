@@ -1,0 +1,166 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shemeshapps.drexeloncampuschallenge.Activities.LogEventActivity"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#062444"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#ffa9a9a9"
+        android:id="@+id/activity_image"
+        android:src="@drawable/hiking"
+     />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:textColor="@android:color/white"
+        android:hint="Activity Name"
+        android:textColorHint="#89ffffff"
+        android:singleLine="true"
+        android:padding="10dp"
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/activity_name" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity:  "
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:drawSelectorOnTop="true"
+            android:background="@android:color/transparent"
+            android:id="@+id/activity_spinner"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:textColor="@android:color/white"
+        android:hint="Story"
+        android:lines="3"
+        android:textColorHint="#89ffffff"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/activity_description" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Spent:  "
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:background="@android:color/transparent"
+            android:id="@+id/activity_minutes_spinner"
+            android:drawSelectorOnTop="true"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 00/00/00"
+        android:id="@+id/activity_date"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/activity_terms_check"
+            style="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" I agree to the contest "
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:id="@+id/agree_text"
+            android:textColor="@android:color/white"/>
+
+        <com.shemeshapps.drexeloncampuschallenge.Helpers.TextViewButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/terms"
+            android:textSize="15sp"
+            android:id="@+id/agree_link"
+            android:textColor="@android:color/holo_blue_light"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit!"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/submit_button"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_alignParentBottom="true"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/postingSpinner"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

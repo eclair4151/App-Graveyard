@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gift Suggester</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_domain">api.gifts.com</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Classes" representedClassName="Classes" syncable="YES">
+        <attribute name="classCreditsValue" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="classGradeValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classNameValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="termValue" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="yearValue" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Classes" positionX="-45" positionY="0" width="128" height="120"/>
+    </elements>
+</model>

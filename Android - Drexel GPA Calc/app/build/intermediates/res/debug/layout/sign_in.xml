@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Enter your Drexel One username and password to download all your past classes!\n(Warning this will erase all classes already entered) "
+            android:textSize="16dp" />
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:hint="Username"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:password="true"
+                android:text="" />
+        </LinearLayout>
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="What year did you start attending Drexel?"
+           android:visibility="gone"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:id="@+id/sign_in_spinner_year"
+            android:layout_width="fill_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Get Classes"
+            android:textSize="20dp" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/resulttext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp" />
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/tomershemesh/Google%20Drive/Personal/new%20Drexel%20GPA%20Calc%20Android/app/src/main/res/layout/sign_in.xml -->

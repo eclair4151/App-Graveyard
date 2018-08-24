@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:state_pressed="true">
+<shape android:shape="rectangle" >
+    <corners
+        android:radius="10dp"
+        />
+    <solid
+        android:color="#ff6395bf"
+        />
+    <size
+        android:width="270dp"
+        android:height="60dp"
+        />
+    <stroke
+        android:width="3dp"
+        android:color="#6E6E6E"
+        />
+</shape>
+    </item>
+
+
+    <item>
+        <shape android:shape="rectangle" >
+            <corners
+                android:radius="10dp"
+                />
+            <solid
+                android:color="@color/drexel_blue"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="3dp"
+                android:color="#6E6E6E"
+                />
+        </shape>
+    </item>
+   </selector><!-- From: file:/Users/tomershemesh/Google%20Drive/Personal/new%20Drexel%20GPA%20Calc%20Android/app/src/main/res/drawable/buttonshape.xml -->

@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <Spinner
+            android:id="@+id/spinner_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_term"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_classes"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+       
+        android:layout_weight="4" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="buttonaddclass"
+            android:textStyle="bold"
+            android:text="Add Class"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/drexel_gold"
+            />
+        
+        <Button
+            android:id="@+id/button_forecaster"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="buttonforecaster"
+            android:textStyle="bold"
+            android:text="Forecaster"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/drexel_gold"
+            />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_credits_term"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:text="Credits This Term:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+           />
+
+        <EditText
+            android:id="@+id/edittext_credits_term"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:singleLine="true"
+            android:hint=" "
+            android:textSize="16dp"
+            android:longClickable="false" />
+
+        <TextView
+            android:id="@+id/textview_gpa_term"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:text="GPA This Term:"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edittext_gpa_term"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:hint=" "
+            android:longClickable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_credits"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1.5"
+            android:text="Credits Overall:"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edittext_credits"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:textSize="16dp"
+            android:singleLine="true"
+            android:hint=" "
+            android:longClickable="false" />
+
+        <TextView
+            android:id="@+id/textview_gpa"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:textStyle="bold"
+            android:text="GPA Overall:"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edittext_gpa"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:hint=" "
+            android:longClickable="false" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/tomershemesh/Google%20Drive/Personal/new%20Drexel%20GPA%20Calc%20Android/app/src/main/res/layout/activity_main.xml -->

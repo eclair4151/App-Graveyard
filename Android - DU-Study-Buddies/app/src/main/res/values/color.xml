@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drexel_blue">#07294D</color>
+    <color name="drexel_yellow">#FFC600</color>
+    <color name="drawer_item_grey">#ff6b6b6d</color>
+    <color name="drawer_divider_grey">#5adadadc</color>
+</resources>

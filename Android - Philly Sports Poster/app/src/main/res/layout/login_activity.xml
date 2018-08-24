@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#062444"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/on_campus_challenge"
+        android:id="@+id/campus_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/campus_logo"
+        android:layout_marginTop="40dp"
+        android:id="@+id/login_spinner"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/login_box"
+        android:layout_below="@id/campus_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/facebook_login"
+            android:layout_width="250dp"
+            android:text="Login with Facebook"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:text="OR"
+            android:layout_marginTop="5dp"
+            android:id="@+id/or_text"
+            android:layout_below="@id/facebook_login"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Email"
+            android:id="@+id/email_box"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@android:color/white"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            style="@android:style/Theme.Holo.Light"
+            android:layout_below="@id/or_text"
+        />
+
+        <EditText
+            android:layout_width="250dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"
+            android:backgroundTint="@android:color/white"
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/password_box"
+            style="@android:style/Theme.Holo.Light"
+            android:layout_below="@id/email_box"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="100dp"
+            android:text="Login"
+            android:layout_below="@+id/password_box"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+        <com.shemeshapps.drexeloncampuschallenge.Helpers.TextViewButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/login_button"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Don't have an account?\nClick to register!"
+            android:id="@+id/register_button"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="13sp"
+        android:text="*This app was not created or endorsed by Drexel University or the On Campus Challenge"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
